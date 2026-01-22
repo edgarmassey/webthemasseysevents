@@ -1,0 +1,23 @@
+﻿@page "{slug}"
+@model WebTheMasseysEvents.Pages.EventModel
+
+<div class="container py-4">
+    <a href="/Events">← Back to Events</a>
+
+    <h1 class="mt-3">@Model.Event!.Title</h1>
+    <div class="text-muted">
+        @Model.Event!.Date.ToString("yyyy-MM-dd")
+        @if (!string.IsNullOrWhiteSpace(Model.Event!.Location))
+        {
+            <span> • @Model.Event!.Location</span>
+        }
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(Model.CoverUrl))
+    {
+        <img class="img-fluid rounded my-3" src="@Model.CoverUrl" alt="cover" />
+    }
+
+    <!-- Plain text for now; we can switch to real Markdown rendering next -->
+    <pre style="white-space:pre-wrap;font-family:inherit">@Model.Event!.BodyMarkdown</pre>
+</div>

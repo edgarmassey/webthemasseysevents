@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\Events\" />
+    <Folder Include="wwwroot\Photos\Events\" />
+    <Folder Include="wwwroot\Photos\Kids\" />
+    <Folder Include="wwwroot\Photos\Home\" />
+  </ItemGroup>
+
+</Project>

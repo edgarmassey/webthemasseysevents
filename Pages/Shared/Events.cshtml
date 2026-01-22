@@ -1,0 +1,26 @@
+﻿@page
+@model WebTheMasseysEvents.Pages.EventsModel
+
+<div class="container py-4">
+    <h1>Events</h1>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th style="white-space:nowrap;">Date</th>
+                <th>Title</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model.Events)
+            {
+                <tr>
+                    <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
+                    <td><a href="/Event/@e.Slug">@e.Title</a></td>
+                    <td>@e.Location</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
