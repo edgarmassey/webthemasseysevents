@@ -38,3 +38,9 @@ C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\appsettings.json
 C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\WebTheMasseysEvents.deps.json
 C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\WebTheMasseysEvents.runtimeconfig.json
 C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
+C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\web.config
+C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\appsettings.Development.json
+C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\appsettings.json
+C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\WebTheMasseysEvents.deps.json
+C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\WebTheMasseysEvents.runtimeconfig.json
+C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json

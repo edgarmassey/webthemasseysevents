@@ -65,3 +65,8 @@ wwwroot\Photos\Events\2026-01-our-family\P5.jpg
 wwwroot\Photos\Events\2026-01-our-family\P6.jpg
 wwwroot\Photos\Events\2026-01-our-family\P7.jpg
 wwwroot\Photos\Events\2026-01-our-family\Ruth1.jpg
+wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\EllenWithLennartAndIngvor.jpg
+wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\LenartAndInvor.jpg
+wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\LennartAndEllen.jpg
+wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\MeWithLennart.jpg
+wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\OverVänern.jpg

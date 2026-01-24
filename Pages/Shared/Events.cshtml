@@ -17,7 +17,16 @@
             {
                 <tr>
                     <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
-                    <td><a href="/Event/@e.Slug">@e.Title</a></td>
+                    <td>
+                        <a href="/Event/@e.Slug">
+                            @if (e.Number > 0)
+                            {
+                                <span class="text-muted me-2">#@e.Number</span>
+                            }
+                            @e.Title
+                        </a>
+                    </td>
+
                     <td>@e.Location</td>
                 </tr>
             }
