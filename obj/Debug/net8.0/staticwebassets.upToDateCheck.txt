@@ -58,6 +58,15 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\PoolBild1.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\PoolBild2.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\PoolBild3.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\PoolBild4.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\PoolBild5.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\PoolBild6.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\PoolBild7.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\Simhallen.jpg
+wwwroot\Photos\Events\2026-01-03_SjuntorpSwimmingPool\ThePool.jpg
 wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\EllenWithLennartAndIngvor.jpg
 wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\LenartAndInvor.jpg
 wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\LennartAndEllen.jpg
