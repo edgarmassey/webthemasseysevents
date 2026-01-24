@@ -8,5 +8,6 @@
         public string? Location { get; set; }
         public string? Cover { get; set; }
         public string BodyMarkdown { get; set; } = "";
+        public int? Number { get; set; }
     }
 }   

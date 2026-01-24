@@ -1,0 +1,7 @@
+C:\Github\WebTheMassseyEvents\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.exe
+C:\Github\WebTheMassseyEvents\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Github\WebTheMassseyEvents\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Github\WebTheMassseyEvents\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.dll
+C:\Github\WebTheMassseyEvents\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.deps.json
+C:\Github\WebTheMassseyEvents\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.runtimeconfig.json
+C:\Github\WebTheMassseyEvents\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.pdb

@@ -1,10 +1,60 @@
-﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+﻿ @page
+@model WebTheMasseysEvents.Pages.IndexModel
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+
+    <!-- Header -->
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold">The Massey Family</h1>
+        <p class="text-muted">Photos and memories through the years</p>
+    </div>
+
+    <!-- Top navigation cards -->
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <a href="/Kids" class="text-decoration-none">
+                <div class="card shadow-sm h-100 text-center p-4">
+                    <h4>👨‍👩‍👧‍👦 Our Kids</h4>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="/Home" class="text-decoration-none">
+                <div class="card shadow-sm h-100 text-center p-4">
+                    <h4>🏡 Our Home</h4>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="/Events" class="text-decoration-none">
+                <div class="card shadow-sm h-100 text-center p-4">
+                    <h4>📅 Events</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Events section -->
+    <h2 class="mb-3">Recent events</h2>
+
+    <div class="list-group list-group-flush">
+        @foreach (var e in Model.Events.OrderByDescending(e => e.Date).Take(20))
+        {
+            <a href="/Event/@e.Slug"
+               class="list-group-item list-group-item-action bg-transparent border-bottom py-2">
+
+                <span style="font-family:monospace; margin-right:10px;">
+                    @e.Date.ToString("yyyy-MM-dd")
+                </span>
+
+                <span>@e.Title</span>
+
+                @if (e.Number.HasValue)
+                {
+                    <span class="text-muted"> (#@e.Number)</span>
+                }
+            </a>
+        }
+    </div>
+
 </div>
