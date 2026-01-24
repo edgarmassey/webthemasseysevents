@@ -19,7 +19,7 @@ namespace WebTheMasseysEvents.Services
 
         public IReadOnlyList<EventItem> GetAll()
         {
-            // Your folder is: Content/Events
+            // Content/Events/*.md
             var dir = Path.Combine(_env.ContentRootPath, "Content", "Events");
             if (!Directory.Exists(dir)) return Array.Empty<EventItem>();
 
@@ -39,21 +39,27 @@ namespace WebTheMasseysEvents.Services
                 map.TryGetValue("location", out var location);
                 map.TryGetValue("cover", out var cover);
                 map.TryGetValue("number", out var numberStr);
-                int.TryParse(numberStr, out var number);
 
                 DateTime.TryParse(dateStr, out var date);
+                int.TryParse(numberStr, out var number);
+
+                var coverFile = string.IsNullOrWhiteSpace(cover) ? null : cover.Trim();
 
                 items.Add(new EventItem
                 {
                     Slug = slug,
-                    Title = string.IsNullOrWhiteSpace(title) ? slug : title,
+                    Title = string.IsNullOrWhiteSpace(title) ? slug : title.Trim(),
                     Date = date == default ? File.GetCreationTime(file) : date,
-                    Location = string.IsNullOrWhiteSpace(location) ? null : location,
-                    Cover = string.IsNullOrWhiteSpace(cover) ? null : cover,
+                    Location = string.IsNullOrWhiteSpace(location) ? null : location.Trim(),
+                    Cover = coverFile,
                     BodyMarkdown = body.Trim(),
-                    Number = number == 0 ? null : number
-                });
 
+                    // FIX: store number (null if missing/0)
+                    Number = number == 0 ? null : number,
+
+                    // FIX: load photos from folder, excluding cover so it won't appear twice
+                    PhotoFiles = GetPhotoFilesForSlug(slug, coverFile),
+                });
             }
 
             return items
@@ -95,5 +101,26 @@ namespace WebTheMasseysEvents.Services
 
             return dict;
         }
+
+        private List<string> GetPhotoFilesForSlug(string slug, string? coverFile)
+        {
+            // wwwroot/Photos/Events/{slug}/
+            var photosDir = Path.Combine(_env.WebRootPath, "Photos", "Events", slug);
+            if (!Directory.Exists(photosDir)) return new List<string>();
+
+            var allowed = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            { ".jpg", ".jpeg", ".png", ".webp", ".gif" };
+
+            return Directory.GetFiles(photosDir)
+                .Where(f => allowed.Contains(Path.GetExtension(f)))
+                .Select(Path.GetFileName)
+                .Where(name =>
+                    !string.IsNullOrWhiteSpace(name) &&
+                    (string.IsNullOrWhiteSpace(coverFile) ||
+                     !string.Equals(name, coverFile, StringComparison.OrdinalIgnoreCase)))
+                .OrderBy(name => name) // e.g. 01.jpg, 02.jpg...
+                .ToList()!;
+        }
     }
-}   
+}
+

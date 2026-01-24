@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Github\\WebTheMassseyEvents\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\pages\\event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\pages\\shared\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\shared\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\services\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:services\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\pages\\event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemassseyevents\\models\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,33 +62,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventStore.cs",
-              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Services\\EventStore.cs",
-              "RelativeDocumentMoniker": "Services\\EventStore.cs",
-              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Services\\EventStore.cs*",
-              "RelativeToolTip": "Services\\EventStore.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:26:28.151Z",
+              "DocumentIndex": 0,
+              "Title": "Event.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Pages\\Event.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Event.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Pages\\Event.cshtml*",
+              "RelativeToolTip": "Pages\\Event.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T15:00:19.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EventItem.cs",
-              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Models\\EventItem.cs",
-              "RelativeDocumentMoniker": "Models\\EventItem.cs",
-              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Models\\EventItem.cs*",
-              "RelativeToolTip": "Models\\EventItem.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:25:09.742Z",
+              "DocumentIndex": 1,
+              "Title": "Events.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Pages\\Shared\\Events.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\Events.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Pages\\Shared\\Events.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\Events.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T11:11:40.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T11:47:25.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Event.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Pages\\Event.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Event.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Pages\\Event.cshtml.cs",
+              "RelativeToolTip": "Pages\\Event.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T11:05:49.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventStore.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Services\\EventStore.cs",
+              "RelativeDocumentMoniker": "Services\\EventStore.cs",
+              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Services\\EventStore.cs",
+              "RelativeToolTip": "Services\\EventStore.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAzwGoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T09:26:28.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventItem.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Models\\EventItem.cs",
+              "RelativeDocumentMoniker": "Models\\EventItem.cs",
+              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Models\\EventItem.cs",
+              "RelativeToolTip": "Models\\EventItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T09:25:09.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -84,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
@@ -96,24 +160,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Github\\WebTheMassseyEvents\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Pages\\Index.cshtml*",
-              "RelativeToolTip": "Pages\\Index.cshtml*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Github\\WebTheMassseyEvents\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-24T08:05:40.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2026-01-24T08:05:40.02Z"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
