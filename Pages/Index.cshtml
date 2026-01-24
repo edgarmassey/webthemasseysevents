@@ -34,27 +34,6 @@
         </div>
     </div>
 
-    <!-- Events section -->
-    <h2 class="mb-3">Recent events</h2>
-
-    <div class="list-group list-group-flush">
-        @foreach (var e in Model.Events.OrderByDescending(e => e.Date).Take(20))
-        {
-            <a href="/Event/@e.Slug"
-               class="list-group-item list-group-item-action bg-transparent border-bottom py-2">
-
-                <span style="font-family:monospace; margin-right:10px;">
-                    @e.Date.ToString("yyyy-MM-dd")
-                </span>
-
-                <span>@e.Title</span>
-
-                @if (e.Number.HasValue)
-                {
-                    <span class="text-muted"> (#@e.Number)</span>
-                }
-            </a>
-        }
-    </div>
+   
 
 </div>

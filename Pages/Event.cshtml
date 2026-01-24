@@ -13,11 +13,188 @@
         }
     </div>
 
+    @* COVER *@
     @if (!string.IsNullOrWhiteSpace(Model.CoverUrl))
     {
-        <img class="img-fluid rounded my-3" src="@Model.CoverUrl" alt="cover" />
+        <!-- Cover opens the same modal as gallery -->
+        <button type="button"
+                class="btn p-0 border-0 mt-3"
+                style="background:transparent;"
+                data-bs-toggle="modal"
+                data-bs-target="#photoModal"
+                data-fullsrc="@Model.CoverUrl"
+                data-caption="@Model.Event!.Title">
+
+            <img src="@Model.CoverUrl"
+                 class="rounded"
+                 style="max-width:500px; height:auto; cursor: zoom-in;"
+                 alt="cover" />
+        </button>
     }
 
-    <!-- Plain text for now; we can switch to real Markdown rendering next -->
+    <!-- Text from the .md file -->
     <pre style="white-space:pre-wrap;font-family:inherit">@Model.Event!.BodyMarkdown</pre>
+
+    @* PHOTO GALLERY *@
+    @if (Model.Event!.PhotoFiles.Count > 0)
+    {
+        <h2 class="h5 mt-4">Photos</h2>
+
+        <div class="row row-cols-2 row-cols-md-4 g-3 mt-1">
+            @foreach (var file in Model.Event!.PhotoFiles)
+            {
+                var fullSrc = $"/Photos/Events/{Model.Event!.Slug}/{file}";
+
+                <div class="col">
+                    <button type="button"
+                            class="btn p-0 border-0 w-100 text-start"
+                            style="background:transparent;"
+                            data-bs-toggle="modal"
+                            data-bs-target="#photoModal"
+                            data-fullsrc="@fullSrc"
+                            data-caption="@file">
+
+                        <img src="@fullSrc"
+                             class="img-fluid rounded shadow-sm"
+                             style="height:160px; width:100%; object-fit:cover; cursor: zoom-in;"
+                             alt="photo" />
+
+                        <div class="mt-1 text-muted"
+                             style="font-size:0.85rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                            @file.Replace("_", " ").Replace("-", " ").Replace(".jpg", "").Replace(".png", "").Replace(".jpeg", "")
+                        </div>
+                    </button>
+                </div>
+            }
+        </div>
+    }
+
+    @* ONE SINGLE MODAL FOR EVERYTHING (cover + gallery) *@
+    <div class="modal fade" id="photoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content bg-transparent border-0 position-relative">
+
+                <!-- Close (X) -->
+                <button type="button"
+                        class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+                        style="z-index: 1060; opacity: 1; pointer-events: auto;"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                <!-- Previous -->
+                <button type="button"
+                        id="prevPhoto"
+                        class="position-absolute top-50 start-0 translate-middle-y ms-2 btn btn-dark rounded-circle"
+                        style="z-index:1060;">
+                    ‹
+                </button>
+
+                <!-- Next -->
+                <button type="button"
+                        id="nextPhoto"
+                        class="position-absolute top-50 end-0 translate-middle-y me-2 btn btn-dark rounded-circle"
+                        style="z-index:1060;">
+                    ›
+                </button>
+
+                <div class="modal-body text-center p-0 position-relative">
+                    <img id="photoModalImg"
+                         class="img-fluid rounded"
+                         alt="photo full"
+                         style="cursor: zoom-out;"
+                         data-bs-dismiss="modal" />
+
+                    <!-- Caption overlay -->
+                    <div id="photoModalCaption"
+                         style="display:none; position:absolute; left:0; right:0; bottom:0;
+                                padding:10px 12px;
+                                border-bottom-left-radius:0.5rem; border-bottom-right-radius:0.5rem;
+                                background:rgba(0,0,0,0.6);
+                                color:#fff;
+                                font-size:0.95rem;">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+
+            const modal = document.getElementById('photoModal');
+            const img = document.getElementById('photoModalImg');
+            const cap = document.getElementById('photoModalCaption');
+            const nextBtn = document.getElementById('nextPhoto');
+            const prevBtn = document.getElementById('prevPhoto');
+
+            if (!modal || !img) return;
+
+            // Collect all clickable items (cover + thumbnails), in DOM order
+            function getItems() {
+                return Array.from(document.querySelectorAll('[data-fullsrc]'));
+            }
+
+            let items = [];
+            let index = 0;
+
+            function niceCaption(raw) {
+                if (!raw) return "";
+                return raw.replace(/[_-]/g, " ")
+                          .replace(/\.[^/.]+$/, "")
+                          .trim();
+            }
+
+            function showItem(i) {
+                if (!items.length) return;
+
+                if (i < 0) i = items.length - 1;
+                if (i >= items.length) i = 0;
+
+                index = i;
+
+                const el = items[index];
+                const src = el.getAttribute('data-fullsrc');
+                const captionRaw = el.getAttribute('data-caption') || "";
+
+                img.src = src;
+
+                if (cap) {
+                    const text = niceCaption(captionRaw);
+                    cap.textContent = text;
+                    cap.style.display = text ? "block" : "none";
+                }
+            }
+
+            // When modal opens
+            modal.addEventListener('show.bs.modal', function (event) {
+                items = getItems();
+
+                // The trigger is the element that was clicked (button or image)
+                let trigger = event.relatedTarget;
+
+                // If someone clicks the IMG inside the button, walk up to the [data-fullsrc] element
+                trigger = trigger?.closest?.('[data-fullsrc]') || trigger;
+
+                index = items.indexOf(trigger);
+                if (index < 0) index = 0;
+
+                showItem(index);
+            });
+
+            // Button navigation
+            nextBtn?.addEventListener('click', (e) => { e.stopPropagation(); showItem(index + 1); });
+            prevBtn?.addEventListener('click', (e) => { e.stopPropagation(); showItem(index - 1); });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', function (e) {
+                if (!modal.classList.contains('show')) return;
+
+                if (e.key === "ArrowRight") showItem(index + 1);
+                if (e.key === "ArrowLeft") showItem(index - 1);
+            });
+
+        })();
+    </script>
 </div>
+
