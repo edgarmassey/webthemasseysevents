@@ -33,11 +33,17 @@ C:\Github\WebTheMassseyEvents\WebTheMasseysEvents\obj\Debug\net8.0\refint\WebThe
 C:\Github\WebTheMassseyEvents\WebTheMasseysEvents\obj\Debug\net8.0\WebTheMasseysEvents.pdb
 C:\Github\WebTheMassseyEvents\WebTheMasseysEvents\obj\Debug\net8.0\WebTheMasseysEvents.genruntimeconfig.cache
 C:\Github\WebTheMassseyEvents\WebTheMasseysEvents\obj\Debug\net8.0\ref\WebTheMasseysEvents.dll
+C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\web.config
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\web.config
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\appsettings.Development.json
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\appsettings.json
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\appsettings.Development.json
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\appsettings.json
+C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\appsettings.Development.json
+C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\appsettings.json
+C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\WebTheMasseysEvents.deps.json
+C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\WebTheMasseysEvents.runtimeconfig.json
+C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\WebTheMasseysEvents.deps.json
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\WebTheMasseysEvents.runtimeconfig.json
 C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
@@ -73,9 +79,3 @@ C:\Github\WebTheMassseyEvents\obj\Debug\net8.0\refint\WebTheMasseysEvents.dll
 C:\Github\WebTheMassseyEvents\obj\Debug\net8.0\WebTheMasseysEvents.pdb
 C:\Github\WebTheMassseyEvents\obj\Debug\net8.0\WebTheMasseysEvents.genruntimeconfig.cache
 C:\Github\WebTheMassseyEvents\obj\Debug\net8.0\ref\WebTheMasseysEvents.dll
-C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\web.config
-C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\appsettings.Development.json
-C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\appsettings.json
-C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\WebTheMasseysEvents.deps.json
-C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\WebTheMasseysEvents.runtimeconfig.json
-C:\Github\WebTheMassseyEvents\bin\Debug\net8.0\Publish\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
