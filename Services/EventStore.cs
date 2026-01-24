@@ -38,6 +38,8 @@ namespace WebTheMasseysEvents.Services
                 map.TryGetValue("date", out var dateStr);
                 map.TryGetValue("location", out var location);
                 map.TryGetValue("cover", out var cover);
+                map.TryGetValue("number", out var numberStr);
+                int.TryParse(numberStr, out var number);
 
                 DateTime.TryParse(dateStr, out var date);
 
@@ -48,8 +50,10 @@ namespace WebTheMasseysEvents.Services
                     Date = date == default ? File.GetCreationTime(file) : date,
                     Location = string.IsNullOrWhiteSpace(location) ? null : location,
                     Cover = string.IsNullOrWhiteSpace(cover) ? null : cover,
-                    BodyMarkdown = body.Trim()
+                    BodyMarkdown = body.Trim(),
+                    Number = number == 0 ? null : number
                 });
+
             }
 
             return items
