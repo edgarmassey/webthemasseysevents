@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Content\Events\" />
+    <Folder Include="csharp Services\" />
     <Folder Include="wwwroot\Photos\Events\" />
     <Folder Include="wwwroot\Photos\Kids\" />
     <Folder Include="wwwroot\Photos\Home\" />
