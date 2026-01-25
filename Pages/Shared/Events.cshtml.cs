@@ -1,3 +1,4 @@
+using System.Linq;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebTheMasseysEvents.Models;
 using WebTheMasseysEvents.Services;
@@ -17,6 +18,7 @@ public class EventsModel : PageModel
 
     public void OnGet()
     {
-        Events = _store.GetAll();
+        // Ensure events are shown newest-first
+        Events = _store.GetAll().OrderByDescending(e => e.Date).ToList();
     }
 }

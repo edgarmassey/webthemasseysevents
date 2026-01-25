@@ -1,0 +1,13 @@
+﻿@page "/Kids"
+@{
+    ViewData["Title"] = "Our Kids";
+}
+<div class="container py-4">
+    <h1>Our Kids</h1>
+    <p class="text-muted">Placeholder page — content coming soon.</p>
+
+    <div class="mt-4">
+        <a class="btn btn-primary me-2" asp-page="/Index">Back to Home</a>
+        <a class="btn btn-outline-secondary" href="/events">View Events</a>
+    </div>
+</div>

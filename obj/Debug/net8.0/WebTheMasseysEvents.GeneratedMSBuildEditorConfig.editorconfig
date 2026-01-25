@@ -30,8 +30,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github/WebTheMasseysInfo/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github/WebTheMasseysInfo/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github/WebTheMasseysInfo/Pages/Kids.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2lkcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github/WebTheMasseysInfo/Pages/Privacy.cshtml]
