@@ -12,6 +12,10 @@
     <Folder Include="wwwroot\Photos\Events\" />
     <Folder Include="wwwroot\Photos\Kids\" />
     <Folder Include="wwwroot\Photos\Home\" />
-  </ItemGroup>
-
+	    </ItemGroup>
+	<ItemGroup>
+		<Content Include="Content\Events\**\*.md">
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
 </Project>
