@@ -6,11 +6,6 @@
 
     <h1 class="mt-3">
         @Model.Event!.Title
-
-        @if (Model.Event!.Number > 0)
-        {
-            <span class="text-muted fs-6 ms-2">#@Model.Event!.Number</span>
-        }
     </h1>
 
     <div class="text-muted">
@@ -179,10 +174,7 @@
             modal.addEventListener('show.bs.modal', function (event) {
                 items = getItems();
 
-                // The trigger is the element that was clicked (button or image)
                 let trigger = event.relatedTarget;
-
-                // If someone clicks the IMG inside the button, walk up to the [data-fullsrc] element
                 trigger = trigger?.closest?.('[data-fullsrc]') || trigger;
 
                 index = items.indexOf(trigger);
@@ -203,7 +195,56 @@
                 if (e.key === "ArrowLeft") showItem(index - 1);
             });
 
+            // ============================
+            // ✅ SWIPE SUPPORT (added here)
+            // ============================
+
+            const swipeTarget = modal.querySelector('.modal-body') || img;
+
+            let startX = 0;
+            let startY = 0;
+            let tracking = false;
+
+            const SWIPE_MIN_X = 50;
+            const SWIPE_MAX_Y = 60;
+
+            swipeTarget.addEventListener('touchstart', function (e) {
+                if (!modal.classList.contains('show')) return;
+
+                const t = e.touches[0];
+                startX = t.clientX;
+                startY = t.clientY;
+                tracking = true;
+            }, { passive: true });
+
+            swipeTarget.addEventListener('touchmove', function (e) {
+                if (!tracking) return;
+
+                const t = e.touches[0];
+                const dx = t.clientX - startX;
+                const dy = t.clientY - startY;
+
+                if (Math.abs(dx) > 10 && Math.abs(dy) < 10) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+            swipeTarget.addEventListener('touchend', function (e) {
+                if (!tracking) return;
+                tracking = false;
+
+                const t = e.changedTouches[0];
+                const dx = t.clientX - startX;
+                const dy = t.clientY - startY;
+
+                if (Math.abs(dy) > SWIPE_MAX_Y) return;
+
+                if (dx <= -SWIPE_MIN_X) showItem(index + 1);   // swipe left
+                else if (dx >= SWIPE_MIN_X) showItem(index - 1); // swipe right
+            }, { passive: true });
+
         })();
     </script>
+
 </div>
 
