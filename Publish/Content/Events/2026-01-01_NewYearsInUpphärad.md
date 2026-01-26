@@ -1,5 +1,5 @@
 ---
-title: 2026-01-01_NewYearsInUpphärad
+title: 2026-01-01 New Years In Upphärad
 date: 2026-01-01
 location: Upphärad
 cover: UpphäradSign.jpg

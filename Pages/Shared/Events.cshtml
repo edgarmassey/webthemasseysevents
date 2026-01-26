@@ -4,32 +4,61 @@
 <div class="container py-4">
     <h1>Events</h1>
 
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th style="white-space:nowrap;">Date</th>
-                <th>Title</th>
-                <th>Location</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var e in Model.Events)
-            {
-                <tr>
-                    <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
-                    <td>
-                        <a href="/Event/@e.Slug">
-                            @if (e.Number > 0)
-                            {
-                                <span class="text-muted me-2">#@e.Number</span>
-                            }
-                            @e.Title
-                        </a>
-                    </td>
+    <div class="accordion" id="eventsAccordion">
 
-                    <td>@e.Location</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+        @foreach (var yearGroup in Model.Events
+                .OrderByDescending(e => e.Date)
+                .GroupBy(e => e.Date.Year)
+                .OrderByDescending(g => g.Key))
+        {
+            var year = yearGroup.Key;
+            var collapseId = $"collapse{year}";
+            var headingId = $"heading{year}";
+            var show = (year == DateTime.Now.Year); // open current year by default
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="@headingId">
+                    <button class="accordion-button @(show ? "" : "collapsed")"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#@collapseId"
+                            aria-expanded="@(show.ToString().ToLower())"
+                            aria-controls="@collapseId">
+                        @year
+                    </button>
+                </h2>
+
+                <div id="@collapseId"
+                     class="accordion-collapse collapse @(show ? "show" : "")"
+                     aria-labelledby="@headingId"
+                     data-bs-parent="#eventsAccordion">
+
+                    <div class="accordion-body p-0">
+
+                        <table class="table table-hover mb-0">
+                            <thead>
+                                <tr>
+                                    <th style="white-space:nowrap;">Date</th>
+                                    <th>Title</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var e in yearGroup)
+                                {
+                                    <tr>
+                                        <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
+                                        <td><a href="/Event/@e.Slug">@e.Title</a></td>
+                                        <td>@e.Location</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Special-Visit-With-Lennart
+title: Special Visit With Lennart
 date: 2026-01-16
 location: Vänersborg
 cover: MeWithLennart.jpg

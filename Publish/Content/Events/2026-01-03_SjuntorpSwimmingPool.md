@@ -1,5 +1,5 @@
 ---
-title: 2026-01-03_SjuntorpSwimmingPool
+title: 2026-01-03 Sjuntorp Swimming Pool
 date: 2026-01-03
 location: Sjuntorp
 cover: ThePool.jpg
