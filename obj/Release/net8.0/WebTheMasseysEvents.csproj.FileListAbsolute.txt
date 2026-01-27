@@ -87,3 +87,10 @@ C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\dotnet-tools.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\WebTheMasseysEvents.deps.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\WebTheMasseysEvents.runtimeconfig.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\Publish\web.config
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\Publish\appsettings.Development.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\Publish\appsettings.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\Publish\dotnet-tools.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\Publish\WebTheMasseysEvents.deps.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\Publish\WebTheMasseysEvents.runtimeconfig.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
