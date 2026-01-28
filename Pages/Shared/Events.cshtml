@@ -48,7 +48,8 @@
                                 {
                                     <tr>
                                         <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
-                                        <td><a href="/Event/@e.Slug">@e.Title</a></td>
+                                        <td><a href="/Event/@e.Slug?backYear=@year">@e.Title</a></td>
+
                                         <td>@e.Location</td>
                                     </tr>
                                 }
@@ -61,4 +62,68 @@
         }
 
     </div>
+    <script>
+        (function () {
+          const KEY = "events_open_year";
+
+          function ensureBootstrap() {
+            return window.bootstrap && bootstrap.Collapse;
+          }
+
+          function openYear(year) {
+            if (!year || !ensureBootstrap()) return;
+
+            const el = document.getElementById("collapse" + year);
+            if (!el) return;
+
+            // open this one (accordion will close others automatically because of data-bs-parent)
+            bootstrap.Collapse.getOrCreateInstance(el).show();
+
+            const header = document.getElementById("heading" + year);
+            if (header) header.scrollIntoView({ block: "start" });
+          }
+
+          function restore() {
+            const year = sessionStorage.getItem(KEY);
+            if (year) openYear(year);
+          }
+
+          function wireUp() {
+            // 1) Remember when a year opens
+            document.querySelectorAll("#eventsAccordion .accordion-collapse").forEach(c => {
+              c.addEventListener("shown.bs.collapse", function () {
+                const year = c.id.replace("collapse", "");
+                sessionStorage.setItem(KEY, year);
+              });
+            });
+
+            // 2) Remember when clicking an event link (even if you never expanded via event)
+            document.querySelectorAll('#eventsAccordion a[href^="/Event/"]').forEach(a => {
+              a.addEventListener("click", function () {
+                const collapse = a.closest(".accordion-collapse");
+                if (!collapse) return;
+                const year = collapse.id.replace("collapse", "");
+                sessionStorage.setItem(KEY, year);
+              });
+            });
+          }
+
+          function init() {
+            wireUp();
+
+            // Restore on normal load and on back/forward cache restore
+            restore();
+            window.addEventListener("pageshow", restore);
+          }
+
+          // Make sure Bootstrap is available; if not, retry a moment later
+          document.addEventListener("DOMContentLoaded", function () {
+            if (ensureBootstrap()) init();
+            else setTimeout(init, 50);
+          });
+        })();
+    </script>
+
+
+
 </div>
