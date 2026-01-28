@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Github\WebTheMassseyEvents\bin\Release\net8.0\appsettings.Development.json
 C:\Github\WebTheMassseyEvents\bin\Release\net8.0\appsettings.json
 C:\Github\WebTheMassseyEvents\bin\Release\net8.0\WebTheMasseysEvents.staticwebassets.runtime.json
@@ -46,6 +47,11 @@ C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\WebTheMasseysEv
 C:\Github\WebTheMassseyEvents\bin\Release\net8.0\Publish\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\appsettings.Development.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\appsettings.json
+=======
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\appsettings.Development.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\appsettings.json
+C:\Github\WebTheMasseysInfo\bin\Release\net8.0\dotnet-tools.json
+>>>>>>> dc157a1683b0b73d7914b140249938dc3b63a43f
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\WebTheMasseysEvents.staticwebassets.runtime.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\WebTheMasseysEvents.staticwebassets.endpoints.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\WebTheMasseysEvents.exe
@@ -79,6 +85,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\refint\WebTheMasseysEvents.dll
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\WebTheMasseysEvents.pdb
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\WebTheMasseysEvents.genruntimeconfig.cache
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\ref\WebTheMasseysEvents.dll
+<<<<<<< HEAD
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\dotnet-tools.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\web.config
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\appsettings.Development.json
@@ -87,3 +94,5 @@ C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\dotnet-tools.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\WebTheMasseysEvents.deps.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\WebTheMasseysEvents.runtimeconfig.json
 C:\Github\WebTheMasseysInfo\bin\Release\net8.0\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
+=======
+>>>>>>> dc157a1683b0b73d7914b140249938dc3b63a43f

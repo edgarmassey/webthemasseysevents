@@ -4,6 +4,10 @@
     <ActiveDebugProfile>https</ActiveDebugProfile>
     <RazorPage_SelectedScaffolderID>RazorPageScaffolder</RazorPage_SelectedScaffolderID>
     <RazorPage_SelectedScaffolderCategoryPath>root/Common/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
+<<<<<<< HEAD
     <NameOfLastUsedPublishProfile>C:\Github\WebTheMasseysInfo\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+=======
+    <NameOfLastUsedPublishProfile>C:\Github\WebTheMasseysInfo\Properties\PublishProfiles\FolderProfile1.pubxml</NameOfLastUsedPublishProfile>
+>>>>>>> dc157a1683b0b73d7914b140249938dc3b63a43f
   </PropertyGroup>
 </Project>

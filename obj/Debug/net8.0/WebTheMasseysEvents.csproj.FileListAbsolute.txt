@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Github\WebTheMassseyEvents\WebTheMasseysEvents\bin\Debug\net8.0\appsettings.Development.json
 C:\Github\WebTheMassseyEvents\WebTheMasseysEvents\bin\Debug\net8.0\appsettings.json
 C:\Github\WebTheMassseyEvents\WebTheMasseysEvents\bin\Debug\net8.0\WebTheMasseysEvents.staticwebassets.runtime.json
@@ -89,6 +90,11 @@ C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\Publish\dotnet-tools.json
 C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\Publish\WebTheMasseysEvents.deps.json
 C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\Publish\WebTheMasseysEvents.runtimeconfig.json
 C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\Publish\WebTheMasseysEvents.staticwebassets.endpoints.json
+=======
+C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\appsettings.Development.json
+C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\appsettings.json
+C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\dotnet-tools.json
+>>>>>>> dc157a1683b0b73d7914b140249938dc3b63a43f
 C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\WebTheMasseysEvents.staticwebassets.runtime.json
 C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\WebTheMasseysEvents.staticwebassets.endpoints.json
 C:\Github\WebTheMasseysInfo\bin\Debug\net8.0\WebTheMasseysEvents.exe
