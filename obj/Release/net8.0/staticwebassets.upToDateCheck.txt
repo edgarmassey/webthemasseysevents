@@ -58,6 +58,277 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\Photos\Events\1998-06_Family\Alfons summer 98.jpg
+wwwroot\Photos\Events\1998-06_Family\Eleanore summer 98.jpg
+wwwroot\Photos\Events\1998-06_Family\Ellen summer 98.jpg
+wwwroot\Photos\Events\1998-06_Family\Emma summer 98.jpg
+wwwroot\Photos\Events\1998-06_Family\Rebecka summer 98.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\-Viewer.asp
+wwwroot\Photos\Events\1998-07_MasseyPix\Andrew Johnsson and wife.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\Anne and Davids familly.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\Doug + Joans familly 1998.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\Doug Joan and children.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\Found in JennyWilsons things.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\Shaun and Ericas wedding.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\Smeatonpreps 69.jpg
+wwwroot\Photos\Events\1998-07_MasseyPix\Wilfred+Carols familly.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Christmas games 2.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Christmas games 3.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Christmas games 4.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Christmas games mirre.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Christmas games1.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Emmapeelspotatoes.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Garath981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Ingemar981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Lows 1 981227.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Lows 2 981227.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Massey 1 981227.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Massey 2 981227.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Morfar981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Morfarshus.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Officebuilding981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Opening presents.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Santa.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Santa2.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Sara och Soraja.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Stefan981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Vrthus 981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Vrthus981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Vårthus 981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Vårthus981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\Webservers.jpg
+wwwroot\Photos\Events\1998-12_Christmas\xmasdinner981224.jpg
+wwwroot\Photos\Events\1998-12_Christmas\xmasgirlshair.jpg
+wwwroot\Photos\Events\1998-12_Christmas\xmaskids981224.jpg
+wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating1.jpg
+wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating11.jpg
+wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating3.jpg
+wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating4.jpg
+wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating5.jpg
+wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating7.jpg
+wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating8.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\African handshake at Kristinas.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Alfons at Airport.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Chantal.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Charmaine and the baby.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Coffee at the airport.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Discusion at airport.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Eleanore airport.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Eleanore.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Eleanorebil.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Group picture.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Hodgson familly.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Jeanies sisters garden.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Jeaniesisters house.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Julianna Pernilla och.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Kids at the table 2.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Kristina and son.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Kristina kaffe.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\The Barnato sisters.jpg
+wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\The Barnatos.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Breakfast at Lucs moms house.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Caryn and mother.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Leaving Lucs childhood home.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Lucs mothers home.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\manns familly 2.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Manns familly.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Mireille and Rebecka.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Mireille in swiminghole.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Mireille swiminghole 2.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Packing the cars.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Sisters at airport.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Sunset over the Rhino.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Swedes under the sign.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\View above swiming hole.jpg
+wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\workers at airport.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Anxious for a loo.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Getting across the river.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Luc and Tracey.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Luc jumping in.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Mireille and the jeep.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Mireille at the jump.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Silvia with a pot 2.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Silvia with a pot on her head.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Start  of the climb.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Surnset on the   Rhinoshorn.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Swanepoels on the 3wheeler.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The beging of the descent.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The country store.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The first crossing.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The lunch spot.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The top for us.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The water hole on the way down.jpg
+wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Traceys jump.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\04 the MacKenzies.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\05 Joshua getting a push.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\06 After meeting.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\07 Dinner at the MacKenzies.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\08 The Zulu convention building.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\10 The MacKenzies Foremans house.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\12 Chasing the cows in.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\13 The Milk tanks.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\14 The MacKenzies calves.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\15 Just leaving - Andrew MacKenzie.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\16 Girls on the road.jpg
+wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\17 The discussion.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Baby on the streets of Kokstad.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Clouds coming in in the morning.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Country market in Transkei.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Country market on the way through Mandela land.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Fishing boat on the beach.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Grandma reading a story in the mountains.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\In front of the Chalet.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Joshula at the farm.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Making pancakes in the mountains.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Mireille with a mother with her child.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\On  our way back from the beach.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\On the beach 2.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\On the beach.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Our arrival at Port Edward.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Selling herbs in Bizana.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\The streets of Bizana.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\The Swanepoels - our hosts in the mountains.jpg
+wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Where grandma lost her sweater BrooksNek.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\At the car dealership.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Braam with beach in the background.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Caleb on the rocks.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Ice cream.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Joshua on the rock.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Mathew.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Mireille and Edgar on the rocks.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Mireille on the rocks.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Rebecka on daddys knee.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Sandy on the rocks.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys and dad.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys and the barbeque.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys and the braai.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys catching fish.jpg
+wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Tracey in the smoke.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\A dolfin in the air.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\A seal on the edge.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\A seal standing on his hands.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Buying the carved animals in Durban.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Durban from Jeanies window.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\From the beach.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Jeanies apartment and hospital.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Mireille looking out over the Durban beach.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Paying the bill.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Terri and Mireille in the rickshaw.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\The beach and training hospital.jpg
+wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\The street markets in Durban.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\A rock rabbit peaking out of the wreck of the Nightengale.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\A sisterly discussion.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Alexandra.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Along the Cauldron beach.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Bella Hartman & Helene Bruce-Webster.jpg.lnk
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Braam.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Brett Wright.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Coming in on the surf.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Edgar on Cauldron rock.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Fishing boat on the way out.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Fishing boat on the way out2.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Jackie.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Jeanie and Terri playing with the kids.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Jeanie.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Julianna.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Luc and Tracey at the wreck.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Luc and Tracy.JPG
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Mireille and I beach feather.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Mireille and I on the beach.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Mireille on the cauldron rock.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Motorcycle in the sand.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Our group on the beach.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Pernilla.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Picking seashells.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Profiles of Tracey and Luc.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Rebecka.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Swedish meatballs on the way.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Ted.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Terri and Rebecka.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The beach on a windy morning(7 am).jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The boys enjoying their mangos.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The breakfast fruit ladies.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The ladies.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The Stuarts on visit.jpg
+wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The Swanepoels amongst the rocks.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\A Zulu laundramat.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\A Zulu princesses home.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\At the country store 2.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\At the country store.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Childrens dance at the medicine woman.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Dance on the roadside.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Loading sugar cane.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Medicine woman and graduate student.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Medicine woman and her daughter translating.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Our guide giving the children candy.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Security at a Zulu highschool.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The kids coming to get candys.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The kids getting water 2.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The kids getting water.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The view at the cloths washing spot.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Typical Zulu hut 2.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Typical Zulu hut.jpg
+wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\View at the cloths washing spot 2.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Braam.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Getting gas 23 00 4 hours from the Cape.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Leaving Port Edward.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch - The boys coming to see us.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch boys in the river.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch eating at the river.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch the boys contemplating a dip.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch the spot.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Oh no!!!.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Rebecka and mom on a 1500km drive.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Road block and Mireille.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Road block.jpg
+wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\The bus stop.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\False Bay.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Fish and chips at their best.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Hard rock cafe.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Hugo and Reinette.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Julianne on a canon.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Luc and the Robin island ferry.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Luc and Tracey.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and I at Planet Hollywood.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and Terry.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and the imitator 2.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and the imitator.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and the wineshop proprietor.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\The artist of our painting.jpg
+wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\The group after supper.jpg
+wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Dassie (rock rabbit).jpg
+wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille looking at Robin island 2.jpg
+wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille looking at Robin island 3.jpg
+wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille looking at Robin island.jpg
+wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille och I.jpg
+wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Our group on Table mountain.jpg
+wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\The oldest meeting in Capetown.jpg
+wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\Jerome and Merrl singing.jpg
+wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\Julianne at the piano.jpg
+wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\Patric on the piano.jpg
+wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\The group at the O´Ryans.jpg
+wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\The waltz.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Brett and I on the way in to Roben Island.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Earl and Mireille in the courtyard.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Mandelas cell.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Merle and Earl towards Capetown.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Mireille towards Capetown.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\On the way into the prison.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Our guide telling about his time in the prison.jpg
+wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\The Cape from Roben island.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\A short visit from Graham.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\At the airport.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Brett Jeanie and  Josh.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Hugo and Renette.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Merle and Jerome on the bus.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Our hosts for a wonderfull day.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Our hosts.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Tablemountain.jpg
+wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\The group at the airport.jpg
+wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\A cold reception at the Gothenburg airport.jpg
+wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\Getting the kids in the snow.jpg
+wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\Our reception at the airport.jpg
+wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\The first kiss from Eleanore.jpg
 wwwroot\Photos\Events\2000-05_NewCamera\Alfons.jpg
 wwwroot\Photos\Events\2000-05_NewCamera\AlfonsFace.jpg
 wwwroot\Photos\Events\2000-05_NewCamera\AlfonsRoom.jpg
@@ -758,6 +1029,1259 @@ wwwroot\Photos\Events\2001-12\ChristmasSoraja.jpg
 wwwroot\Photos\Events\2001-12\ChristmasWaitingForDinner.jpg
 wwwroot\Photos\Events\2001-12\ChristmasWengerstedtsDinner.jpg
 wwwroot\Photos\Events\2001-12\Magnus.jpg
+wwwroot\Photos\Events\2007-01\EmmasNewCar.jpg
+wwwroot\Photos\Events\2007-01\SayingGoodbyeToChristmas1.jpg
+wwwroot\Photos\Events\2007-01\SayingGoodbyeToChristmas2.jpg
+wwwroot\Photos\Events\2007-01\VisitingAhmet-DivingEquiptment.jpg
+wwwroot\Photos\Events\2007-01\VisitingAhmet-GoingForAWalk.jpg
+wwwroot\Photos\Events\2007-01\VisitingAhmet-GoingForAWalk2.jpg
+wwwroot\Photos\Events\2007-01\VisitingAhmet-GoingForAWalk3.jpg
+wwwroot\Photos\Events\2007-01\VisitingAhmet-Lounge.jpg
+wwwroot\Photos\Events\2007-01\VisitingAhmet-PlayingHangMan.jpg
+wwwroot\Photos\Events\2007-01\VisitingAhmet-TreatmentCenterWorkoutFacilities.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\01EmmaAcceptingHerDiplomaAndBadge.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\02GoingToTheCeremonyInTheCathedral.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\03The84NewNurses.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\AndreaAndBenjamin.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\emma.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\EmmaAndAFriend.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\EmmaAndMireille.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\EmmasNewCar.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\HappyForTheResults.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\InEmmasAppartment.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\OutsideThechurch.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\SayingGoodbyeToChristmas1.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\SayingGoodbyeToChristmas2.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\TheProgram.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\VisitingAhmet-DivingEquiptment.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\VisitingAhmet-GoingForAWalk.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\VisitingAhmet-GoingForAWalk2.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\VisitingAhmet-GoingForAWalk3.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\VisitingAhmet-Lounge.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\VisitingAhmet-PlayingHangMan.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\VisitingAhmet-TreatmentCenterWorkoutFacilities.jpg
+wwwroot\Photos\Events\2007-01_EmmasNurseGrad\WaitingOnTheGuests.jpg
+wwwroot\Photos\Events\2007-02\02SkiTripArrivalAtTheSlope.jpg
+wwwroot\Photos\Events\2007-02\03SkiTripFirstRideOnTheLift.jpg
+wwwroot\Photos\Events\2007-02\04SkiTripBeginersSlopes.jpg
+wwwroot\Photos\Events\2007-02\05SkiTripFromTheGondola.jpg
+wwwroot\Photos\Events\2007-02\06SkiTripAfternoonPizza.JPG
+wwwroot\Photos\Events\2007-02\07SkiTripRebeckaBitesTheSlope.jpg
+wwwroot\Photos\Events\2007-02\08SkiTripUpAndAtItAgain.jpg
+wwwroot\Photos\Events\2007-02\09SkiTripEllenDoingItTheWrongWay.jpg
+wwwroot\Photos\Events\2007-02\10SkiTripStartingAtTheTop.jpg
+wwwroot\Photos\Events\2007-02\11SkiTripOurCabin.jpg
+wwwroot\Photos\Events\2007-02\12SkiTripTheGirlsRoom.jpg
+wwwroot\Photos\Events\2007-02\13SkiTripBreakfast.JPG
+wwwroot\Photos\Events\2007-02\14SkiTripAtTheTop.JPG
+wwwroot\Photos\Events\2007-02\15SkiTripTheStartOfANewDay.jpg
+wwwroot\Photos\Events\2007-02\16SkiTripGrillingHamburgers.jpg
+wwwroot\Photos\Events\2007-02\17SkiTripFromTheCoffeeCabinAtTheTop.jpg
+wwwroot\Photos\Events\2007-02\18SkiTripTheEndOfTheLastRun.jpg
+wwwroot\Photos\Events\2007-02\19SkiTripChineseFoodOnTheWayHome.jpg
+wwwroot\Photos\Events\2007-02\DadAndMomEnjoyingAGuestAtTheParty.jpg
+wwwroot\Photos\Events\2007-02\DadOnHis90thBirthday.jpg
+wwwroot\Photos\Events\2007-02\DadSpeakingAtTheProgram.jpg
+wwwroot\Photos\Events\2007-02\MomAtDadsParty.jpg
+wwwroot\Photos\Events\2007-02\OrebroCheyanneAndPrusha.JPG
+wwwroot\Photos\Events\2007-02\OrebroEllenAndChanell.jpg
+wwwroot\Photos\Events\2007-02\OrebroMireilleAndShlear.jpg
+wwwroot\Photos\Events\2007-02\OrebroMireilleAndShlearInAVeil.jpg
+wwwroot\Photos\Events\2007-02\OrebroMirjamAndChannel.jpg
+wwwroot\Photos\Events\2007-02\OrebroShlearAndPrusha.JPG
+wwwroot\Photos\Events\2007-02\OrebroTheAskaris.JPG
+wwwroot\Photos\Events\2007-02\OrebroTheAskaris2.jpg
+wwwroot\Photos\Events\2007-02\OrebroTheDinnerTable.JPG
+wwwroot\Photos\Events\2007-02\OrebroTheThreeLadies.jpg
+wwwroot\Photos\Events\2007-02\OrebroWaterworldFullInTheWavePool.JPG
+wwwroot\Photos\Events\2007-02\OrebroWaterworldNonaTakingItEasy.JPG
+wwwroot\Photos\Events\2007-02\OrebroWaterworldOutsidePool.JPG
+wwwroot\Photos\Events\2007-02\OrebroWaterworldWallClimbing.JPG
+wwwroot\Photos\Events\2007-03\01EllensBaptismGoingIntoTheChurch.JPG
+wwwroot\Photos\Events\2007-03\02EllensBaptismWithHerSchoolFriends.jpg
+wwwroot\Photos\Events\2007-03\03EllensBaptismWithUsAfterward.jpg
+wwwroot\Photos\Events\2007-03\04EllensBaptismOurGoodFriendsTakingGodfatherResponsibility.jpg
+wwwroot\Photos\Events\2007-03\05EllensBaptismWithMomAuntAndSister.jpg
+wwwroot\Photos\Events\2007-03\06EllensBaptismChineseFoodAfterward.jpg
+wwwroot\Photos\Events\2007-03\07MireilleAndI.JPG
+wwwroot\Photos\Events\2007-03\Alfons13thBirthday.JPG
+wwwroot\Photos\Events\2007-03\Alfons13thBirthday2.JPG
+wwwroot\Photos\Events\2007-03\Linus.jpg
+wwwroot\Photos\Events\2007-03\LinusMoped.JPG
+wwwroot\Photos\Events\2007-03\Oscars18th9OfUsEatingOut.JPG
+wwwroot\Photos\Events\2007-03\Oscars18thAtTheTable.JPG
+wwwroot\Photos\Events\2007-03\Oscars18thTheBirthdayFlare.JPG
+wwwroot\Photos\Events\2007-04\AlfonsAndMe.jpg
+wwwroot\Photos\Events\2007-04\DinnerInTheSun.jpg
+wwwroot\Photos\Events\2007-04\EllenOnHerHorse.jpg
+wwwroot\Photos\Events\2007-04\GettingHelenAtOystenSkallebergs.JPG
+wwwroot\Photos\Events\2007-04\GettingHelenGirlsOnTheBeach.jpg
+wwwroot\Photos\Events\2007-04\GettingHelenHogenas.JPG
+wwwroot\Photos\Events\2007-04\GettingHelenIceCreamOnTheBeach.jpg
+wwwroot\Photos\Events\2007-04\GettingHelenOnTheBeach.jpg
+wwwroot\Photos\Events\2007-04\GettingHelenUsAtHoganas.jpg
+wwwroot\Photos\Events\2007-04\NonasSchoolFinishedForTheDay.jpg
+wwwroot\Photos\Events\2007-04\NonasSchoolHerTeacher.jpg
+wwwroot\Photos\Events\2007-04\NonasSchoolInTheClassroom.jpg
+wwwroot\Photos\Events\2007-04\RebeckaAtTheKitchenComputer.jpg
+wwwroot\Photos\Events\2007-04\TheTreasureHunt.JPG
+wwwroot\Photos\Events\2007-05\EleanoreSoccerAfterTheGame.jpg
+wwwroot\Photos\Events\2007-05\EleanoreSoccerBeforeTheGame.JPG
+wwwroot\Photos\Events\2007-05\EleanoreSoccerInTheGame.jpg
+wwwroot\Photos\Events\2007-05\EleanoreSoccerOnTheSidelines.JPG
+wwwroot\Photos\Events\2007-05\EllenBild.jpg
+wwwroot\Photos\Events\2007-05\EllensConfirmationOnTheWayIn.jpg
+wwwroot\Photos\Events\2007-05\EllensConfirmationProdigalSonPlay.jpg
+wwwroot\Photos\Events\2007-05\EllensConfirmationReadingFromTheBible.jpg
+wwwroot\Photos\Events\2007-05\EllensConfirmationSingingAHymn.jpg
+wwwroot\Photos\Events\2007-05\EllensConfirmationTheGroup.jpg
+wwwroot\Photos\Events\2007-05\MothersDay.jpg
+wwwroot\Photos\Events\2007-05\WelcomingSpring1.JPG
+wwwroot\Photos\Events\2007-05\WelcomingSpringLightingTheFire.JPG
+wwwroot\Photos\Events\2007-05\WelcomingSpringMireilleAndIngela.JPG
+wwwroot\Photos\Events\2007-05\WelcomingSpringSoupOnTheTable.JPG
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\01BirsensProblemsWithHerPassport.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\02TheTurkishFlag.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\03GulayAndHerMomWaitingOnABus.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\04ARestaurantOwnedByAnAquaintance.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\04ARestaurantOwnedByAnAquaintanceTheDinner.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\06ARestaurantOwnedByAnAquaintanceBirsen.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\07BirsenAndHerSister.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\08BirsensRelatives.JPG
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\09CitrusOrchardsInTheCity.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\10TheNeighborsBananaTrees.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\11TheCountrysideWithAJailFacilityInTheBackground.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\12TheRoadByBirsensSistersHouse.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\13SettingTheTableForBreakfast.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\14AMosqueDownTheStreet.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\15TurkishBreakfast.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\15TurkishBreakfastMenu.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\16AFriendsHouse.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\16BirsenInHerRelativesGarden.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\16MireilleAndBirsenInANeighborsGrainField.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\17PicnicTablesForRent.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\18GoatsOnTheRoad.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\19APicnicVegtableBarbequeWithRelatives.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\20BirsenAndHerSisterAtTheVegetableMarket.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\21LunchWithANeighbor.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\22TheNeighborsBoyWithHisGoat.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\23TurkishDance.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\24TheFourthFloorApartmentTheyBorrowed.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\24ViewFromTheBalcony.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\25MoslemCoupleOutSwiming.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\25TheBeachByTheApartment.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\25ViewFromTheBalcony2.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\26NeighborMilkingHerCow.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\26ViewFromTheBalconyAtSunset.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\28NeighborsBakingBread.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\29NeighborsAndBirsen.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\30AtTheRelatives.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\31GulayAndHerMomAtTheHotelWhereGulayWorks.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\32GulayShowingHerWorkPlace.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\33BirsenInTheSea.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\34MireilleOnTheBeach.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\35CoffeeInTownJustBeforeWeLeave.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\36TheLastMealBeforeWeLeave.jpg
+wwwroot\Photos\Events\2007-05_MireillesTripToTurkey\37OurOverWeight.jpg
+wwwroot\Photos\Events\2007-06\AssadsGraduation.jpg
+wwwroot\Photos\Events\2007-06\BirthdayEleanore.jpg
+wwwroot\Photos\Events\2007-06\BirthdayKidsNonaAndAnders.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNona.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNonaAndAlfons.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNonaAndFriends.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNonaEllenRebeckaAndAlfons.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNonaReadyForTheParty.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNonasPresent.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNonasPresent2.jpg
+wwwroot\Photos\Events\2007-06\BirthdayNonasPresent3.jpg
+wwwroot\Photos\Events\2007-06\Edgar.jpg
+wwwroot\Photos\Events\2007-06\Eleanore.jpg
+wwwroot\Photos\Events\2007-06\EleanoresPianoConcert.jpg
+wwwroot\Photos\Events\2007-06\EllenOnHerBirthday.jpg
+wwwroot\Photos\Events\2007-06\EllensBirthdayParthy.jpg
+wwwroot\Photos\Events\2007-06\EllensBirthdayWithAlfons.jpg
+wwwroot\Photos\Events\2007-06\EllensMoped.jpg
+wwwroot\Photos\Events\2007-06\EllensMopedRebecka.jpg
+wwwroot\Photos\Events\2007-06\EllensPianoConcert.jpg
+wwwroot\Photos\Events\2007-06\GraduationPartyForAndreas.jpg
+wwwroot\Photos\Events\2007-06\GraduationPartyForAndreas2.jpg
+wwwroot\Photos\Events\2007-06\GraduationPartyForAndreasOpeningPresents.jpg
+wwwroot\Photos\Events\2007-06\LastDayOfSchoolEleanore.jpg
+wwwroot\Photos\Events\2007-06\LastDayOfSchoolEleanore2.jpg
+wwwroot\Photos\Events\2007-06\LastDayOfSchoolEleanore3.jpg
+wwwroot\Photos\Events\2007-06\LastDayOfSchoolNona.jpg
+wwwroot\Photos\Events\2007-06\LastDayOfSchoolNona2.jpg
+wwwroot\Photos\Events\2007-06\LastDayOfSchoolNona3.jpg
+wwwroot\Photos\Events\2007-06\Liseberg01Nyckelpiggan.jpg
+wwwroot\Photos\Events\2007-06\Liseberg02CoffeeCups.jpg
+wwwroot\Photos\Events\2007-06\Liseberg03TheLadies.jpg
+wwwroot\Photos\Events\2007-06\Liseberg04TheRaftBehindUs.jpg
+wwwroot\Photos\Events\2007-06\Liseberg05EmmaAndNona.jpg
+wwwroot\Photos\Events\2007-06\Liseberg06NonaOnTheLadyBug.jpg
+wwwroot\Photos\Events\2007-06\Liseberg07TheWhirlWind.jpg
+wwwroot\Photos\Events\2007-06\Liseberg08MagnusAndIngelaOnTheJukeBox.jpg
+wwwroot\Photos\Events\2007-06\Liseberg08TheFlyingSwings.jpg
+wwwroot\Photos\Events\2007-06\Liseberg10TheJukeBox.jpg
+wwwroot\Photos\Events\2007-06\MireilleAndChanell.jpg
+wwwroot\Photos\Events\2007-06\MothersDay.jpg
+wwwroot\Photos\Events\2007-06_Poland\01WaitingOnTheBoatToGermany.JPG
+wwwroot\Photos\Events\2007-06_Poland\02OnTheWayToSassnitz.jpg
+wwwroot\Photos\Events\2007-06_Poland\03TheGermanCoast.jpg
+wwwroot\Photos\Events\2007-06_Poland\04OurHotelInsidePoland.jpg
+wwwroot\Photos\Events\2007-06_Poland\05ALunchStop.jpg
+wwwroot\Photos\Events\2007-06_Poland\06TheRoadInToOzwinco.jpg
+wwwroot\Photos\Events\2007-06_Poland\07OurFirstStopAtBirkanov.jpg
+wwwroot\Photos\Events\2007-06_Poland\08HelenAtTheBirkanovFence.jpg
+wwwroot\Photos\Events\2007-06_Poland\09TheEntrance.jpg
+wwwroot\Photos\Events\2007-06_Poland\10TheEndOfTheLine.jpg
+wwwroot\Photos\Events\2007-06_Poland\11ViewOfTheRuinsFromTheGuardTower.jpg
+wwwroot\Photos\Events\2007-06_Poland\12RoomFor100000PrisonerAtOneTime.jpg
+wwwroot\Photos\Events\2007-06_Poland\13Auschwitz1Entrance-WorkWillMakeYouFree.jpg
+wwwroot\Photos\Events\2007-06_Poland\13WaitingForOurTour.jpg
+wwwroot\Photos\Events\2007-06_Poland\14OurGuideAndGroup.jpg
+wwwroot\Photos\Events\2007-06_Poland\15DisciplinaryExecutionPlace.jpg
+wwwroot\Photos\Events\2007-06_Poland\16AToughWallToClimb.jpg
+wwwroot\Photos\Events\2007-06_Poland\17Auschwitz1GasChambersAndIncinerator(600personsAtATime).jpg
+wwwroot\Photos\Events\2007-06_Poland\18LunchInTheVillageBeforeWeLeave.jpg
+wwwroot\Photos\Events\2007-06_Poland\19WalkingIntoBerlinCenter.jpg
+wwwroot\Photos\Events\2007-06_Poland\20APieceOfTheWallAtPotsdammerPlace.jpg
+wwwroot\Photos\Events\2007-06_Poland\21TheLeggoGiraffAtPotsdammerPlace.jpg
+wwwroot\Photos\Events\2007-06_Poland\22TheGermanMonumentToTheHaullocast.jpg
+wwwroot\Photos\Events\2007-06_Poland\23CheckpointCharlie.jpg
+wwwroot\Photos\Events\2007-06_Poland\24ACupOfCoffeeBeforeWeLeaveBerlin.jpg
+wwwroot\Photos\Events\2007-06_Poland\25LunchOnTheRoadsideOnTheWayHome.jpg
+wwwroot\Photos\Events\2007-06_Poland\26ComingInToSwedenAgain.jpg
+wwwroot\Photos\Events\2007-07\Annett.jpg
+wwwroot\Photos\Events\2007-07\BeckasStickeyCake.jpg
+wwwroot\Photos\Events\2007-07\CamilleAndClarkBarzeele.JPG
+wwwroot\Photos\Events\2007-07\EleanoreAndNona.jpg
+wwwroot\Photos\Events\2007-07\Magnus.jpg
+wwwroot\Photos\Events\2007-07\VisitFromAnnetteAtThePiano.jpg
+wwwroot\Photos\Events\2007-07\VisitFromAnnetteEllensMoped.jpg
+wwwroot\Photos\Events\2007-07\VisitFromAnnetteWithoutAnyLegs.jpg
+wwwroot\Photos\Events\2007-07\VisitFromShaunBuckley.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\01LeavingSweden.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\02AStopInDenmark.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\03OnTheBoatToGermany.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\04OnTheBoatToGermany.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\05BreakfastInAustria.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\06TrafficStopInTheMountains.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\08OurSwedishNeighborsHenrikAndCarina.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\09TheStairwayToOurApartment.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\10OurKitchen.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\11AMatrassOnTheWater.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\12InTheWater.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\12WatchingTheKids.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\13EllenOffTheStonePier.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\13OffTheStonePier.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\14APoliceBoatInSibenik.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\14FromTheRoofOfOurHouse.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\15ForestFireAcrossTheBay.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\16FireFightingPlaneLoadingWater.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\17FirePlaneDumpingItsLoad.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\18OscarsJobForOurLandlady.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\19WaitingForOurPizzas.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\20NonaTakeingHerPenicillin.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\21NoSun-DoctorsOrders.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\22VillageFestival.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\23TheCooksInOurKitchen.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\24BeckaInTheSunset.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\25AlfonsInTheSunset.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\26EatingMusselsInPrimosten.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\27TheFountainInPrimosten.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\28TheBoysAndMireilleInPrimosten.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\29TheGirlsInPrimosten.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\30TheShave.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\31BalanseInTheWater.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\32OurBeachGroup.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\33OnTheAirMattrass.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\33PlayingInTheWater.jpg
+wwwroot\Photos\Events\2007-07_Croatia1\34FromOurBalcony.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\35EatingIceCreamInSplit.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\36TheBeachWalkInSplit.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\37RomanWallsInSplit.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\38LookingForAPlaceToEatInSplit.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\39WaitingOnDinnerInSplit.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\40WaitingOnDinnerInSplit2.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\41EleanoreOnTheBungeeBounce.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\42NonaOnTheBungeeBounce.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\43AVillageProfileInDiscussionWithMireille.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\44MeOnTheBalcony.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\45EllenAndAlfonsOnTheWayIn.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\46AlfonsDecidedToWait.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\47EatingAtOurRoastPorkRestaurant.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\48OurWaiterFlirtingWithTheGirls.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\49TheSunset.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\50OurLandladyMakingDeepfriedCakesForUs.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\51EleanoreJumpsIn.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\52AlfonsJumpsIn.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\53RunAndJump.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\54AlfonsAndSomeonesAbandonedDreams.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\55ALittleStoneChurchInOurVillage.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\56FishingForCrabs.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\57BreakfastStopInGermanyOnTheWayHome.jpg
+wwwroot\Photos\Events\2007-07_Croatia2\58ALatvianTruckerAtAGermanTruckStop.jpg
+wwwroot\Photos\Events\2007-08\EllensFriendEmmaAfterHerHorseAccident.jpg
+wwwroot\Photos\Events\2007-08\EllensFriendEmmaAndHerMomIngela.jpg
+wwwroot\Photos\Events\2007-08\HelpingTheNeighborsPourCement1.jpg
+wwwroot\Photos\Events\2007-08\HelpingTheNeighborsWaitingForTheNextLoad.jpg
+wwwroot\Photos\Events\2007-08\MireilleAtTheStockholmGirls10Km.jpg
+wwwroot\Photos\Events\2007-08\My61thBirthday.jpg
+wwwroot\Photos\Events\2007-08\NonaStartingSchool.jpg
+wwwroot\Photos\Events\2007-08\TripToNathalieInTheHospital.jpg
+wwwroot\Photos\Events\2007-08\TripToNathalieLocalRadioSending.jpg
+wwwroot\Photos\Events\2007-08\TripToNathalieNathaliesApartment.jpg
+wwwroot\Photos\Events\2007-08\TripToNathalieRickardHisMomAndNathalie.jpg
+wwwroot\Photos\Events\2007-08\TripToNathalieRickardInTheHospital.jpg
+wwwroot\Photos\Events\2007-08\TripToNathalieWithHerMotherInLaw.jpg
+wwwroot\Photos\Events\2007-08\TripToNathalieWithMireille.jpg
+wwwroot\Photos\Events\2007-08\WithEmmaHomeForMy61thBirthday.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\01TheBoatAndItsOwnerReadyToGo.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\02BackingOutFromTheHomeHarbor.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\03OnTheWay.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\04OnTheWay2.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\05QuickStopAtAGroceryStory.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\06AndersAtTheHelm.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\07SteeringInTheRain.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\08OurParkingSpot6BoatsFromThePier.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\09RelaxingInTheBoat.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\10Sightseeing.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\11AWalkOnTheBeach.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\12TheVeryNorthTipOfDenmark.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\13RentABikes.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\14DanishSeaTragedyPaintingInAnArtGallery.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\14SkagenRailroadStation.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\15PlaningTheCourseBackToSweden.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\16NorwegiansMovingToLetOurBoatOut.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\17LeavingTheSkagenHarbour.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\18ReturnTripInBadWeather.jpg
+wwwroot\Photos\Events\2007-09_SailboatToDenmark\19BackHomeUnderTheTjornBridge.jpg
+wwwroot\Photos\Events\2007-10\01BusTripToLisebergOnTheWay.jpg
+wwwroot\Photos\Events\2007-10\02BusTripToLisebergOurDriver.jpg
+wwwroot\Photos\Events\2007-10\03BusTripToLisebergTheTreasurer.jpg
+wwwroot\Photos\Events\2007-10\04BusTripToLisebergWaitingToGoIn.jpg
+wwwroot\Photos\Events\2007-10\05BusTripToLisebergEllenOnTheWayUp.jpg
+wwwroot\Photos\Events\2007-10\06BusTripToLisebergTheWinners.jpg
+wwwroot\Photos\Events\2007-10\07EllensNewHorse.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\01GettingStarted.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\02OnTheWay.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\05FrankfurtAirport.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\12BrothersInDiscussion.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\16AdeleAndNona.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\20DowntownTrollhättan.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\24BreakfastOnTheWayToUllered.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\25UlleredParkingLot.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\26OnTheWayHome.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\28EvanAndAlice.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\36MireillesWorkChums.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\42TheAcquaintanceParty.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\43TheAcquaintanceParty.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\43TheAcquaintancePartyEmma.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\44EmmasKitchen.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\45EmmasAppartment.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\50OutForDinner.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\51OutForDinner2.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\53AfterDinnerAtTheTopOfTheTower.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\60ABoatToTheIslands.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\60ABoatToTheIslands2.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\64LeavingTheDock.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\66BackAgain.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\68BackOnLand.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\69LunchAtTheWarfRestaurant.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\71StopAtOurFriendsPizzeria.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\72StopAtOurFriendsPizzeria2.jpg
+wwwroot\Photos\Events\2007-10_Kenandpatsystrip\75EveningCoffeeWithLarsAndAnnette.jpg
+wwwroot\Photos\Events\2007-11\Leon Doug & Dad.jpg
+wwwroot\Photos\Events\2007-11\MeAndTheCat.jpg
+wwwroot\Photos\Events\2007-11\OurNewMinibuss.jpg
+wwwroot\Photos\Events\2007-11\TheHalloweenGirls.jpg
+wwwroot\Photos\Events\2007-12\AllanMirjamAndChantal.JPG
+wwwroot\Photos\Events\2007-12\AllIWantForChristmasIsMyTwoFrontTeeth.JPG
+wwwroot\Photos\Events\2007-12\AMealForOurCurdishFriends.JPG
+wwwroot\Photos\Events\2007-12\BeckaAndNiklas.JPG
+wwwroot\Photos\Events\2007-12\ChristmasBeckaNonaAndEllen.JPG
+wwwroot\Photos\Events\2007-12\ChristmasBreakfast.JPG
+wwwroot\Photos\Events\2007-12\ChristmasDinnerFood.JPG
+wwwroot\Photos\Events\2007-12\ChristmasDinnerGuests.JPG
+wwwroot\Photos\Events\2007-12\ChristmasDinnerTable.JPG
+wwwroot\Photos\Events\2007-12\ChristmasEllen.JPG
+wwwroot\Photos\Events\2007-12\ChristmasEmmaAndNona.JPG
+wwwroot\Photos\Events\2007-12\ChristmasGivingOutTheParcels.JPG
+wwwroot\Photos\Events\2007-12\ChristmasMireilleAndEmma.JPG
+wwwroot\Photos\Events\2007-12\ChristmasMorning.JPG
+wwwroot\Photos\Events\2007-12\ChristmasSantaClaus.JPG
+wwwroot\Photos\Events\2007-12\ChristmasVist.JPG
+wwwroot\Photos\Events\2007-12\DecoratingTheTree.JPG
+wwwroot\Photos\Events\2007-12\EleanoreInBed.JPG
+wwwroot\Photos\Events\2007-12\EleanorePealingAlmonds.JPG
+wwwroot\Photos\Events\2007-12\EllenInLuciaCelebrations.JPG
+wwwroot\Photos\Events\2007-12\EllenInLuciaCelebrations2.JPG
+wwwroot\Photos\Events\2007-12\MakingChristmasCandy.JPG
+wwwroot\Photos\Events\2007-12\MireilleWithPascal.JPG
+wwwroot\Photos\Events\2007-12\NathalieInTheKitchen.JPG
+wwwroot\Photos\Events\2007-12\NonaAndJulia.JPG
+wwwroot\Photos\Events\2007-12\NonaInBed.JPG
+wwwroot\Photos\Events\2007-12\NonaMakingMarsipanFigures.JPG
+wwwroot\Photos\Events\2007-12\ProbationChristmasParty.JPG
+wwwroot\Photos\Events\2007-12\RebeckaAndHerSchoolFriends.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\00SeeingUsOffAtTheAirport.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\00SittingOnThePlane.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\01ArrivingAtCalgaryAirport.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\02MyCousinPat.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\03SheilaAndLyle.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\04DadMomAndTheLonseths.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\05HelenMandel.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\06HelenAndMom.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\07MomAndHerGrannyWalker.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\08BeckyAndHerKids.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\09HelenAndHartley.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\10KenAndPatsy.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\11MarkAndJill.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\12AnnikaAndAaron.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\14PizzaDinnerWithDad.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\14PizzaDinnerWithDad2.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\14PizzaDinnerWithDad3.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\14PizzaDinnerWithDad4.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\15MomAndJoy.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\16MatAndJeanieAtTheKindersleyInn.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\17AlfonsOnTheWaterSlide.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\18WendellAndElaine.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\21KensSprayer.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\22WhereTheyFlippedTheQuad.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\23BangedUpBoys.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\24AtAnOilWell.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\25KenAndPatsysHome.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart1\27DadWithHisWalker.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\26KensShop.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\27DadWithHisWalker.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\28KenPayingHisTaxes.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\29WaitingOnTheNewYear.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\30Year2008OnTheWayIn.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\31HeritageManorWhereDadIs.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\31NewYearsDinnerWithDad.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\32AtArtAndSylviaWaldes.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\33JadonAndAlison.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\34JarvisWithHisKidsAndEldon.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\35UncleHowardsFamily.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\36AaronsFolksForSupper.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\38AlfonsAndEmmaWithTheMonsterTruck.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\39AtTimHortens.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\39Helen.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\40JonAtHisComputer.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\41JimsOffice.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\42CamilleAndAnika.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\42JimRuthAndDina.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart2\44DadMomEmmaAndAlfons.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\48DadAtTheBreakfastTable.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\49AnnikaAndCanadianTireMoney.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\50AtMomsWithJimAndRuthAndAndrewAndLauriesFamily.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\51KensHorses.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\52KensHorses2.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\53TheBuffalooSkull.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\54DinnerAtTheCrossroads.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\55WithMomsCoffeeFriends.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\56BrielleAndDesta.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\57CamilleAndClark.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\58GregMakingHamburgers.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\60AlfonsAtAdelesSchool.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\62AlfonsAtAdelesSchool2.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\63DinnerAtTheKindersleyInn.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\64EvensSchoolRoom.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\65AlfonsInEvensSchoolRoom.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\66KenAtTheCrisisCenter.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\67KenWithTheStaffAtTheCrisisCenter.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\68FoodForTheNeedyProgramInTheCoopGroceryStore.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\69TheRosanaSchoolBuildingIWentTo.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\70Leon.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\71LeonGettingInstructions.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\72Adele.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\73RoughRiderFans.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\80SunriseOnTheRoadToCalgary.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\82StopAtTheDrumhillerBadlands.JPG
+wwwroot\Photos\Events\2007-12_CanadaPart3\84EightHourWaitInSeattle.JPG
+wwwroot\Photos\Events\2007-12_CanadaSecondVisit\EvenAndAdeleWithTheRoughRiders.JPG
+wwwroot\Photos\Events\2007-12_CanadaSecondVisit\FromMomsWindow.JPG
+wwwroot\Photos\Events\2007-12_CanadaSecondVisit\SevenOClockBreakfast.JPG
+wwwroot\Photos\Events\2007-12_CanadaSecondVisit\TheGreyCupInKindersley.JPG
+wwwroot\Photos\Events\2007-12_CanadaSecondVisit\WithAnikaAndAronForCoffee.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\01GettingReadyToFeedTheCows.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\02AaronsHotOilerTruck.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\03AaronsHotOilerTruck.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\04FeedingTheCattle.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\05FeedingTheCattle.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\06TheMormonCow.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\07FeedingHay.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\08ShredingForBedding.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\09FeedingCattleInTheEveningSun.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\10FeedingCattleInTheEveningSun.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\11FeedingCattleInTheEveningSun.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\12AaronAndClarkInDiscussion.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\13AnAntelope.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\13AntelopeInAField.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\14AtAWellHead.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\15AtAWellHead.JPG
+wwwroot\Photos\Events\2007-12_CanadaTheBeckers\16AaronsHouse.JPG
+wwwroot\Photos\Events\2008-01\01CleaningTheFurnaceUponOurReturnFromCanada.JPG
+wwwroot\Photos\Events\2008-01\AllexaRoss.JPG
+wwwroot\Photos\Events\2008-01\DallasRossAndHerDogs.JPG
+wwwroot\Photos\Events\2008-01\HandsTogether.jpg
+wwwroot\Photos\Events\2008-01\KenAndDad.JPG
+wwwroot\Photos\Events\2008-01\MarkAndNormaRoss.JPG
+wwwroot\Photos\Events\2008-01\NormaRossInTheKitchen.JPG
+wwwroot\Photos\Events\2008-01\SunsetOnTheFarm.JPG
+wwwroot\Photos\Events\2008-01\TheEmptyLotForTheRossNewHome.JPG
+wwwroot\Photos\Events\2008-01\YoungFarmerOldFarmersHands.jpg
+wwwroot\Photos\Events\2008-01_AnikasWedding\AllisonRileyAndEven.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\Annika.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\AnnikaAndAron.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\AnnikaAndHerFolks.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\CamilleAndClarkWatching.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\EvanAndAlison.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\KenAndPatsy.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\LeonAndHisMom.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\PixOfAdele.JPG
+wwwroot\Photos\Events\2008-01_AnikasWedding\Sisters.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\01From newspaper.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\02Obituary.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\03Obituary.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\04KindersleyFuneralHome.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\05TheViewing.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\06TheBICChurch.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\07AtTheGravesideService.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\07WalkingToTheGrave.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\08ThePallBearers.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\09AtTheGraveside.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\10MomsFathersGrave.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\12CamilleAndClark.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\13BillAndJoanBrooks.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\14MargLanceAndMom.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\15EmmaAndUncleBob.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\16WhereTheFuneralWasHeld.JPG
+wwwroot\Photos\Events\2008-01_DadsFuneral\17FlowersFromNathalie.JPG
+wwwroot\Photos\Events\2008-02\02MireillesBirthdayInGothiaTowers.JPG
+wwwroot\Photos\Events\2008-02\03MireillesBirthdayInGothenburg.JPG
+wwwroot\Photos\Events\2008-02\05MiriellesBirthdayDeckedOutInOurBathrobes.JPG
+wwwroot\Photos\Events\2008-02\06MireillesBirthdayLeavingInTheMorning.JPG
+wwwroot\Photos\Events\2008-02\09MustafasBirthday.JPG
+wwwroot\Photos\Events\2008-02\09SkiingTraditionalStopInSaffle.JPG
+wwwroot\Photos\Events\2008-02\10SkiingJustReadyToGo.JPG
+wwwroot\Photos\Events\2008-02\11SkiingGettingReadyToGo.JPG
+wwwroot\Photos\Events\2008-02\12SkiingFirstTripUpTheSlope.JPG
+wwwroot\Photos\Events\2008-02\13SkiingOurGirlsTakingARest.JPG
+wwwroot\Photos\Events\2008-02\14SkiingShowOffsOnSkateBoards.JPG
+wwwroot\Photos\Events\2008-02\15SkiingAlfonsOnASnowBoard.JPG
+wwwroot\Photos\Events\2008-02\15SkiingGrilledHambergersForLunch.JPG
+wwwroot\Photos\Events\2008-02\16SkiingJeniferAndJohanna.JPG
+wwwroot\Photos\Events\2008-02\17AlfonsOnSkiBlades.JPG
+wwwroot\Photos\Events\2008-02\17SkiingJohannaTakingARest.JPG
+wwwroot\Photos\Events\2008-02\18SkiingJonathonOnASkateBoard.JPG
+wwwroot\Photos\Events\2008-02\21SkiingThePizzaBakers.JPG
+wwwroot\Photos\Events\2008-02\22SkiingThePizzaBakers2.JPG
+wwwroot\Photos\Events\2008-02\23SkiingThePizzasGettingEaten.JPG
+wwwroot\Photos\Events\2008-02\24SkiingTheAfterSupperFun.JPG
+wwwroot\Photos\Events\2008-02\30BreakfastInTheYouthHostel.JPG
+wwwroot\Photos\Events\2008-02\31TheHostelWeStayedAt.JPG
+wwwroot\Photos\Events\2008-02\32FromTheLift.JPG
+wwwroot\Photos\Events\2008-02\33LookingDownFromTheLift.JPG
+wwwroot\Photos\Events\2008-02\34TheGirlsComingDownOnTheirSkiBoards.JPG
+wwwroot\Photos\Events\2008-02\35WaitingOnTheLift.JPG
+wwwroot\Photos\Events\2008-02\36ChineseFoodOnTheWayHome.JPG
+wwwroot\Photos\Events\2008-03\01JonathonAndTheGitar.JPG
+wwwroot\Photos\Events\2008-03\02JonathonOnAVisit.JPG
+wwwroot\Photos\Events\2008-03\10AlfonsBirthday.JPG
+wwwroot\Photos\Events\2008-03\11AlfonsParty.JPG
+wwwroot\Photos\Events\2008-03\20ArivingInOrrebro.JPG
+wwwroot\Photos\Events\2008-03\21EleanoreAndPajar.JPG
+wwwroot\Photos\Events\2008-03\22NonaAndPrusha.JPG
+wwwroot\Photos\Events\2008-03\23MireilleAndShlear.JPG
+wwwroot\Photos\Events\2008-03\24Shyane.JPG
+wwwroot\Photos\Events\2008-03\25ShyanesDadCurdishFreedomFighterKilled1978.JPG
+wwwroot\Photos\Events\2008-03\26MireilleAndPako.JPG
+wwwroot\Photos\Events\2008-03\27ShyanePerAndPajar.JPG
+wwwroot\Photos\Events\2008-03\28TheAskarisAndMireille.JPG
+wwwroot\Photos\Events\2008-03\30RebeckasBirthday.JPG
+wwwroot\Photos\Events\2008-03\31RebeckasBirthdayParty.JPG
+wwwroot\Photos\Events\2008-03\36Alfons2DayComputerLAN.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thArroundTheTable.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thBeckaAndNiklas.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thCoffeeTime.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thCoffeeTime2.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thCoffeeTime3.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thDecorating.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thEllenAndTina.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thEllenWithTheCake.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thEllyAndKerstin.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thGuest.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thHappyGuest.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thlMireilleAndNathalie.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thMarieDecorating.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thNathalieAndLouisa.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thNathalieRikardAndNona.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thNonaAndRikardDancing.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thOpeningPresents.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thOpeningPresents2.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thRikardAndEllen.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thRonnyMireilleAndRikard.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thSittingAround.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thSittingAround2.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thTheBonfire.JPG
+wwwroot\Photos\Events\2008-04\Nathalies30thTheDancers.JPG
+wwwroot\Photos\Events\2008-05\AmericanCarWeekendTheBismans.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationAndrea.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationAndreaAndEmma.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationAndreaAndHerMom.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationEmma.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationGoingToTheChurch.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationInTheChurch.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationNona.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationOpeningThePresents.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationOpeningThePresents2.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationOurGroup.JPG
+wwwroot\Photos\Events\2008-05\AndreasConfirmationTheGroup.JPG
+wwwroot\Photos\Events\2008-05\EleanoresTheaterClassShow.JPG
+wwwroot\Photos\Events\2008-05\EleanoresTheaterClassWithMom.JPG
+wwwroot\Photos\Events\2008-05\OurNewDeckFromTheNorth.JPG
+wwwroot\Photos\Events\2008-05\OurNewDeckFromTheSouth.JPG
+wwwroot\Photos\Events\2008-05\OurNewDeckFromTheStreet.JPG
+wwwroot\Photos\Events\2008-05\OurNewDeckTheStairwayDown.JPG
+wwwroot\Photos\Events\2008-05\OurNewDeckWithFurnature.JPG
+wwwroot\Photos\Events\2008-05\OurNewDeckWithTheChildrensPool.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\02GatheringAtTheSchool.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\04ReadyToLeave.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\05OurLoad.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\06ArrivalAtViskadalen.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\08InformationBeforeLeavingForTheLake.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\10GroupInstruction.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\12EleanoresClassTeacherUlrika.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\14LearningSomeKnots.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\16ArrivalAtTheCampSite.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\18EleanoreLearningWhoIsTheBoss.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\20MikaelTheOtherParent.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\22BuildingAShelter.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\24SandraJustFinishedLunch.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\26TheFirstSwimInSomeColdWater.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\28EnjoyingTheCold.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\30SomeSmiles.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\32GettingSettledIntoTheShelters.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\32LunchAgain.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\34InstructionsOnCanouing.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\36TheSafetyBoatReady.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\38HelpGettingGoing.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\40GettingTheFeelOfThings.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\42GettingGoodAtIt.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\44RealPaddlers.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\46EnjoyingIt.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\48LearningHowToBuildAFire.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\50EatingSupperOnTheShore.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\52WashingUp.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\54WaitingForAnActivity.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\56ASatisfiedGirl.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\58CooperationExersizeTheLog.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\60CooperationExersizeTheSpidersWeb.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\62KeepingAnEyeOnUs.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\63CooperationExersizeHoldingHands.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\63CooperationExersizeWaterChain.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\65CooperationExersizeTandemSkis.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\66TheFireside.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\68Sunset.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\70TheLateNightStoryTeller.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\72BreakfastInTheMorning.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\74CleaningUpTheShelters.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\77LeavingCamp.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\78GettingALift.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\80PlayingCaptureTheFlag.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\82HotBall.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\84CampLeadersTeam.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\88WatchingTheGameIntheGrass.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\90OurHosts.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\90SayingGoodBye.JPG
+wwwroot\Photos\Events\2008-05_Viskadalen\92IceCreamOnTheWayHome.JPG
+wwwroot\Photos\Events\2008-06\CurdishFriendsAtThePlayground.JPG
+wwwroot\Photos\Events\2008-06\CurdishFriendsAtThePlayground2.JPG
+wwwroot\Photos\Events\2008-06\CurdishFriendsLotsOfFood.JPG
+wwwroot\Photos\Events\2008-06\CurdishFriendsMireilleAndShlear.JPG
+wwwroot\Photos\Events\2008-06\CurdishFriendsMireilleWithPrusha.JPG
+wwwroot\Photos\Events\2008-06\CurdishFriendsTheBoys.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayAtTheTable.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayHerFriends.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayOpeningPresents.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayOur16YearOld.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayTacoMeal.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayTheCake.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayTheCakeOnTheWay.JPG
+wwwroot\Photos\Events\2008-06\EllensBirthdayTheGroup.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationArrivalAtTheSchool.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationArrivalAtTheSchool2.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationEllen.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationJenifer.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationTheLimoPickup.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationWaitingAtTheSchool.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationWithHerFriends.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationWithHerFriends2.JPG
+wwwroot\Photos\Events\2008-06\JuniorHighGraduationWithTheLimoChauffer.JPG
+wwwroot\Photos\Events\2008-06\LastDayOfSchoolASongInTheProgram.JPG
+wwwroot\Photos\Events\2008-06\LastDayOfSchoolASongInTheProgram2.JPG
+wwwroot\Photos\Events\2008-06\LastDayOfSchoolEleanoreOnTheWayIn.JPG
+wwwroot\Photos\Events\2008-06\LastDayOfSchoolEleanoresSong.JPG
+wwwroot\Photos\Events\2008-06\LastDayOfSchoolEleanoreWithHerRose.JPG
+wwwroot\Photos\Events\2008-06\LastDayOfSchoolOnTheWay.JPG
+wwwroot\Photos\Events\2008-06\LastDayOfSchoolTheWoundedKnee.JPG
+wwwroot\Photos\Events\2008-06\NonasBirthdayAtTheTable.JPG
+wwwroot\Photos\Events\2008-06\NonasBirthdayAtTheTable2.JPG
+wwwroot\Photos\Events\2008-06\NonasBirthdayNewspaper.JPG
+wwwroot\Photos\Events\2008-06\NonasBirthdayOpeningPresents.JPG
+wwwroot\Photos\Events\2008-06\NonasBirthdayTheCake.JPG
+wwwroot\Photos\Events\2008-06\OurFormerBoyJonathon.JPG
+wwwroot\Photos\Events\2008-06\Rebecka.JPG
+wwwroot\Photos\Events\2008-07\01TheBoatToMarstrandsFortress.JPG
+wwwroot\Photos\Events\2008-07\02AWalkOnTheIsland.JPG
+wwwroot\Photos\Events\2008-07\03APizzaBeforeTheShow.JPG
+wwwroot\Photos\Events\2008-07\04TheLineUpOnTheWayIn.JPG
+wwwroot\Photos\Events\2008-07\05LotsOfPeople.JPG
+wwwroot\Photos\Events\2008-07\06StartingToRain.JPG
+wwwroot\Photos\Events\2008-07\07EnjoyingTheRain.JPG
+wwwroot\Photos\Events\2008-07\08ASingerFromTrollhattan.JPG
+wwwroot\Photos\Events\2008-07\09RainedOutGoingHome.JPG
+wwwroot\Photos\Events\2008-07\10OurNeighborAtTheDayOfTheFalls.JPG
+wwwroot\Photos\Events\2008-07\11RebeckaAndNiklas.JPG
+wwwroot\Photos\Events\2008-07\12TheShowAtTheFalls.JPG
+wwwroot\Photos\Events\2008-07\13Fireworks.JPG
+wwwroot\Photos\Events\2008-07\20Neigbours50thTheNightBefore.JPG
+wwwroot\Photos\Events\2008-07\21BirthdayBoyTheMiddleOfTheNight.JPG
+wwwroot\Photos\Events\2008-07\22ArrivingAtTheParty.JPG
+wwwroot\Photos\Events\2008-07\23NathaliePlayingTheFlute.JPG
+wwwroot\Photos\Events\2008-07\24NathaliePlayingTheFlute.JPG
+wwwroot\Photos\Events\2008-07\25BirthdayDinner.JPG
+wwwroot\Photos\Events\2008-07\26ABirthdayDanceWithHisWife.JPG
+wwwroot\Photos\Events\2008-07\27NiklasAndBeckaOnTheDanceFloor.JPG
+wwwroot\Photos\Events\2008-07\28ABirthdayPartyKiss.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\01WaitingOnTheFerryToGermany3AM.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\02RoadsideBreakfastInGermany.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\03ABreakFromSitting.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\04AStopInAustria.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\05AStopInAustria2.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\05AStopInAustria3.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\06LineupsInSlovakia.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\07PierresFirstJump.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\08AlfonsJump.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\09EleanoreOnTheWayIn.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\11PierreAndNiklas.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\12AlfonsGettingALift.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\13EleanoreWithASplash.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\14NonaInTheCenter.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\20PierreOnOurDeck.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\21IceCreamInPrimosten.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\22BuyingDeepFriedOctapusInPrimosten.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\23SeagullsOnTheRoof.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\24TheMusselsInPrimosten.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\24TheSunGoingDownInPrimosten.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\25ThrowingStonesInTheSea.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\26EatingMusselsInPrimosten.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\30WatchingEuropeanSoccorChampionshipGame.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\31Married18Years.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\32AlfonsAndPierreGettingTheirGrearTogether.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\32OnTheBeach.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\34InTheWater.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\35Floating.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\36NonaInTheWater.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\37HaircutAndShaveFor8Bucks.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\38TheStreetsOfSibenik.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\39SunsetInTheSibenikHarbour.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\40WatchingAFilmOnTheBusesDVD.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\41AGoodBookAndACupOfCoffee.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\42AGameOfCardsInTheEvening.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\50LookingForAnotherBeach.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\51TheBungyJump.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\52IceCreamInVodice.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\53EatingFreshFigs.JPG
+wwwroot\Photos\Events\2008-07_Croatia1\54NonaCheckingOutTheBottomWithHerSnorkle.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\60NewSwedishFriends.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\61NewSwedishFriends.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\62AWalkInPrimosten.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\63ASidewalkOnTheShoreline.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\64ADrinkAlongTheWay.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\65OurVillageFromTheHill.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\66AtTheRoastPigRestaurant.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\67AtTheRoastPigRestaurant.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\80FivehundredHorsePowerLetLoose.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\80HappyGirls.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\81AFortBuiltByTheRomans600AC.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\82TheIslandWhereWeStoppedToEat.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\83DalmatianLunchOnTheIsland.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\84WaitingOnTheBoad.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\85LazingOnTheBoat.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\86OurBoothInAnIslandRestaurant.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\87ABeautyOnTheBoat.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\88MireilleAndEleanore.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\89Myself.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\90ThanksForTheIslandTrlp.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\90TheSplitBeachWalkway.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\91SplitMarketBoothsWithRomanWallInTheBackground.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\92SplitMarketBoothsWithRomanWallInTheBackground.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\93SplitInnerGardenInTheOldCity.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\94IceCreamInSplit.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\95CroatianParkingInSibenik.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\96SwedishNeighborsInCroatia.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\97SwedishNeighborBoys.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9801The3000YearOldCityofZadar.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9802ListeningToTheSeaOrganPlayedByTheWaves.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9803ListeningToTheSeaOrganPlayedByTheWaves.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9804SwimmingAtTheSeaOrganPlayedByTheWaves.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9805RebeckaFailingAsAClimber.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9806WavingNiklasAndBeckaOffAtZadarAirport.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\98JonasAndNona.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9901StarringAtTheOceanInPrimosten.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9902AlfonsDoingAFlip.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9903EllenHoldingTheSettingSun.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9904ACroatianFriendTakingUsForABoatTrip.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9904EatingLunchAndSnorkelingForShellsAndCrabbs.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9905OnTheBoatTrip.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9906MeetingATouristBoat.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9907TheAncientWallToIsolateLepers.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9920EatingWithFriendsTheNightBeforeWeLeave.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9921CoffeWithOurHostBeforeWeLeave.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9922A10kmQueAtAMountanTunnel.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9923AStorksNestInHungary.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9924CastleByOurHotelInBratislavaSlovakia.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9925KentuckyFriedChickenInPragTjeckianRepublic.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9926FourteenHoursThroughGermanyDenmarkAndSweden.JPG
+wwwroot\Photos\Events\2008-07_Croatia2\9927PlayingCardsOnTheCarSeat.JPG
+wwwroot\Photos\Events\2008-08\MyBirthdayOpeningPresents.JPG
+wwwroot\Photos\Events\2008-08\MyBirthdayParty.JPG
+wwwroot\Photos\Events\2008-08\MyBirthdayTheCake.JPG
+wwwroot\Photos\Events\2008-08\OurHouseFromTheStreet.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\01Arrival.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\02WhereIGrewUp.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\04KenAndPatsysTrailer.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\06WelcomeToKindersley.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\07KensSprayer.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\08GoldenGrain.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\10HutteriteFamily.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\12KenAndHartley.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\13AnneAndLeanne.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\15AdeleCatchingTheSchoolBus.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\17JeanieAndMatsHouseInLaRonge.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\18MatInHisPoliceVehicle.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\19AmphibiousPlaneInLaRonge.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\20LaRongeStreet.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\21MattAndJeanie.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\24GettingAManicureInSaskatoon.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\25CamilleAndLiam.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\25CamilleClarkAndLiam.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\28JimRuthAndFamily.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\29DougAndJoan.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\30MomsCoffeeShop.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\31LifeTimeCoffeeCard.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\32MomsCoffeeShop.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\33KindersleyMainStreet.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\33KindersleysOilIndustry.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\34AtDadsGrave.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\35Combining.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\35MomsFriendsWithMireille.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\35SundownOnThePrairies.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\36MomsKitchen.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\36MomsLivingRoom.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\37MireilleInTheCombine.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\38LeonInTheCombine.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\38MomAtTheShuffleBoard.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\39MomAndMireille.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\40UncleStanInHanna.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\41OurHotelInBanff.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\42BanffNationalPark.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\43KenAndPatsyBanffNationalPark.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\45FromLakeLouiseGondola.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\46LakeLouise.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\47LakeLouise.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\48LakeLouiseMireilleAndIngela.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\50 ABanffStreet.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\52TheRoadFromCalgaryToBanff.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\54CalgarySkyline.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\55CalgaryCherryAndTheKids.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\56CalgaryTimsOffice.JPG
+wwwroot\Photos\Events\2008-09_MireilleICanada\57FinalPacking.JPG
+wwwroot\Photos\Events\2008-10\01PracticingThePyramid.JPG
+wwwroot\Photos\Events\2008-10\02EllenAndAFriend.JPG
+wwwroot\Photos\Events\2008-10\03OurHousInFallColors.JPG
+wwwroot\Photos\Events\2008-10\05ALazyCat-Alice.JPG
+wwwroot\Photos\Events\2008-10\09TantAnnasBirthday.JPG
+wwwroot\Photos\Events\2008-10\10TantAnnas100thBirthday.JPG
+wwwroot\Photos\Events\2008-10\11CopenhagenArrivalAtOurHotel.JPG
+wwwroot\Photos\Events\2008-10\12CopenhagenGettingStarted.JPG
+wwwroot\Photos\Events\2008-10\13CopenhagenTheEveningOnTheTown.JPG
+wwwroot\Photos\Events\2008-10\14CopenhagenDinner.JPG
+wwwroot\Photos\Events\2008-10\15CopenhagenEnjoyingBreakfast.JPG
+wwwroot\Photos\Events\2008-10\16CopenhagenStartingOurWalkThroughDowntown.JPG
+wwwroot\Photos\Events\2008-10\18CopenhagenIngelaOnStröget.JPG
+wwwroot\Photos\Events\2008-10\19CopenhagenMagnusAndLars.JPG
+wwwroot\Photos\Events\2008-10\20CopenhagenWaitingOnSomeLadies.JPG
+wwwroot\Photos\Events\2008-10\22CopenhagenTogether.JPG
+wwwroot\Photos\Events\2008-10\24CopenhagenLarsAndAnders.JPG
+wwwroot\Photos\Events\2008-10\26CopenhagenAChurchOnStröget.JPG
+wwwroot\Photos\Events\2008-10\29KurdishBirthdayGirlAndMom.jpg
+wwwroot\Photos\Events\2008-10\30KurdishBirthdayDance.jpg
+wwwroot\Photos\Events\2008-10\32NathalieAndNiklas.JPG
+wwwroot\Photos\Events\2008-10\34EllenAndJennifer.JPG
+wwwroot\Photos\Events\2008-11\01FallStewLiningUpToEat.JPG
+wwwroot\Photos\Events\2008-11\02FallStewIngemarTheCook.JPG
+wwwroot\Photos\Events\2008-11\03FallStewIngemarTheCook.JPG
+wwwroot\Photos\Events\2008-11\04FallStewIngemarTheCook.JPG
+wwwroot\Photos\Events\2008-11\06Maria.JPG
+wwwroot\Photos\Events\2008-11\07Emma.JPG
+wwwroot\Photos\Events\2008-11\Yasemin.JPG
+wwwroot\Photos\Events\2008-12\BakingGingerBreadCookies1.JPG
+wwwroot\Photos\Events\2008-12\BakingGingerBreadCookies2.JPG
+wwwroot\Photos\Events\2008-12\BakingGingerBreadCookiesAllDone.JPG
+wwwroot\Photos\Events\2008-12\DecoratingTheTree.jpg
+wwwroot\Photos\Events\2008-12\EllensSchoolAtTheTable.JPG
+wwwroot\Photos\Events\2008-12\EllensSchoolEllenAndHerFriend.JPG
+wwwroot\Photos\Events\2008-12\EllensSchoolTheKitchen.JPG
+wwwroot\Photos\Events\2008-12\EllensSchoolUs.JPG
+wwwroot\Photos\Events\2008-12\GlöggWithSomeFriends.JPG
+wwwroot\Photos\Events\2008-12\NeighborsAtHome.JPG
+wwwroot\Photos\Events\2008-12\NonaInTheSaintLuciaCelebration.JPG
+wwwroot\Photos\Events\2008-12\OurCurdishFriendsCelebratingHisImmigrantVisa.JPG
+wwwroot\Photos\Events\2008-12\OurCurdishFriendsOurHost.JPG
+wwwroot\Photos\Events\2008-12\OurCurdishFriendsTheFood.JPG
+wwwroot\Photos\Events\2008-12\OurCurdishFriendsTheLadyOfTheHouse.JPG
+wwwroot\Photos\Events\2008-12\SantaAndAlfons.jpg
+wwwroot\Photos\Events\2008-12\SantasPresentToEmma.jpg
+wwwroot\Photos\Events\2008-12\SantasVisit.jpg
+wwwroot\Photos\Events\2008-12\SantasVisit2.jpg
+wwwroot\Photos\Events\2008-12\UnderTheTree.jpg
+wwwroot\Photos\Events\2008-12\VisitFromNeighborsErika.JPG
+wwwroot\Photos\Events\2008-12\VisitFromNeighborsJamesCooking.JPG
+wwwroot\Photos\Events\2009-02\14Mireilles40thOutWithTheGirls.JPG
+wwwroot\Photos\Events\2009-02\16Mireilles40thOutWithTheGirls.JPG
+wwwroot\Photos\Events\2009-02\17Mireilles40thGettingMassage.JPG
+wwwroot\Photos\Events\2009-02\18Mireilles40thMakingTheSallad.JPG
+wwwroot\Photos\Events\2009-02\20Mireilles40thEmmaAndBecka.JPG
+wwwroot\Photos\Events\2009-02\20Mireilles40thTheWaitresses.JPG
+wwwroot\Photos\Events\2009-02\21Mireilles40thTheDinningRoom.JPG
+wwwroot\Photos\Events\2009-02\21Mireilles40thTheDinningRoom2.JPG
+wwwroot\Photos\Events\2009-02\21Mireilles40thTheFood.JPG
+wwwroot\Photos\Events\2009-02\22Mireilles40thTheDinningRoom.JPG
+wwwroot\Photos\Events\2009-02\23Mireilles40thTheDinningRoom.JPG
+wwwroot\Photos\Events\2009-02\24Mireilles40thTheDinningRoom.JPG
+wwwroot\Photos\Events\2009-02\25Mireilles40thToastToThe40YearOld.JPG
+wwwroot\Photos\Events\2009-02\26Mireilles40thTheClown.JPG
+wwwroot\Photos\Events\2009-02\27Mireilles40thTheSingers.JPG
+wwwroot\Photos\Events\2009-02\28Mireilles40thNathaliesFriendstheSingers.JPG
+wwwroot\Photos\Events\2009-02\29Mireilles40thEleanoresSong.JPG
+wwwroot\Photos\Events\2009-02\29Mireilles40thMireileOnTheStage.JPG
+wwwroot\Photos\Events\2009-02\30MariaAsARobot.JPG
+wwwroot\Photos\Events\2009-02\30NonaJumpingOutOfTheCake.JPG
+wwwroot\Photos\Events\2009-02\30TwoOfMireillesWorkFriends.JPG
+wwwroot\Photos\Events\2009-02\32Mireilles40thEleanoresSong.JPG
+wwwroot\Photos\Events\2009-02\34Mireilles40thRebeckasSpeech.JPG
+wwwroot\Photos\Events\2009-02\35EnjoyingTheProgram.JPG
+wwwroot\Photos\Events\2009-02\36EnjoyingTheProgram.JPG
+wwwroot\Photos\Events\2009-02\40OnTheDanceFloor.JPG
+wwwroot\Photos\Events\2009-03\Alfons15Years.jpg
+wwwroot\Photos\Events\2009-03\AlfonsPresents.jpg
+wwwroot\Photos\Events\2009-03\Eleanore.jpg
+wwwroot\Photos\Events\2009-03\Emma.jpg
+wwwroot\Photos\Events\2009-03\RebeckaAt18.jpg
+wwwroot\Photos\Events\2009-03\RebeckaAtTheTable.jpg
+wwwroot\Photos\Events\2009-03\RebeckaOpeningPresents.jpg
+wwwroot\Photos\Events\2009-04\01LeavingForUmea.jpg
+wwwroot\Photos\Events\2009-04\02StopAlongTheWay.jpg
+wwwroot\Photos\Events\2009-04\03TwelveHoursInTheCar.jpg
+wwwroot\Photos\Events\2009-04\04WithNathalieAndNiklasAtLast.jpg
+wwwroot\Photos\Events\2009-04\05ReadyToSki.jpg
+wwwroot\Photos\Events\2009-04\06TryingToGetTheHangOfIt.jpg
+wwwroot\Photos\Events\2009-04\07TryingToKeepUpright.jpg
+wwwroot\Photos\Events\2009-04\08HambergersJustOffTheFire.jpg
+wwwroot\Photos\Events\2009-04\10WaitingForTheLift.jpg
+wwwroot\Photos\Events\2009-04\11DinnerWithNiklasFamily.jpg
+wwwroot\Photos\Events\2009-04\12NiklasAndHisMom.jpg
+wwwroot\Photos\Events\2009-04\14EatingOutInUmea.jpg
+wwwroot\Photos\Events\2009-04\15SnowstormInUmea.jpg
+wwwroot\Photos\Events\2009-04\16PrenatalCheckup.jpg
+wwwroot\Photos\Events\2009-04\17PrenatalCheckup.jpg
+wwwroot\Photos\Events\2009-04\18LouisasArrival.jpg
+wwwroot\Photos\Events\2009-04\20TheLongTripHome.jpg
+wwwroot\Photos\Events\2009-04\22StopAtTheAtarisOnTheWayHome.jpg
+wwwroot\Photos\Events\2009-04\24TheAtaris.jpg
+wwwroot\Photos\Events\2009-04\26EasterDinner.jpg
+wwwroot\Photos\Events\2009-04\28EasterKidsOffToGetCandies.jpg
+wwwroot\Photos\Events\2009-04\29VisitingElla.jpg
+wwwroot\Photos\Events\2009-04\30MagnusMakingEggToddy(60eggs).jpg
+wwwroot\Photos\Events\2009-04\32ExchangeStudentVisitors.jpg
+wwwroot\Photos\Events\2009-04\32ExchangeStudentVisitorsOnTheTrampoline.jpg
+wwwroot\Photos\Events\2009-04\33FriendFromNamibia.jpg
+wwwroot\Photos\Events\2009-04\NiklasFiddy.jpg
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\Halleluja.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\Hugo.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\HugoIForundran.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\Mikael.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\OnTheWayOut.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\OutsideTheChurch.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\RonjaIForundran.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\TeresOchRonja.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\TheAlter.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\TheMusic.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\UtanforKyrkan.JPG
+wwwroot\Photos\Events\2009-05_MikaelAndTeresWedding\WeddingKiss.JPG
+wwwroot\Photos\Events\2009-06\Ellens17thBirthday.jpg
+wwwroot\Photos\Events\2009-06\GraduationBallGettingReady.jpg
+wwwroot\Photos\Events\2009-06\GraduationBallGettingReady2.jpg
+wwwroot\Photos\Events\2009-06\GraduationBallGettingReady3.jpg
+wwwroot\Photos\Events\2009-06\GraduationBallGettingReady4.jpg
+wwwroot\Photos\Events\2009-06\GraduationBallLeavingInTheConvertableSAAB.jpg
+wwwroot\Photos\Events\2009-06\GraduationBallWatchingThemArrive.jpg
+wwwroot\Photos\Events\2009-06\GraduationBallWatchingThemGetOutOfTheCar.jpg
+wwwroot\Photos\Events\2009-06\GraduationBreakfastPartyArriving.jpg
+wwwroot\Photos\Events\2009-06\GraduationBreakfastPartyAtTheTable.jpg
+wwwroot\Photos\Events\2009-06\GraduationBreakfastPartyOutside.jpg
+wwwroot\Photos\Events\2009-06\GraduationBreakfastPartyTheBoys.jpg
+wwwroot\Photos\Events\2009-06\GraduationComingOutOfTheSchool.jpg
+wwwroot\Photos\Events\2009-06\GraduationComingOutOfTheSchool2.jpg
+wwwroot\Photos\Events\2009-06\GraduationNiklasAndBecka.jpg
+wwwroot\Photos\Events\2009-06\GraduationPartyAllanAndMirjam.jpg
+wwwroot\Photos\Events\2009-06\GraduationPartyMy3Oldest.jpg
+wwwroot\Photos\Events\2009-06\GraduationPartyOpeningEmmaAndMireille.jpg
+wwwroot\Photos\Events\2009-06\GraduationPartyOpeningPresents.jpg
+wwwroot\Photos\Events\2009-06\GraduationPartyOpeningPresents2.jpg
+wwwroot\Photos\Events\2009-06\GraduationPartyShelearAndMireille.jpg
+wwwroot\Photos\Events\2009-06\GraduationSign.jpg
+wwwroot\Photos\Events\2009-06\HelenasHanna.jpg
+wwwroot\Photos\Events\2009-06\LastDayOfSchoolInTheChurch.jpg
+wwwroot\Photos\Events\2009-06\LastDayOfSchoolInTheChurch2.jpg
+wwwroot\Photos\Events\2009-06\LastDayOfSchoolInTheRain.jpg
+wwwroot\Photos\Events\2009-06\MattiasGraduation.jpg
+wwwroot\Photos\Events\2009-06\MattiasGraduationAtTheTable.jpg
+wwwroot\Photos\Events\2009-06\MattiasGraduationNona.jpg
+wwwroot\Photos\Events\2009-06\MattiasGraduationTheCake.jpg
+wwwroot\Photos\Events\2009-06\NathaliesFriends.jpg
+wwwroot\Photos\Events\2009-06\NathaliesLucas.jpg
+wwwroot\Photos\Events\2009-06\NathaliesLucasAndAlfons.jpg
+wwwroot\Photos\Events\2009-06\NathaliesLucasAndEleanore.jpg
+wwwroot\Photos\Events\2009-06\NathaliesLucasAndEllen.jpg
+wwwroot\Photos\Events\2009-06\NathaliesLucasAndMireille.jpg
+wwwroot\Photos\Events\2009-06\NathaliesLucasCheckingANose.jpg
+wwwroot\Photos\Events\2009-06\NathaliesLucasLunch.jpg
+wwwroot\Photos\Events\2009-06\TheLittleOnesAndTheirHands.jpg
+wwwroot\Photos\Events\2009-06\TheLittleOnesAndTheirMoms.jpg
+wwwroot\Photos\Events\2009-06\TheLittleOnesHavingAChat.jpg
+wwwroot\Photos\Events\2009-06\TheLittleOnesSleeping.jpg
+wwwroot\Photos\Events\2009-06\WeddingAnniversaryTheHotel.jpg
+wwwroot\Photos\Events\2009-06\WeddingAnniversaryTheRestau.jpg
+wwwroot\Photos\Events\2009-06\WeddingAnniversaryWalkAlong.jpg
+wwwroot\Photos\Events\2009-07\Alfons Sweden09.JPG
+wwwroot\Photos\Events\2009-07\Annette&Uncle Edgar.JPG
+wwwroot\Photos\Events\2009-07\Aunty Mireille.JPG
+wwwroot\Photos\Events\2009-07\EleanoreAnnette&Nona.JPG
+wwwroot\Photos\Events\2009-07\EleanoreGettingHerStitchesOu.JPG
+wwwroot\Photos\Events\2009-07\Ellen.JPG
+wwwroot\Photos\Events\2009-07\EllenAnnetteAlfonsRebeckaEdgarEleanoreMireilleNona.JPG
+wwwroot\Photos\Events\2009-07\Rebecka&Nikolas.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\01ABreakfastStopAlongTheWay.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\01EatingAlongTheWay.jpg
+wwwroot\Photos\Events\2009-07_Croatia1\02AStopToStretchOurLegs.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\03AnAustrianRestaurantStop.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\06RepackingAlongTheWay.jpg
+wwwroot\Photos\Events\2009-07_Croatia1\07ACroatianTunnel.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\09OurFirstBreakfastInCroatia.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\10OurSpotOnTheBeach.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\12OurSpotOnTheBeach2.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\13FacingTheWavesInPrimosten.jpg
+wwwroot\Photos\Events\2009-07_Croatia1\14ExtinguishingAFire.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\16FireFighterAiroplaneLoadingWater.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\18VisitorsOnOurDeck.jpg
+wwwroot\Photos\Events\2009-07_Croatia1\19AlfonsOnHisBed.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\19TheLadiesInTheWater.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\20Waterlife.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\21ImportantDiscussions.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\22MakingAPoint.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\22MeAndTheParrot.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\23MikaelsMuscles.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\23NonaAndTheParrot.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\24SundownInPrimosten.jpg
+wwwroot\Photos\Events\2009-07_Croatia1\25TheTallbergsInPrimosten.jpg
+wwwroot\Photos\Events\2009-07_Croatia1\26TheMasseyBusloadInPrimosten.jpg
+wwwroot\Photos\Events\2009-07_Croatia1\28MatthewsArrival.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\30InTrogir.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\31EatingOutInTrogir.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\32SimonOnTheBeach.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\33AlfonsOnTheBeach.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\34WatchingTheSwimers.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\35MikaelWithNona.JPG
+wwwroot\Photos\Events\2009-07_Croatia1\36AnEveningOnOurDeck.jpg
+wwwroot\Photos\Events\2009-07_Croatia2\37TheIslandTripMireilleAndTeres.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\38TheIslandTripOnTheWayOut.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\39TheIslandTripMireille.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\40TheAbandonedResortEllensJump.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\40TheAbandonedResortMariaDaredToJump.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\40TheAbandonedResortMikaelAndHugo.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\41TheAbandonedResortOurSpot.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\42TheAbandonedResortSimon.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\43TheAbandonedResortMireilleAndAlfons.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\44TheAbandonedResortEllenAndAlfons.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\45TheAbandonedResortFryingFishForDinner.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\46TheAbandonedResortFryedFish.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\47TheAbandonedResortFryedFishAllGone.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\48TheAbandonedResortEmptySwimingPool.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\49TheAbandonedResortInTheWater.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\50TheAbandonedResortTakingItEasy.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\52TheAbandonedResortTakingItEasy.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\53TheAbandonedResortMireilleAndEllen.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\55TheIslandTripATiredBoy.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\55TheIslandTripGoingHome.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\56TheIslandTripTheCaptainsWife.JPG
+wwwroot\Photos\Events\2009-07_Croatia2\59TheIslandTripTheExcursionHostsAndEllen.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\60EatingPizza-20Swedes.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\62SimonHelpingOurLandlady.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\64RoastPigRestaurantEllenAndMireille.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\65RoastPigRestaurantEllenAndEllen.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\66RoastPigRestaurantMikaelAndTeres.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\67RoastPigRestaurantEllenAndMe.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\68RoastPigRestaurantMe.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\69RoastPigRestaurant.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\76EatingPizzaOnTheOceanOrganInZadar.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\78ListeningToTheOceanWaveOrganInZadar.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\80TheMovingOceanLightsInZadar.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\82PicnicLunchAtAGasStationJustLeavingCroatia.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\84SomewhereBetweenLjubliannaSloveniaAndViennaAustria.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\86OurHotelInTheCzekCountryside.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\88HikingItThroughPrag.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\89WaitingForTheBoatToDenmark.JPG
+wwwroot\Photos\Events\2009-07_Croatia3\90WaitingForTheBoatToDenmark.JPG
+wwwroot\Photos\Events\2009-08\16CheckingOutTheFallsInTrollhättan.jpg
+wwwroot\Photos\Events\2009-08\20DinnerOnTheDeckWithEmilAndKaren.jpg
+wwwroot\Photos\Events\2009-08\22 EmilAndLukas.jpg
+wwwroot\Photos\Events\2009-08\23EmilWithHisTwoSisters.JPG
+wwwroot\Photos\Events\2009-08\24EmilAndKarenAtMarstrand.jpg
+wwwroot\Photos\Events\2009-08\25TheKidsOnTheBeach.jpg
+wwwroot\Photos\Events\2009-08\26ThePicnicAtMarstrand.jpg
+wwwroot\Photos\Events\2009-08\28The5kmWalkThroughTheRocks.jpg
+wwwroot\Photos\Events\2009-08\29The5kmWalkThroughTheRocks.jpg
+wwwroot\Photos\Events\2009-08\30AGoodSwimAfterTheWalk.jpg
+wwwroot\Photos\Events\2009-08\31TheComfortOfASisterAfterAFall.jpg
+wwwroot\Photos\Events\2009-08\40MomAndNonaAllWrapedUp.jpg
+wwwroot\Photos\Events\2009-08\42EmmaAndHerTwoGrandmas.jpg
+wwwroot\Photos\Events\2009-08\44AtTheWangerstedts.jpg
+wwwroot\Photos\Events\2009-08\46MyBirthdayParty.jpg
+wwwroot\Photos\Events\2009-08\50EleanoreAndIda.jpg
+wwwroot\Photos\Events\2009-09\01TheChristeningOfHelenasAndBennysDaughter.jpg
+wwwroot\Photos\Events\2009-09\02EllenAndNonaWithHanna.jpg
+wwwroot\Photos\Events\2009-09\03Hanna.jpg
+wwwroot\Photos\Events\2009-09\04FallColorsFromOurDeck.JPG
+wwwroot\Photos\Events\2009-09\05NonasSchoolPix.JPG
+wwwroot\Photos\Events\2009-09\06NonasClassPix.JPG
+wwwroot\Photos\Events\2009-09\08EleanoreAndLukas.JPG
+wwwroot\Photos\Events\2009-09\10BengtITrollhattan.JPG
+wwwroot\Photos\Events\2009-09\14TheShop.JPG
+wwwroot\Photos\Events\2009-09\91DadsGravestone.JPG
+wwwroot\Photos\Events\2009-09\92DadsGravestoneBeingPutIntoPlace.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\01WaitingOnTheBusToOurFriends.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\02HungryAt2InTheMorningButRestaurantsWhereOpen.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\03FirstMorningFromOurApartment.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\04WonderfulTurkishBreakfast.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\05TheMediteranean28DegreeWater.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\06LazingOnTheBeach.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\07LeavingOurCompoundToDoSomeShopping.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\08ALittleCutieHelpingHerDad.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\09AtTheMarket.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\10ThinBreadAtTheMarket.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\12AtGoodMealAtACurdishFreindsRestaurant.jpg
+wwwroot\Photos\Events\2009-09_Turkey1\14Day2OnTheBeach.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\15Day2OnTheBeach.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\20MustafasFriendsHotel.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\21IdrisWifeAndDaughter.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\22TurkishBath.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\24MustafaAtTheAlanyaCastleRuins.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\25MidnightSnackWithFriends.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\26TurkishCoffeeWithMustafasUncleFromAnkara.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\27FishingBoatJustOutsideOurWindow.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\28FromOurBalcony.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\29AnEveningGrill.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\30AnEveningGrill.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\32TurkishTeaMaker.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\33AroundTheEveningTable.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\36OurBreakfastTableWithFriends.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\37OurBreakfastTableWithFriends.JPG
+wwwroot\Photos\Events\2009-09_Turkey1\38TheFriendsWeAteBreakfastWith.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\40InTheMountainsOnTheWayToTheCaves.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\42MireilleAndInTheMountains.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\43MustafaAndBirsenInTheMountains.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\44InTheCavesOfDim.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\46MirjamsHome.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\47MirjamsSonInTheirFarmGarden.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\48TheOrangeTreeInMirjamsGarden.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\49MirjamsCow.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\50MirjamBakingBread.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\51MireilleTryingToHelp.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\52TeaAtMirjamsHouse.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\54TheBananaTrees.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\60DinnerAtAFreindsHotelRestaurant.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\62RentingATableForABarbeque.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\63BarbequedPeppar.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\64GettingTheFoodReady.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\66WasItEverGood.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\70AWalkForACountryVisit.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\70EveningTeaAgain.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\72SchoolBusesOutsideASchool.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\74TheCountryCottageWeVisited.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\76BreakfastInTheCountry.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\78MireilleAndOurBreakfastHost.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\86LastDayOnTheBeach.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\88WashingOffTheSaltWaterInThePool.JPG
+wwwroot\Photos\Events\2009-09_Turkey2\90TheLastEveningBeforeReturningHome.JPG
+wwwroot\Photos\Events\2009-10\EleanoresClassPix.JPG
+wwwroot\Photos\Events\2009-10\EleanoresSchoolPix.JPG
+wwwroot\Photos\Events\2009-10\EllensSchoolPix.jpg
+wwwroot\Photos\Events\2009-10\LucasAndNathalieOnTheWayHome.JPG
+wwwroot\Photos\Events\2009-10\LucasPackedUpForGoingHome.JPG
+wwwroot\Photos\Events\2009-10\MomsNewCar.JPG
+wwwroot\Photos\Events\2009-10\OpeningTheNewCoopInKindersley.JPG
+wwwroot\Photos\Events\2009-10\TheDeerInOurBackYard.JPG
+wwwroot\Photos\Events\2009-10\TheHalloweeners.jpg
+wwwroot\Photos\Events\2009-11\APreChristmasGetTogether.jpg
+wwwroot\Photos\Events\2009-11\APreChristmasGetTogether2.jpg
+wwwroot\Photos\Events\2009-11\EllenInTheHospitalWithHerSisters.jpg
+wwwroot\Photos\Events\2009-11\EllensFlowersFromGrandma.jpg
+wwwroot\Photos\Events\2009-11\LeonsHouseAfterTheFire.JPG
+wwwroot\Photos\Events\2009-11\LeonsHouseFire.jpg
+wwwroot\Photos\Events\2009-11\NonaOnHerViolin.jpg
+wwwroot\Photos\Events\2009-11\ReadyForTheGreycupGame.jpg
+wwwroot\Photos\Events\2009-11\TheFirstAdventCandleLighting.jpg
+wwwroot\Photos\Events\2009-12\02MakingChristmasCandy.jpg
+wwwroot\Photos\Events\2009-12\04DancingToNonasMJCD.jpg
+wwwroot\Photos\Events\2009-12\06ChristmasBreakfast.jpg
+wwwroot\Photos\Events\2009-12\08ChristmasBreakfastWithTheNeighbors.jpg
+wwwroot\Photos\Events\2009-12\10TheCooksAtTheSocialHelpCenter.jpg
+wwwroot\Photos\Events\2009-12\12TheChristmasTableAtTheHelpCenter.jpg
+wwwroot\Photos\Events\2009-12\14ChristmasCelebrationAtTheHelpCenter.jpg
+wwwroot\Photos\Events\2009-12\16TheFamilyAtChristmas.jpg
+wwwroot\Photos\Events\2009-12\18FillingUpOurPlates.jpg
+wwwroot\Photos\Events\2009-12\20FillingUpTheDishes.jpg
+wwwroot\Photos\Events\2009-12\22AroundTheChristmasTable.jpg
+wwwroot\Photos\Events\2009-12\24HereComesSanta.jpg
+wwwroot\Photos\Events\2009-12\26OpeningPresents.jpg
+wwwroot\Photos\Events\2009-12\28ShouldBeInBed.jpg
+wwwroot\Photos\Events\2009-12_Canada\01WaitingforTakeOffInGothenburg.jpg
+wwwroot\Photos\Events\2009-12_Canada\02WaitingForOurHotelShuttleInFrankfurt.jpg
+wwwroot\Photos\Events\2009-12_Canada\04OnThePlaneToCalgary-Finally.jpg
+wwwroot\Photos\Events\2009-12_Canada\05OnTheRoadToKindersley.jpg
+wwwroot\Photos\Events\2009-12_Canada\06StopAtTheDrumhillerBadlands.jpg
+wwwroot\Photos\Events\2009-12_Canada\08BreakfastWithMom.jpg
+wwwroot\Photos\Events\2009-12_Canada\10AnikasTummy.jpg
+wwwroot\Photos\Events\2009-12_Canada\12NonaAndLiamOnTheWayToSaskatoon.jpg
+wwwroot\Photos\Events\2009-12_Canada\14Adele.jpg
+wwwroot\Photos\Events\2009-12_Canada\17LeonOnTheWayToWork.jpg
+wwwroot\Photos\Events\2009-12_Canada\20MomAtTheRestaurantBreakfast.jpg
+wwwroot\Photos\Events\2009-12_Canada\21BreakfastWithMom.jpg
+wwwroot\Photos\Events\2009-12_Canada\22BreakfastWithMom.jpg
+wwwroot\Photos\Events\2009-12_Canada\25BarbaraAndAdele.jpg
+wwwroot\Photos\Events\2009-12_Canada\26GrandmaWithGloriaAndRodney.jpg
+wwwroot\Photos\Events\2009-12_Canada\27GrandmaWithHerPincushionFromNona.jpg
+wwwroot\Photos\Events\2009-12_Canada\28GrandmasFridgeWithEllensLetter.jpg
+wwwroot\Photos\Events\2009-12_Canada\30OilWellMaintenenceSite.jpg
+wwwroot\Photos\Events\2009-12_Canada\31AronsHotOiler.jpg
+wwwroot\Photos\Events\2009-12_Canada\32AronWorkingAt-30degrees.jpg
+wwwroot\Photos\Events\2009-12_Canada\33TheWellHead.jpg
+wwwroot\Photos\Events\2009-12_Canada\34GrandmaAndNona.jpg
+wwwroot\Photos\Events\2009-12_Canada\FromEllenToGrandma.jpg
 wwwroot\Photos\Events\2010-01_Canada_1\01GrantAndLana.jpg
 wwwroot\Photos\Events\2010-01_Canada_1\02TheNewYearsMoment.jpg
 wwwroot\Photos\Events\2010-01_Canada_1\03GrantAndLana.jpg
@@ -5686,274 +7210,3 @@ wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\LenartAndInvor.jpg
 wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\LennartAndEllen.jpg
 wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\MeWithLennart.jpg
 wwwroot\Photos\Events\2026-01-16_Special-Visit-With-Lennart\OverVänern.jpg
-wwwroot\Photos\Events\1998-06_Family\Alfons summer 98.jpg
-wwwroot\Photos\Events\1998-06_Family\Eleanore summer 98.jpg
-wwwroot\Photos\Events\1998-06_Family\Ellen summer 98.jpg
-wwwroot\Photos\Events\1998-06_Family\Emma summer 98.jpg
-wwwroot\Photos\Events\1998-06_Family\Rebecka summer 98.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\-Viewer.asp
-wwwroot\Photos\Events\1998-07_MasseyPix\Andrew Johnsson and wife.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\Anne and Davids familly.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\Doug + Joans familly 1998.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\Doug Joan and children.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\Found in JennyWilsons things.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\Shaun and Ericas wedding.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\Smeatonpreps 69.jpg
-wwwroot\Photos\Events\1998-07_MasseyPix\Wilfred+Carols familly.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Christmas games 2.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Christmas games 3.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Christmas games 4.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Christmas games mirre.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Christmas games1.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Emmapeelspotatoes.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Garath981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Ingemar981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Lows 1 981227.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Lows 2 981227.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Massey 1 981227.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Massey 2 981227.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Morfar981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Morfarshus.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Officebuilding981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Opening presents.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Santa.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Santa2.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Sara och Soraja.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Stefan981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Vrthus 981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Vrthus981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Vårthus 981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Vårthus981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\Webservers.jpg
-wwwroot\Photos\Events\1998-12_Christmas\xmasdinner981224.jpg
-wwwroot\Photos\Events\1998-12_Christmas\xmasgirlshair.jpg
-wwwroot\Photos\Events\1998-12_Christmas\xmaskids981224.jpg
-wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating1.jpg
-wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating11.jpg
-wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating3.jpg
-wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating4.jpg
-wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating5.jpg
-wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating7.jpg
-wwwroot\Photos\Events\1998-12_SkateingWithTheLows\skating8.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\African handshake at Kristinas.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Alfons at Airport.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Chantal.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Charmaine and the baby.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Coffee at the airport.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Discusion at airport.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Eleanore airport.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Eleanore.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Eleanorebil.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Group picture.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Hodgson familly.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Jeanies sisters garden.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Jeaniesisters house.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Julianna Pernilla och.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Kids at the table 2.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Kristina and son.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\Kristina kaffe.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\The Barnato sisters.jpg
-wwwroot\Photos\Events\1999-01_01SouthAfricaDeparture\The Barnatos.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Breakfast at Lucs moms house.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Caryn and mother.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Leaving Lucs childhood home.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Lucs mothers home.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\manns familly 2.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Manns familly.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Mireille and Rebecka.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Mireille in swiminghole.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Mireille swiminghole 2.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Packing the cars.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Sisters at airport.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Sunset over the Rhino.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\Swedes under the sign.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\View above swiming hole.jpg
-wwwroot\Photos\Events\1999-01_02SouthAfricaEnroutetothemountains\workers at airport.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Anxious for a loo.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Getting across the river.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Luc and Tracey.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Luc jumping in.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Mireille and the jeep.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Mireille at the jump.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Silvia with a pot 2.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Silvia with a pot on her head.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Start  of the climb.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Surnset on the   Rhinoshorn.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Swanepoels on the 3wheeler.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The beging of the descent.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The country store.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The first crossing.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The lunch spot.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The top for us.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\The water hole on the way down.jpg
-wwwroot\Photos\Events\1999-01_03SouthAfricaAtTheMountains\Traceys jump.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\04 the MacKenzies.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\05 Joshua getting a push.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\06 After meeting.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\07 Dinner at the MacKenzies.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\08 The Zulu convention building.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\10 The MacKenzies Foremans house.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\12 Chasing the cows in.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\13 The Milk tanks.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\14 The MacKenzies calves.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\15 Just leaving - Andrew MacKenzie.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\16 Girls on the road.jpg
-wwwroot\Photos\Events\1999-01_04SouthAfricaVisitToTheMcEnzies\17 The discussion.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Baby on the streets of Kokstad.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Clouds coming in in the morning.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Country market in Transkei.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Country market on the way through Mandela land.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Fishing boat on the beach.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Grandma reading a story in the mountains.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\In front of the Chalet.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Joshula at the farm.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Making pancakes in the mountains.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Mireille with a mother with her child.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\On  our way back from the beach.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\On the beach 2.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\On the beach.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Our arrival at Port Edward.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Selling herbs in Bizana.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\The streets of Bizana.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\The Swanepoels - our hosts in the mountains.jpg
-wwwroot\Photos\Events\1999-01_05SouthAfricaOntheWaytotheSea\Where grandma lost her sweater BrooksNek.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\At the car dealership.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Braam with beach in the background.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Caleb on the rocks.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Ice cream.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Joshua on the rock.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Mathew.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Mireille and Edgar on the rocks.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Mireille on the rocks.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Rebecka on daddys knee.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Sandy on the rocks.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys and dad.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys and the barbeque.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys and the braai.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\The boys catching fish.jpg
-wwwroot\Photos\Events\1999-01_06SouthAfricaTheBoysBarbequeAndtheBeach\Tracey in the smoke.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\A dolfin in the air.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\A seal on the edge.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\A seal standing on his hands.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Buying the carved animals in Durban.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Durban from Jeanies window.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\From the beach.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Jeanies apartment and hospital.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Mireille looking out over the Durban beach.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Paying the bill.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\Terri and Mireille in the rickshaw.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\The beach and training hospital.jpg
-wwwroot\Photos\Events\1999-01_07SouthAfricaTheDayInDurban\The street markets in Durban.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\A rock rabbit peaking out of the wreck of the Nightengale.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\A sisterly discussion.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Alexandra.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Along the Cauldron beach.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Bella Hartman & Helene Bruce-Webster.jpg.lnk
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Braam.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Brett Wright.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Coming in on the surf.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Edgar on Cauldron rock.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Fishing boat on the way out.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Fishing boat on the way out2.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Jackie.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Jeanie and Terri playing with the kids.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Jeanie.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Julianna.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Luc and Tracey at the wreck.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Luc and Tracy.JPG
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Mireille and I beach feather.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Mireille and I on the beach.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Mireille on the cauldron rock.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Motorcycle in the sand.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Our group on the beach.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Pernilla.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Picking seashells.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Profiles of Tracey and Luc.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Rebecka.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Swedish meatballs on the way.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Ted.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\Terri and Rebecka.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The beach on a windy morning(7 am).jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The boys enjoying their mangos.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The breakfast fruit ladies.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The ladies.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The Stuarts on visit.jpg
-wwwroot\Photos\Events\1999-01_08SouthAfricaLazyDaysAndProfiles\The Swanepoels amongst the rocks.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\A Zulu laundramat.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\A Zulu princesses home.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\At the country store 2.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\At the country store.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Childrens dance at the medicine woman.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Dance on the roadside.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Loading sugar cane.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Medicine woman and graduate student.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Medicine woman and her daughter translating.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Our guide giving the children candy.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Security at a Zulu highschool.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The kids coming to get candys.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The kids getting water 2.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The kids getting water.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\The view at the cloths washing spot.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Typical Zulu hut 2.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\Typical Zulu hut.jpg
-wwwroot\Photos\Events\1999-01_09SouthAfricaEnZuluCommunity\View at the cloths washing spot 2.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Braam.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Getting gas 23 00 4 hours from the Cape.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Leaving Port Edward.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch - The boys coming to see us.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch boys in the river.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch eating at the river.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch the boys contemplating a dip.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Lunch the spot.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Oh no!!!.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Rebecka and mom on a 1500km drive.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Road block and Mireille.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\Road block.jpg
-wwwroot\Photos\Events\1999-01_10SouthAfricaTheTripToTheCape\The bus stop.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\False Bay.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Fish and chips at their best.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Hard rock cafe.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Hugo and Reinette.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Julianne on a canon.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Luc and the Robin island ferry.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Luc and Tracey.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and I at Planet Hollywood.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and Terry.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and the imitator 2.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and the imitator.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\Mireille and the wineshop proprietor.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\The artist of our painting.jpg
-wwwroot\Photos\Events\1999-01_11SouthAfricaCapetown\The group after supper.jpg
-wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Dassie (rock rabbit).jpg
-wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille looking at Robin island 2.jpg
-wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille looking at Robin island 3.jpg
-wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille looking at Robin island.jpg
-wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Mireille och I.jpg
-wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\Our group on Table mountain.jpg
-wwwroot\Photos\Events\1999-01_12SouthAfricaTableMountain\The oldest meeting in Capetown.jpg
-wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\Jerome and Merrl singing.jpg
-wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\Julianne at the piano.jpg
-wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\Patric on the piano.jpg
-wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\The group at the O´Ryans.jpg
-wwwroot\Photos\Events\1999-01_13SouthAfricaTheOryans\The waltz.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Brett and I on the way in to Roben Island.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Earl and Mireille in the courtyard.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Mandelas cell.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Merle and Earl towards Capetown.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Mireille towards Capetown.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\On the way into the prison.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\Our guide telling about his time in the prison.jpg
-wwwroot\Photos\Events\1999-01_14SouthAfricaRobbenIsland\The Cape from Roben island.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\A short visit from Graham.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\At the airport.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Brett Jeanie and  Josh.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Hugo and Renette.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Merle and Jerome on the bus.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Our hosts for a wonderfull day.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Our hosts.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\Tablemountain.jpg
-wwwroot\Photos\Events\1999-01_15SouthAfricaOurLastDayInCapetown\The group at the airport.jpg
-wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\A cold reception at the Gothenburg airport.jpg
-wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\Getting the kids in the snow.jpg
-wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\Our reception at the airport.jpg
-wwwroot\Photos\Events\1999-01_16SouthAfricaArrivalHome\The first kiss from Eleanore.jpg
