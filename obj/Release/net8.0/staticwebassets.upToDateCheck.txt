@@ -8910,3 +8910,5 @@ wwwroot\Photos\Events\2024-06\SamsBrokenArm.jpg
 wwwroot\Photos\Events\2024-06\WithSiaAndBosse.jpg
 wwwroot\Photos\OurKids\Emma\EmmasHouse.jpg
 wwwroot\Photos\OurKids\Emma\EmmaWithLeia.jpg
+wwwroot\Photos\OurKids\Rebecka\BeckaAndFamily.jpg
+wwwroot\Photos\OurKids\Rebecka\BeckasHouse.jpg
