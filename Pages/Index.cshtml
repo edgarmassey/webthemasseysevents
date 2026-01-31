@@ -11,27 +11,33 @@
 
     <!-- Top navigation cards -->
     <div class="row g-4 mb-5">
+
         <div class="col-md-4">
-            <a asp-page="/Kids" class="text-decoration-none">
-                <div class="card shadow-sm h-100 text-center p-4">
-                    <h4>👨‍👩‍👧‍👦 Our Kids</h4>
-                </div>
-            </a>
+            <div class="card shadow-sm p-4 text-center position-relative h-100">
+                <div style="font-size: 1.6rem;">👨‍👩‍👧‍👦</div>
+                <h3 class="mt-2 mb-0">Our Kids</h3>
+                <a href="/OurKids" class="stretched-link"></a>
+            </div>
         </div>
+
         <div class="col-md-4">
-            <a asp-page="/Home" class="text-decoration-none">
-                <div class="card shadow-sm h-100 text-center p-4">
-                    <h4>🏡 Our Home</h4>
-                </div>
-            </a>
+            <div class="card shadow-sm p-4 text-center position-relative h-100">
+                <div style="font-size: 1.6rem;">🏡</div>
+                <h3 class="mt-2 mb-0">Our Home</h3>
+                <a asp-page="/Home" class="stretched-link"></a>
+            </div>
         </div>
+
         <div class="col-md-4">
-            <a href="/events" class="text-decoration-none">
-                <div class="card shadow-sm h-100 text-center p-4">
-                    <h4>📅 Events</h4>
-                </div>
-            </a>
+            <div class="card shadow-sm p-4 text-center position-relative h-100">
+                <div style="font-size: 1.6rem;">📅</div>
+                <h3 class="mt-2 mb-0">Events</h3>
+                <a href="/events" class="stretched-link"></a>
+            </div>
         </div>
+
+    </div>
+
     </div>
 
 </div>

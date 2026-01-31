@@ -4,6 +4,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<EventStore>();
+builder.Services.AddSingleton<OurKidsStore>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

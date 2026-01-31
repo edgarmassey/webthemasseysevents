@@ -1,0 +1,48 @@
+﻿@page "/OurKids"
+@model WebTheMasseysEvents.Pages.OurKidsModel
+
+<div class="container py-4">
+    <h1>Our Kids</h1>
+    <p class="text-muted">A little snapshot of our six adult children and their families.</p>
+
+    <div class="row g-3 mt-2">
+        @foreach (var k in Model.Kids)
+        {
+            <div class="col-12 col-md-6 col-lg-4">
+                <a class="text-decoration-none"
+                   asp-page="/OurKids/Index"
+                   asp-route-slug="@k.Slug.ToLowerInvariant()">
+                    <div class="card h-100 shadow-sm ourkids-card">
+                        @if (!string.IsNullOrWhiteSpace(k.Cover))
+                        {
+                            <img src="@k.Cover"
+                                 class="card-img-top kid-thumb"
+                                 alt="@k.Name" />
+                        }
+
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">@k.Name</h5>
+
+                            @if (!string.IsNullOrWhiteSpace(k.Partner))
+                            {
+                                <div class="text-muted">@k.Partner</div>
+                            }
+
+                            @if (!string.IsNullOrWhiteSpace(k.Location))
+                            {
+                                <div class="text-muted small">@k.Location</div>
+                            }
+
+                            @if (!string.IsNullOrWhiteSpace(k.Blurb))
+                            {
+                                <p class="card-text mt-2">@k.Blurb</p>
+                            }
+
+                            <div class="mt-2 text-muted small">View profile →</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>

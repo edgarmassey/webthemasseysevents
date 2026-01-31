@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Content\Events\" />
     <Folder Include="csharp Services\" />
+    <Folder Include="Publish\wwwroot\css\" />
     <Folder Include="wwwroot\Photos\Events\" />
     <Folder Include="wwwroot\Photos\Kids\" />
     <Folder Include="wwwroot\Photos\Home\" />
@@ -18,4 +19,13 @@
 			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 		</Content>
 	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Content\OurKids\**\*.md">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
+
 </Project>
+
+ 

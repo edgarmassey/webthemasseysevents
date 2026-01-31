@@ -1,0 +1,107 @@
+﻿@page "{slug}"
+@model WebTheMasseysEvents.Pages.OurKids.OurKidModel
+
+<div class="container-fluid py-4">
+
+    <div class="kid-page">
+
+        <a href="/OurKids">← Back to Our Kids</a>
+
+        <h1 class="mt-3">@Model.Kid!.Name</h1>
+
+        <div class="text-muted mb-2">
+            @if (!string.IsNullOrWhiteSpace(Model.Kid!.Partner))
+            {
+                <span>@Model.Kid.Partner</span>
+            }
+            @if (!string.IsNullOrWhiteSpace(Model.Kid!.Location))
+            {
+                <span> • @Model.Kid.Location</span>
+            }
+        </div>
+
+        @if (Model.Kid!.AgeToday is int age)
+        {
+            <div class="text-muted">Age: @age</div>
+        }
+
+        @* Cover (click to open modal) *@
+        @* Cover (click toggles more info, but does NOT change the picture) *@
+        @if (!string.IsNullOrWhiteSpace(Model.Kid!.Cover))
+        {
+            <button type="button"
+                    class="btn p-0 border-0 text-start d-block w-100"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#kidMoreInfo"
+                    aria-expanded="false"
+                    aria-controls="kidMoreInfo">
+                <div class="kid-cover-wrap w-100">
+                    <img src="@Model.Kid.Cover"
+                         class="kid-cover rounded"
+                         alt="@Model.Kid.Name" />
+                </div>
+            </button>
+
+            <div class="text-muted small mt-1">
+                Click the photo to show more →
+            </div>
+        }
+
+
+
+        @* Text directly under cover *@
+        @if (!string.IsNullOrWhiteSpace(Model.Kid!.BodyMarkdown))
+        {
+            <div class="mt-3">
+                <pre style="white-space:pre-wrap;font-family:inherit">@Model.Kid.BodyMarkdown</pre>
+            </div>
+        }
+
+        @* Extra photos – buttons *@
+        @if (Model.Kid!.HomePhotos?.Count > 0)
+        {
+            <h5 class="mt-4">More photos</h5>
+
+            <div class="d-flex flex-wrap gap-2">
+                @{
+                    var i = 1;
+                }
+                @foreach (var img in Model.Kid.HomePhotos)
+                {
+                    <button type="button"
+                            class="btn btn-outline-secondary btn-sm kid-open-btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#kidImageModal"
+                            data-full="@img">
+                        Photo @i
+                    </button>
+                    i++;
+                }
+            </div>
+        }
+
+    </div>
+</div>
+
+@* Modal (single, reused) *@
+<div class="modal fade" id="kidImageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0 text-center">
+                <img id="kidImageModalImg"
+                     class="img-fluid rounded"
+                     style="max-height:75vh; object-fit:contain;"
+                     alt="full" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("click", function (e) {
+        const btn = e.target.closest(".kid-open-btn");
+        if (!btn) return;
+
+        document.getElementById("kidImageModalImg").src = btn.dataset.full;
+    });
+</script>

@@ -8908,3 +8908,5 @@ wwwroot\Photos\Events\2024-06\Midsummer.jpg
 wwwroot\Photos\Events\2024-06\MidSummerJoy.jpg
 wwwroot\Photos\Events\2024-06\SamsBrokenArm.jpg
 wwwroot\Photos\Events\2024-06\WithSiaAndBosse.jpg
+wwwroot\Photos\OurKids\Emma\EmmasHouse.jpg
+wwwroot\Photos\OurKids\Emma\EmmaWithLeia.jpg

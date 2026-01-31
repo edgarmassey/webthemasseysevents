@@ -1,26 +1,37 @@
+/* =========================
+   Base / Bootstrap tweaks
+   ========================= */
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
-/* ===== Family theme (beige / brown) ===== */
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* =========================
+   Family theme (beige/brown)
+   ========================= */
 
 :root {
     --family-bg: #f5efe6;
@@ -41,7 +52,10 @@ h1, h2, h3, h4, h5 {
     color: var(--family-primary);
 }
 
-/* Navbar */
+/* =========================
+   Navbar
+   ========================= */
+
 .navbar {
     background-color: var(--family-card) !important;
     border-bottom: 1px solid #e3d6c6;
@@ -56,7 +70,32 @@ h1, h2, h3, h4, h5 {
         color: #5f4a34 !important;
     }
 
-/* Cards */
+.navbar-nav .nav-link {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+/* Ensure navbar always clickable */
+header {
+    position: relative;
+    z-index: 1050;
+}
+
+    header * {
+        pointer-events: auto;
+    }
+
+/* Family-style navbar */
+.family-navbar {
+    background-color: var(--family-card);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    border-bottom: none;
+}
+
+/* =========================
+   Cards
+   ========================= */
+
 .card {
     background-color: var(--family-card);
     border: 1px solid #e3d6c6;
@@ -71,7 +110,10 @@ h1, h2, h3, h4, h5 {
         color: #5f4a34;
     }
 
-/* Buttons / links */
+/* =========================
+   Links / tables / footer
+   ========================= */
+
 a {
     color: var(--family-primary);
 }
@@ -80,7 +122,6 @@ a {
         color: #5f4a34;
     }
 
-/* Tables (Events page) */
 .table {
     background-color: var(--family-card);
 }
@@ -89,7 +130,58 @@ a {
         background-color: #ede3d7;
     }
 
-/* Footer (if used) */
 footer {
     color: #7a6652;
 }
+
+/* =========================
+   OurKids – LIST page
+   ========================= */
+
+.ourkids-card {
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+    .ourkids-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    /* List thumbnails */
+    .ourkids-card .kid-thumb {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        object-position: 50% 15%;
+        display: block;
+    }
+
+/* =========================
+   OurKids – DETAIL page
+   ========================= */
+
+/* Detail page cover: left-aligned, slightly larger, full image visible */
+/* OurKids – DETAIL page cover: left aligned, not centered */
+.kid-cover-wrap {
+    width: 100%;
+    max-width: 1080px; /* your “~20% larger” */
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    text-align: left;
+}
+
+.kid-cover {
+    display: block;
+    width: 100%;
+    height: auto; /* show whole image */
+    max-height: 420px; /* adjust if you want it bigger/smaller */
+    object-fit: contain; /* show whole picture (no cropping) */
+    object-position: left top;
+    margin: 0 !important; /* prevents accidental centering */
+}
+
+.kid-page {
+    width: 100%;
+    max-width: none; /* <-- IMPORTANT */
+}
+
