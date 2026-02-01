@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace WebTheMasseysEvents.Models
 {
@@ -35,6 +36,5 @@ namespace WebTheMasseysEvents.Models
                 return age;
             }
         }
-
     }
 }

@@ -16,12 +16,17 @@ namespace WebTheMasseysEvents.Pages.OurKids
 
         public OurKidItem? Kid { get; private set; }
 
+        public IReadOnlyList<GrandchildLink> Grandchildren { get; private set; }
+            = Array.Empty<GrandchildLink>();
+
         public IActionResult OnGet(string slug)
         {
             Kid = _store.GetBySlug(slug);
             if (Kid == null) return NotFound();
+
+            Grandchildren = _store.GetGrandchildrenForParent(slug);
+
             return Page();
         }
     }
 }
-

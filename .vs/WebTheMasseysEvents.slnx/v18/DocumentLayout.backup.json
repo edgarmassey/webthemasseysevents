@@ -1,7 +1,60 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Github\\WebTheMasseysInfo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\ourkids\\grandchild.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids\\grandchild.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\ourkids\\grandchild.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids\\grandchild.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\models\\grandchildlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:models\\grandchildlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\ourkids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\ourkids\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\models\\ourkiditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:models\\ourkiditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\models\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:models\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\ourkids.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\content\\ourkids\\ourkidsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:content\\ourkids\\ourkidsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\ourkids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\ourkids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\services\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:services\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +62,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grandchild.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Grandchild.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\OurKids\\Grandchild.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Grandchild.cshtml.cs",
+              "RelativeToolTip": "Pages\\OurKids\\Grandchild.cshtml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T13:28:18.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grandchild.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Grandchild.cshtml",
+              "RelativeDocumentMoniker": "Pages\\OurKids\\Grandchild.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Grandchild.cshtml",
+              "RelativeToolTip": "Pages\\OurKids\\Grandchild.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T13:27:53.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T12:51:19.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OurKids.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\OurKids.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids.cshtml.cs",
+              "RelativeToolTip": "Pages\\OurKids.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T12:50:15.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\OurKids\\Index.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\OurKids\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T12:48:42.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GrandChildLink.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Models\\GrandChildLink.cs",
+              "RelativeDocumentMoniker": "Models\\GrandChildLink.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Models\\GrandChildLink.cs",
+              "RelativeToolTip": "Models\\GrandChildLink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T12:44:44.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Models\\Index.cshtml",
+              "RelativeDocumentMoniker": "Models\\Index.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Models\\Index.cshtml",
+              "RelativeToolTip": "Models\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T12:27:13.849Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -25,11 +169,93 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-01T10:50:58.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OurKids.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids.cshtml",
+              "RelativeDocumentMoniker": "Pages\\OurKids.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids.cshtml",
+              "RelativeToolTip": "Pages\\OurKids.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T10:38:57.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OurKidsStore.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Content\\OurKids\\OurKidsStore.cs",
+              "RelativeDocumentMoniker": "Content\\OurKids\\OurKidsStore.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Content\\OurKids\\OurKidsStore.cs",
+              "RelativeToolTip": "Content\\OurKids\\OurKidsStore.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAcwOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:28:42.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventStore.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Services\\EventStore.cs",
+              "RelativeDocumentMoniker": "Services\\EventStore.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Services\\EventStore.cs",
+              "RelativeToolTip": "Services\\EventStore.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwv0AAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:16:53.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\OurKids\\Index.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\OurKids\\Index.cshtml",
+              "RelativeToolTip": "Pages\\OurKids\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T10:12:07.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OurKidItem.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Models\\OurKidItem.cs",
+              "RelativeDocumentMoniker": "Models\\OurKidItem.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Models\\OurKidItem.cs",
+              "RelativeToolTip": "Models\\OurKidItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:06:07.646Z",
+              "EditorCaption": ""
             }
           ]
         }
