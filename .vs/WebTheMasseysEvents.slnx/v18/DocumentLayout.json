@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Github\\WebTheMasseysInfo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\home\\group.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\home\\group.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\home\\group.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\home\\group.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\poetry\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\poetry\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\poetry\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|solutionrelative:pages\\poetry\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3C8DFC5-ECE3-DE00-7687-517D819D119F}|WebTheMasseysEvents.csproj|c:\\github\\webthemasseysinfo\\pages\\event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Event.cshtml.cs",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Event.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Event.cshtml.cs",
@@ -67,7 +91,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Home.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home.cshtml",
+              "RelativeToolTip": "Pages\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T17:47:26.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Group.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home\\Group.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Home\\Group.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home\\Group.cshtml.cs",
+              "RelativeToolTip": "Pages\\Home\\Group.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T17:29:34.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Group.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home\\Group.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Home\\Group.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home\\Group.cshtml",
+              "RelativeToolTip": "Pages\\Home\\Group.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T17:27:45.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Home\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T17:26:39.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Poetry\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Poetry\\Index.cshtml.cs",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Poetry\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Poetry\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:42:00.89Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Poetry\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Poetry\\Index.cshtml",
+              "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Poetry\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Poetry\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T15:41:40.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Event.cshtml",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Event.cshtml",
               "RelativeDocumentMoniker": "Pages\\Event.cshtml",
@@ -79,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Events.cshtml",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Shared\\Events.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\Events.cshtml",
@@ -91,46 +188,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Github\\WebTheMasseysInfo\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD4AAAAAAAAAAADgv0sAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-01T22:05:14.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T22:05:14.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
               "ToolTip": "C:\\Github\\WebTheMasseysInfo\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAxwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-02-01T22:01:35.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Github\\WebTheMasseysInfo\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Github\\WebTheMasseysInfo\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAP0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-01T22:00:45.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2026-02-01T22:00:45.142Z"
             }
           ]
         }

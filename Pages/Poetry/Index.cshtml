@@ -1,0 +1,35 @@
+﻿@page "/poetry"
+@model WebTheMasseysEvents.Pages.Poetry.IndexModel
+
+<div class="container py-4">
+    <h1>English Poetry</h1>
+    <p class="text-muted">Click a poem to view full size.</p>
+
+    <div class="poetry-grid">
+        @foreach (var url in Model.ImageUrls)
+        {
+            <button class="poetry-thumb" type="button" data-bs-toggle="modal" data-bs-target="#poetryModal"
+                    data-full="@url" aria-label="Open poem">
+                <img src="@url" alt="Poem" loading="lazy" />
+            </button>
+        }
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="poetryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Poem</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+                <img id="poetryModalImg" src="" alt="Poem full size" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</div>
+
+

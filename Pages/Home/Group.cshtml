@@ -1,0 +1,43 @@
+﻿@page "/Home/{group}"
+@model WebTheMasseysEvents.Pages.Home.GroupModel
+
+<a href="/Home">← Back</a>
+<h1>@Model.Group</h1>
+
+<div class="row g-3">
+    @foreach (var img in Model.Images)
+    {
+        var fileName = System.IO.Path.GetFileName(img);
+
+        <div class="col-6 col-md-3">
+            <button class="gallery-thumb p-0 border-0 bg-transparent w-100 text-start"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#poetryModal"
+                    data-full="@img"
+                    aria-label="Open image">
+                <img src="@img" class="img-fluid" loading="lazy" />
+            </button>
+
+            <div class="small text-muted mt-1 text-truncate" title="@fileName">
+                @fileName
+            </div>
+        </div>
+    }
+
+</div>
+
+<!-- Shared modal (same as Poetry) -->
+<div class="modal fade" id="poetryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">@Model.Group</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="poetryModalImg" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</div>

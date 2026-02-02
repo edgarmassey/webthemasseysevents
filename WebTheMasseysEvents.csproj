@@ -11,8 +11,11 @@
     <Folder Include="csharp Services\" />
     <Folder Include="Publish\wwwroot\css\" />
     <Folder Include="wwwroot\Photos\Events\" />
+    <Folder Include="wwwroot\Photos\Home\Historic\" />
+    <Folder Include="wwwroot\Photos\Home\Exterior\" />
+    <Folder Include="wwwroot\Photos\Home\Interior\" />
     <Folder Include="wwwroot\Photos\Kids\" />
-    <Folder Include="wwwroot\Photos\Home\" />
+    <Folder Include="wwwroot\Photos\Poetry\English\" />
 	    </ItemGroup>
 	<ItemGroup>
 		<Content Include="Content\Events\**\*.md">
