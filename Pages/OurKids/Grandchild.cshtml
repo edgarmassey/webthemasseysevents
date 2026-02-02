@@ -66,6 +66,22 @@
         <div class="modal-content bg-transparent border-0 position-relative">
 
             <button type="button"
+        id="kidPrev"
+        class="btn btn-light position-absolute top-50 start-0 translate-middle-y ms-2"
+        style="z-index: 10; opacity:0.8;">
+    ‹
+</button>
+
+<button type="button"
+        id="kidNext"
+        class="btn btn-light position-absolute top-50 end-0 translate-middle-y me-2"
+        style="z-index: 10; opacity:0.8;">
+    ›
+</button>
+
+            
+            
+            <button type="button"
                     class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
                     style="z-index: 10;"
                     data-bs-dismiss="modal"
@@ -83,13 +99,80 @@
 </div>
 
 <script>
-    document.addEventListener("click", function (e) {
-        const btn = e.target.closest(".kid-gallery .kid-thumb-btn");
-        if (!btn) return;
+    (function () {
+        const modalEl = document.getElementById("kidImageModal");
+        const imgEl = document.getElementById("kidImageModalImg");
+        const prevBtn = document.getElementById("kidPrev");
+        const nextBtn = document.getElementById("kidNext");
+        if (!modalEl || !imgEl) return;
 
-        const img = document.getElementById("kidImageModalImg");
-        if (!img) return;
+        const buttons = Array.from(document.querySelectorAll(".kid-gallery .kid-thumb-btn"));
+        const urls = buttons.map(b => b.dataset.full).filter(Boolean);
 
-        img.src = btn.dataset.full;
-    });
+        let currentIndex = 0;
+
+        function showIndex(i) {
+            if (!urls.length) return;
+            if (i < 0) i = urls.length - 1;
+            if (i >= urls.length) i = 0;
+            currentIndex = i;
+            imgEl.src = urls[currentIndex];
+        }
+
+        // Open from thumbnail click
+        document.addEventListener("click", function (e) {
+            const btn = e.target.closest(".kid-gallery .kid-thumb-btn");
+            if (!btn) return;
+
+            const url = btn.dataset.full;
+            const idx = urls.indexOf(url);
+            if (idx >= 0) currentIndex = idx;
+
+            imgEl.src = url;
+        });
+
+        // Arrow buttons
+        if (prevBtn) prevBtn.addEventListener("click", () => showIndex(currentIndex - 1));
+        if (nextBtn) nextBtn.addEventListener("click", () => showIndex(currentIndex + 1));
+
+        // Keyboard navigation while modal is open
+        document.addEventListener("keydown", function (e) {
+            if (!modalEl.classList.contains("show")) return;
+            if (e.key === "ArrowLeft") showIndex(currentIndex - 1);
+            if (e.key === "ArrowRight") showIndex(currentIndex + 1);
+        });
+
+        // Swipe on the big image
+        let startX = 0, startY = 0, tracking = false;
+
+        function onStart(ev) {
+            const t = ev.touches ? ev.touches[0] : ev;
+            startX = t.clientX;
+            startY = t.clientY;
+            tracking = true;
+        }
+
+        function onEnd(ev) {
+            if (!tracking) return;
+            tracking = false;
+
+            const t = ev.changedTouches ? ev.changedTouches[0] : ev;
+            const dx = t.clientX - startX;
+            const dy = t.clientY - startY;
+
+            if (Math.abs(dy) > Math.abs(dx)) return;
+
+            if (dx > 50) showIndex(currentIndex - 1);
+            else if (dx < -50) showIndex(currentIndex + 1);
+        }
+
+        imgEl.addEventListener("touchstart", onStart, { passive: true });
+        imgEl.addEventListener("touchend", onEnd, { passive: true });
+
+        // Sync index when modal opens
+        modalEl.addEventListener("shown.bs.modal", function () {
+            const idx = urls.indexOf(imgEl.src);
+            if (idx >= 0) currentIndex = idx;
+        });
+    })();
 </script>

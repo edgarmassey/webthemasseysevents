@@ -105,7 +105,7 @@ namespace WebTheMasseysEvents.Services
         private List<string> GetPhotoFilesForSlug(string slug, string? coverFile)
         {
             // wwwroot/Photos/Events/{slug}/
-            var photosDir = Path.Combine(_env.WebRootPath, "Photos", "Events", slug);
+            var photosDir = Path.Combine(_env.WebRootPath, "Photos", "Events and pictures", slug);
             if (!Directory.Exists(photosDir)) return new List<string>();
 
             var allowed = new HashSet<string>(StringComparer.OrdinalIgnoreCase)

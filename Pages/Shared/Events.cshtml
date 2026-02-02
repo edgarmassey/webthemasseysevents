@@ -1,9 +1,8 @@
 ﻿@page "/events"
-
 @model WebTheMasseysEvents.Pages.EventsModel
 
 <div class="container py-4">
-    <h1>Events</h1>
+    <h1>Events and pictures</h1>
 
     <div class="accordion" id="eventsAccordion">
 
@@ -35,7 +34,6 @@
                      data-bs-parent="#eventsAccordion">
 
                     <div class="accordion-body p-0">
-
                         <table class="table table-hover mb-0">
                             <thead>
                                 <tr>
@@ -49,73 +47,84 @@
                                 {
                                     <tr>
                                         <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
-                                        <td><a href="/Event/@e.Slug?backYear=@year">@e.Title</a></td>
+                                        <td>
+                                            <a asp-page="/Event"
+                                               asp-route-slug="@e.Slug"
+                                               asp-route-backYear="@year">
+                                                @e.Title
+                                            </a>
+                                        </td>
                                         <td>@e.Location</td>
                                     </tr>
                                 }
                             </tbody>
                         </table>
-
                     </div>
+
                 </div>
             </div>
         }
 
     </div>
+</div>
 
+@section Scripts {
     <script>
         (function () {
-          const KEY = "events_open_year";
+            const KEY = "events_open_year";
 
-          function ensureBootstrap() {
-            return window.bootstrap && bootstrap.Collapse;
-          }
+            function ensureBootstrap() {
+                return window.bootstrap && bootstrap.Collapse;
+            }
 
-          function openYear(year) {
-            if (!year || !ensureBootstrap()) return;
+            function openYear(year) {
+                if (!year || !ensureBootstrap()) return;
 
-            const el = document.getElementById("collapse" + year);
-            if (!el) return;
+                const el = document.getElementById("collapse" + year);
+                if (!el) return;
 
-            bootstrap.Collapse.getOrCreateInstance(el).show();
+                bootstrap.Collapse.getOrCreateInstance(el, { toggle: false }).show();
 
-            const header = document.getElementById("heading" + year);
-            if (header) header.scrollIntoView({ block: "start" });
-          }
+                const header = document.getElementById("heading" + year);
+                if (header) header.scrollIntoView({ block: "start" });
+            }
 
-          function restore() {
-            const year = sessionStorage.getItem(KEY);
-            if (year) openYear(year);
-          }
+            function restore() {
+                const year = sessionStorage.getItem(KEY);
+                if (year) openYear(year);
+            }
 
-          function wireUp() {
-            document.querySelectorAll("#eventsAccordion .accordion-collapse").forEach(c => {
-              c.addEventListener("shown.bs.collapse", function () {
-                const year = c.id.replace("collapse", "");
-                sessionStorage.setItem(KEY, year);
-              });
+            function wireUp() {
+                // When a year is opened, remember it
+                document.querySelectorAll("#eventsAccordion .accordion-collapse").forEach(c => {
+                    c.addEventListener("shown.bs.collapse", function () {
+                        const year = c.id.replace("collapse", "");
+                        sessionStorage.setItem(KEY, year);
+                    });
+                });
+
+                // When clicking an event link, remember which year it was in
+                document.querySelectorAll('#eventsAccordion a[href]').forEach(a => {
+                    a.addEventListener("click", function () {
+                        const collapse = a.closest(".accordion-collapse");
+                        if (!collapse) return;
+                        const year = collapse.id.replace("collapse", "");
+                        sessionStorage.setItem(KEY, year);
+                    });
+                });
+            }
+
+            function init() {
+                wireUp();
+                restore();
+                window.addEventListener("pageshow", restore);
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                if (ensureBootstrap()) init();
+                else setTimeout(init, 50);
             });
-
-            document.querySelectorAll('#eventsAccordion a[href^="/Event/"]').forEach(a => {
-              a.addEventListener("click", function () {
-                const collapse = a.closest(".accordion-collapse");
-                if (!collapse) return;
-                const year = collapse.id.replace("collapse", "");
-                sessionStorage.setItem(KEY, year);
-              });
-            });
-          }
-
-          function init() {
-            wireUp();
-            restore();
-            window.addEventListener("pageshow", restore);
-          }
-
-          document.addEventListener("DOMContentLoaded", function () {
-            if (ensureBootstrap()) init();
-            else setTimeout(init, 50);
-          });
         })();
     </script>
-</div>
+}
+

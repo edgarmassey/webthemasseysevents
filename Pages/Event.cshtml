@@ -2,11 +2,13 @@
 @model WebTheMasseysEvents.Pages.EventModel
 
 <div class="container py-4">
-    <a href="/Events">← Back to Events</a>
 
-    <h1 class="mt-3">
-        @Model.Event!.Title
-    </h1>
+    <a asp-page="/Events"
+       asp-route-backYear="@Request.Query["backYear"]">
+        ← Back to Events and pictures
+    </a>
+
+    <h1 class="mt-3">@Model.Event!.Title</h1>
 
     <div class="text-muted">
         @Model.Event!.Date.ToString("yyyy-MM-dd")
@@ -16,11 +18,9 @@
         }
     </div>
 
-
     @* COVER *@
     @if (!string.IsNullOrWhiteSpace(Model.CoverUrl))
     {
-        <!-- Cover opens the same modal as gallery -->
         <button type="button"
                 class="btn p-0 border-0 mt-3"
                 style="background:transparent;"
@@ -28,7 +28,6 @@
                 data-bs-target="#photoModal"
                 data-fullsrc="@Model.CoverUrl"
                 data-caption="@Model.Event!.Title">
-
             <img src="@Model.CoverUrl"
                  class="rounded"
                  style="max-width:500px; height:auto; cursor: zoom-in;"
@@ -36,8 +35,13 @@
         </button>
     }
 
-    <!-- Text from the .md file -->
-    <pre style="white-space:pre-wrap;font-family:inherit">@Model.Event!.BodyMarkdown</pre>
+    @* Render markdown as HTML so inline image links work *@
+    @if (!string.IsNullOrWhiteSpace(Model.Event!.BodyMarkdown))
+    {
+        <pre class="mt-3" style="white-space:pre-wrap;font-family:inherit">
+    @Model.Event!.BodyMarkdown
+    </pre>
+    }
 
     @* PHOTO GALLERY *@
     @if (Model.Event!.PhotoFiles.Count > 0)
@@ -73,19 +77,17 @@
         </div>
     }
 
-    @* ONE SINGLE MODAL FOR EVERYTHING (cover + gallery) *@
+    @* ONE SINGLE MODAL FOR EVERYTHING *@
     <div class="modal fade" id="photoModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered">
             <div class="modal-content bg-transparent border-0 position-relative">
 
-                <!-- Close (X) -->
                 <button type="button"
                         class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
                         style="z-index: 1060; opacity: 1; pointer-events: auto;"
                         data-bs-dismiss="modal"
                         aria-label="Close"></button>
 
-                <!-- Previous -->
                 <button type="button"
                         id="prevPhoto"
                         class="position-absolute top-50 start-0 translate-middle-y ms-2 btn btn-dark rounded-circle"
@@ -93,7 +95,6 @@
                     ‹
                 </button>
 
-                <!-- Next -->
                 <button type="button"
                         id="nextPhoto"
                         class="position-absolute top-50 end-0 translate-middle-y me-2 btn btn-dark rounded-circle"
@@ -108,7 +109,6 @@
                          style="cursor: zoom-out;"
                          data-bs-dismiss="modal" />
 
-                    <!-- Caption overlay -->
                     <div id="photoModalCaption"
                          style="display:none; position:absolute; left:0; right:0; bottom:0;
                                 padding:10px 12px;
@@ -123,9 +123,11 @@
         </div>
     </div>
 
+</div>
+
+@section Scripts {
     <script>
         (function () {
-
             const modal = document.getElementById('photoModal');
             const img = document.getElementById('photoModalImg');
             const cap = document.getElementById('photoModalCaption');
@@ -134,7 +136,6 @@
 
             if (!modal || !img) return;
 
-            // Collect all clickable items (cover + thumbnails), in DOM order
             function getItems() {
                 return Array.from(document.querySelectorAll('[data-fullsrc]'));
             }
@@ -144,9 +145,7 @@
 
             function niceCaption(raw) {
                 if (!raw) return "";
-                return raw.replace(/[_-]/g, " ")
-                          .replace(/\.[^/.]+$/, "")
-                          .trim();
+                return raw.replace(/[_-]/g, " ").replace(/\.[^/.]+$/, "").trim();
             }
 
             function showItem(i) {
@@ -170,7 +169,6 @@
                 }
             }
 
-            // When modal opens
             modal.addEventListener('show.bs.modal', function (event) {
                 items = getItems();
 
@@ -183,21 +181,15 @@
                 showItem(index);
             });
 
-            // Button navigation
             nextBtn?.addEventListener('click', (e) => { e.stopPropagation(); showItem(index + 1); });
             prevBtn?.addEventListener('click', (e) => { e.stopPropagation(); showItem(index - 1); });
 
-            // Keyboard navigation
             document.addEventListener('keydown', function (e) {
                 if (!modal.classList.contains('show')) return;
 
                 if (e.key === "ArrowRight") showItem(index + 1);
                 if (e.key === "ArrowLeft") showItem(index - 1);
             });
-
-            // ============================
-            // ✅ SWIPE SUPPORT (added here)
-            // ============================
 
             const swipeTarget = modal.querySelector('.modal-body') || img;
 
@@ -239,12 +231,10 @@
 
                 if (Math.abs(dy) > SWIPE_MAX_Y) return;
 
-                if (dx <= -SWIPE_MIN_X) showItem(index + 1);   // swipe left
-                else if (dx >= SWIPE_MIN_X) showItem(index - 1); // swipe right
+                if (dx <= -SWIPE_MIN_X) showItem(index + 1);
+                else if (dx >= SWIPE_MIN_X) showItem(index - 1);
             }, { passive: true });
 
         })();
     </script>
-
-</div>
-
+}

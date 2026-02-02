@@ -402,9 +402,16 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-06_CanadianTurkeyDinner.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-16_Special-Visit-With-Lennart.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Alfons.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Alfons\Children\William.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Eleanore.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Eleanore\Children\Edith.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Eleanore\Children\Ruth.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Ellen.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Ellen\Children\Leia.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Ellen\Children\Sam.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Emma.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Emma\Children\Rosie.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Emma\Children\Sam.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Nona.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Rebecka.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Rebecka\Children\Freja.md

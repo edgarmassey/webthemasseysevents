@@ -45,9 +45,9 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="/events">Events</a>
-
+                            <a class="nav-link text-dark" href="/events">Events and pictures</a>
                         </li>
+
 
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-page="/Privacy">Privacy</a>
@@ -79,23 +79,10 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
-    <script>
-        // If the mobile navbar is open, close it after clicking a nav link.
-        document.addEventListener("click", function (e) {
-          const link = e.target.closest(".navbar a.nav-link");
-          if (!link) return;
-
-          const nav = document.getElementById("mainNavbar");
-          if (!nav) return;
-
-          // Only if it's currently shown (mobile menu open)
-          if (nav.classList.contains("show")) {
-            const bsCollapse = bootstrap.Collapse.getInstance(nav) || new bootstrap.Collapse(nav, { toggle: false });
-            bsCollapse.hide();
-          }
-        });
-    </script>
-
 </body>
 </html>
+
+
