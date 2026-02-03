@@ -385,6 +385,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-05
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-06.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-07.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-08.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-09.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-01.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-01_NewYearsInUpphärad.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-03_SjuntorpSwimmingPool.md
