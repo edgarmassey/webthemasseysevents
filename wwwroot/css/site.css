@@ -251,3 +251,22 @@ footer {
     .poetry-thumb img {
         background: #f2efe8;
     }
+/* =========================
+   Event page – cover + thumbs crop (keep heads)
+   ========================= */
+
+.event-cover-img {
+    max-width: 500px;
+    height: auto;
+    cursor: zoom-in;
+    display: block;
+}
+
+/* Event gallery thumbnails */
+.event-thumb-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: 50% 15%; /* keep heads */
+    cursor: zoom-in;
+}
