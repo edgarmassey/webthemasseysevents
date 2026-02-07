@@ -215,6 +215,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-08
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-08_Croatia.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-09_Canada.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-11.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-11a.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-12.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2012-01.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2012-02.md
@@ -239,6 +240,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-07
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-07_Croatia.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-08.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-09.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-10a_Canada.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-10_Canada.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-11_MomsFuneral.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2013-12.md
@@ -387,6 +389,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-07
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-08.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-09.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-01.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-02.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-01_NewYearsInUpphärad.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-03_SjuntorpSwimmingPool.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-06_CanadianTurkeyDinner.md

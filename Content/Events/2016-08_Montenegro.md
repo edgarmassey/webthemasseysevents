@@ -4,6 +4,10 @@ date: 2016-08
 location: Sweden 
 cover: 
 number: 37
+highlight: 
+tags: [Trip,Croatia,Montenegro]
+linkhttp: 
+linkText: 
 ---
 
 

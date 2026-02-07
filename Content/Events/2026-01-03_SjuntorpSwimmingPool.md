@@ -1,12 +1,14 @@
 ---
-title: 2026-01-03 Sjuntorp Swimming Pool
-date: 2026-01-03
-location: Sjuntorp
-cover: ThePool.jpg
-number: 95
+title:2026-01 Pictures 
+date: 2026-01
+location: Sweden 
+cover: Thepool.jpg
+number: 38
+highlight: true
+tags: [family]
+link: http://www.themasseys.net/Familypix/2026-Sidor/TheSwimmingPool/Simhallen.jpg
+linkText: Sjuntorp swimming pool
 ---
 
 
-Our first family and friends "let's be-together"event for 2026!!
-
-We rented the swimming pool in a neighboring town for a couple of hours Saterday. Mireille warmed up hotdogs in a rice cooker and served drinks and coffee to all 25 of us.
+Pictures from 2026-01

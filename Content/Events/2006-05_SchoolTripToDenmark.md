@@ -4,6 +4,10 @@ date: 2006-05
 location: Sweden 
 cover: 
 number: 32
+highlight: 
+tags: [School trip,Rebecka]
+link:  
+linkText: 
 ---
 
 

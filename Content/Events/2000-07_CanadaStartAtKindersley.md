@@ -4,6 +4,11 @@ date: 2000-07
 location: Sweden 
 cover: 
 number: 32
+highlight: 
+tags: [Canada]
+link:  
+linkText: 
+
 ---
 
 

@@ -4,6 +4,11 @@ date: 2026-01-01
 location: Upphärad
 cover: UpphäradSign.jpg
 number: 92
+highlight: true
+tags: [Holiday,New Year]
+link: http://www.themasseys.net/Familypix/2026-Sidor/NewYear/Upph%C3%A4rad4.jpg
+linkText: New years 2026
+
 ---
 
 

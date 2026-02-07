@@ -4,6 +4,11 @@ date: 2002-05
 location: Sweden 
 cover: 
 number: 32
+highlight: true
+tags: [Graduation]
+link:  
+linkText: 
+
 ---
 
 

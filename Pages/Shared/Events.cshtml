@@ -1,20 +1,170 @@
 ﻿@page "/events"
 @model WebTheMasseysEvents.Pages.EventsModel
+@using System.Reflection
+
+@functions {
+    private static object? GetProp(object obj, string name)
+        => obj.GetType().GetProperty(name, BindingFlags.Public | BindingFlags.Instance | BindingFlags.IgnoreCase)
+            ?.GetValue(obj);
+
+    private static bool GetBool(object obj, string name)
+    {
+        var v = GetProp(obj, name);
+        if (v is bool b) return b;
+        if (v is string s && bool.TryParse(s, out var parsed)) return parsed;
+        return false;
+    }
+
+    private static List<string> GetTags(object obj)
+    {
+        var v = GetProp(obj, "Tags");
+        if (v is IEnumerable<string> list)
+            return list.Where(x => !string.IsNullOrWhiteSpace(x)).Select(x => x.Trim()).ToList();
+
+        if (v is string s)
+        {
+            return s.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                    .Select(x => x.Trim())
+                    .Where(x => x.Length > 0)
+                    .ToList();
+        }
+
+        return new List<string>();
+    }
+
+    private static string? GetString(object obj, string name)
+    {
+        var v = GetProp(obj, name);
+        return v?.ToString();
+    }
+
+    private static bool UrlLooksExternal(string url)
+        => url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ||
+           url.StartsWith("https://", StringComparison.OrdinalIgnoreCase);
+}
+
+@{
+    // Query parameters
+    var hi = Request.Query["hi"].ToString();     // "1" or "true"
+    var tag = Request.Query["tag"].ToString();   // selected tag
+    var q = Request.Query["q"].ToString();       // search text
+
+    var highlightOnly = hi == "1" || hi.Equals("true", StringComparison.OrdinalIgnoreCase);
+
+    // Expand all years when any filter is active
+    var expandAllYears = highlightOnly
+        || !string.IsNullOrWhiteSpace(tag)
+        || !string.IsNullOrWhiteSpace(q);
+
+    // Build tag list from events that have Tags (if present)
+    var allTags = Model.Events
+        .SelectMany(e => GetTags(e))
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .OrderBy(t => t)
+        .ToList();
+
+    // Apply filters
+    var filtered = Model.Events.AsEnumerable();
+
+    if (highlightOnly)
+        filtered = filtered.Where(e => GetBool(e, "Highlight"));
+
+    if (!string.IsNullOrWhiteSpace(tag))
+        filtered = filtered.Where(e => GetTags(e).Any(t => t.Equals(tag, StringComparison.OrdinalIgnoreCase)));
+
+    if (!string.IsNullOrWhiteSpace(q))
+    {
+        filtered = filtered.Where(e =>
+            (e.Title ?? "").Contains(q, StringComparison.OrdinalIgnoreCase) ||
+            (e.Location ?? "").Contains(q, StringComparison.OrdinalIgnoreCase));
+    }
+
+    var grouped = filtered
+        .OrderByDescending(e => e.Date)
+        .GroupBy(e => e.Date.Year)
+        .OrderByDescending(g => g.Key);
+
+    var anyHasLink = filtered.Any(e => !string.IsNullOrWhiteSpace(GetString(e, "Link")));
+}
 
 <div class="container py-4">
     <h1>Events and pictures</h1>
 
-    <div class="accordion" id="eventsAccordion">
+    <!-- Picture ABOVE the cards -->
+    <div class="row mt-3">
+        <div class="col-12 d-flex justify-content-center">
+            <button type="button"
+                    class="p-0 border-0 bg-transparent"
+                    data-bs-toggle="modal"
+                    data-bs-target="#indexImageModal"
+                    data-fullsrc="/Photos/MakingMemories.jpg"
+                    aria-label="Open image full size">
+                <img src="/Photos/MakingMemories.jpg"
+                     alt="Family photo"
+                     class="index-footer-image fade-in img-fluid" />
+            </button>
+        </div>
+    </div>
 
-        @foreach (var yearGroup in Model.Events
-                .OrderByDescending(e => e.Date)
-                .GroupBy(e => e.Date.Year)
-                .OrderByDescending(g => g.Key))
+    <!-- Filters -->
+    <form method="get" class="mt-3">
+        <div class="row g-2 align-items-end">
+            <div class="col-12 col-md-auto">
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           id="hi"
+                           name="hi"
+                           value="1"
+                           @(highlightOnly ? "checked" : "") />
+                    <label class="form-check-label" for="hi">
+                        Highlighted only
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <label class="form-label mb-1" for="tag">Tag</label>
+                <select class="form-select" id="tag" name="tag">
+                    <option value="">All</option>
+                    @foreach (var t in allTags)
+                    {
+                        if (t.Equals(tag, StringComparison.OrdinalIgnoreCase))
+                        {
+                            <option value="@t" selected>@t</option>
+                        }
+                        else
+                        {
+                            <option value="@t">@t</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <label class="form-label mb-1" for="q">Search</label>
+                <input class="form-control"
+                       id="q"
+                       name="q"
+                       value="@q"
+                       placeholder="Search title or location" />
+            </div>
+
+            <div class="col-12 col-md-auto">
+                <button type="submit" class="btn btn-primary">Apply</button>
+                <a class="btn btn-outline-secondary" href="/events">Clear</a>
+            </div>
+        </div>
+    </form>
+
+    <div class="accordion mt-3" id="eventsAccordion">
+
+        @foreach (var yearGroup in grouped)
         {
             var year = yearGroup.Key;
             var collapseId = $"collapse{year}";
             var headingId = $"heading{year}";
-            var show = (year == DateTime.Now.Year); // open current year by default
+            var show = expandAllYears || (year == DateTime.Now.Year);
 
             <div class="accordion-item">
                 <h2 class="accordion-header" id="@headingId">
@@ -28,40 +178,115 @@
                     </button>
                 </h2>
 
-                <div id="@collapseId"
-                     class="accordion-collapse collapse @(show ? "show" : "")"
-                     aria-labelledby="@headingId"
-                     data-bs-parent="#eventsAccordion">
-
-                    <div class="accordion-body p-0">
-                        <table class="table table-hover mb-0">
-                            <thead>
-                                <tr>
-                                    <th style="white-space:nowrap;">Date</th>
-                                    <th>Title</th>
-                                    <th>Location</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var e in yearGroup)
-                                {
+                @if (expandAllYears)
+                {
+                    <div id="@collapseId"
+                         class="accordion-collapse collapse @(show ? "show" : "")"
+                         aria-labelledby="@headingId">
+                        <div class="accordion-body p-0">
+                            <table class="table table-hover mb-0">
+                                <thead>
                                     <tr>
-                                        <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
-                                        <td>
-                                            <a asp-page="/Event"
-                                               asp-route-slug="@e.Slug"
-                                               asp-route-backYear="@year">
-                                                @e.Title
-                                            </a>
-                                        </td>
-                                        <td>@e.Location</td>
+                                        <th style="white-space:nowrap;">Date</th>
+                                        <th>Title</th>
+                                        <th>Location</th>
+                                        @if (anyHasLink)
+                                        {
+                                            <th>Link</th>
+                                        }
                                     </tr>
-                                }
-                            </tbody>
-                        </table>
-                    </div>
+                                </thead>
+                                <tbody>
+                                    @foreach (var e in yearGroup)
+                                    {
+                                        var link = GetString(e, "Link");
+                                        var linkText = GetString(e, "LinkText");
 
-                </div>
+                                        <tr>
+                                            <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
+                                            <td>
+                                                <a asp-page="/Event"
+                                                   asp-route-slug="@e.Slug"
+                                                   asp-route-backYear="@year">
+                                                    @e.Title
+                                                </a>
+                                            </td>
+                                            <td>@e.Location</td>
+
+                                            @if (anyHasLink)
+                                            {
+                                                <td>
+                                                    @if (!string.IsNullOrWhiteSpace(link))
+                                                    {
+                                                        <a href="@link"
+                                                           @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
+                                                            @(string.IsNullOrWhiteSpace(linkText) ? "Read more" : linkText)
+                                                        </a>
+                                                    }
+                                                </td>
+                                            }
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div id="@collapseId"
+                         class="accordion-collapse collapse @(show ? "show" : "")"
+                         aria-labelledby="@headingId"
+                         data-bs-parent="#eventsAccordion">
+                        <div class="accordion-body p-0">
+                            <table class="table table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th style="white-space:nowrap;">Date</th>
+                                        <th>Title</th>
+                                        <th>Location</th>
+                                        @if (anyHasLink)
+                                        {
+                                            <th>Link</th>
+                                        }
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var e in yearGroup)
+                                    {
+                                        var link = GetString(e, "Link");
+                                        var linkText = GetString(e, "LinkText");
+
+                                        <tr>
+                                            <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
+                                            <td>
+                                                <a asp-page="/Event"
+                                                   asp-route-slug="@e.Slug"
+                                                   asp-route-backYear="@year">
+                                                    @e.Title
+                                                </a>
+                                            </td>
+                                            <td>@e.Location</td>
+
+                                            @if (anyHasLink)
+                                            {
+                                                <td>
+                                                    @if (!string.IsNullOrWhiteSpace(link))
+                                                    {
+                                                        <a href="@link"
+                                                           @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
+                                                            @(string.IsNullOrWhiteSpace(linkText) ? "Read more" : linkText)
+                                                        </a>
+                                                    }
+                                                </td>
+                                            }
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                }
             </div>
         }
 
@@ -95,7 +320,6 @@
             }
 
             function wireUp() {
-                // When a year is opened, remember it
                 document.querySelectorAll("#eventsAccordion .accordion-collapse").forEach(c => {
                     c.addEventListener("shown.bs.collapse", function () {
                         const year = c.id.replace("collapse", "");
@@ -103,7 +327,6 @@
                     });
                 });
 
-                // When clicking an event link, remember which year it was in
                 document.querySelectorAll('#eventsAccordion a[href]').forEach(a => {
                     a.addEventListener("click", function () {
                         const collapse = a.closest(".accordion-collapse");
@@ -127,4 +350,3 @@
         })();
     </script>
 }
-

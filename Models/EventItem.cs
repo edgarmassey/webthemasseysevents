@@ -11,5 +11,10 @@
         public int? Number { get; set; }
         public List<string> PhotoFiles { get; set; } = new();
 
+        // NEW
+        public bool Highlight { get; set; } = false;
+        public List<string> Tags { get; set; } = new();
+        public string? Link { get; set; }
+        public string? LinkText { get; set; }
     }
-}   
+}

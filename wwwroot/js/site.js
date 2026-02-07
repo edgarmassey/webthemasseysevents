@@ -113,3 +113,10 @@
     modalImg.addEventListener("touchstart", onTouchStart, { passive: true });
     modalImg.addEventListener("touchend", onTouchEnd, { passive: true });
 })();
+document.addEventListener("hidden.bs.modal", function () {
+    // Remove any leftover backdrops
+    document.querySelectorAll(".modal-backdrop").forEach(b => b.remove());
+    // Ensure body is clickable again
+    document.body.classList.remove("modal-open");
+    document.body.style.removeProperty("padding-right");
+});

@@ -4,6 +4,10 @@ date: 1998-12
 location: Sweden 
 cover: 
 number: 32
+highlight: true
+tags: [Christmas]
+link:  
+linkText: 
 ---
 
 

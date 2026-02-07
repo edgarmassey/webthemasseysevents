@@ -1,9 +1,14 @@
 ---
 title:2000-07 Canada - Trip to the Rockys
 date: 2000-07
-location: Sweden 
+location: Canada 
 cover: 
 number: 32
+highlight: 
+tags: [Canada]
+link:  
+linkText: 
+
 ---
 
 

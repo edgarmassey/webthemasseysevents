@@ -4,6 +4,10 @@ date: 1999-01
 location: South Africa
 cover: 
 number: 32
+highlight:False
+tags: [South Africa]
+link:  
+linkText: 
 ---
 
 

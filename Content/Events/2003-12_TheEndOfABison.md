@@ -1,9 +1,14 @@
 ---
 title:2003-12 The end of a bison
 date: 2003-12
-location: Sweden 
+location: Canada 
 cover: 
 number: 32
+highlight: true
+tags: [Canada]
+link:  
+linkText: 
+
 ---
 
 

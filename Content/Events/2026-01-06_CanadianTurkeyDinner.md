@@ -1,10 +1,13 @@
 ---
-title: 2026-01-06_CanadianTurkeyDinner
+title: 2026-01-06 Canadian Turkey Dinner
 date: 2026-01-06
 location: Upphärad
 cover: FamilyPix.jpg
 number: 94
----
+highlight: true
+tags: [family, tradition, canada, holiday]
+link: http://www.themasseys.net/Familypix/2026-Sidor/CanadianTurkeyDinner/CanadianTurkeyDinner.asp
+linkText: About January 6th---
 
 
 Canadian turkey dinner with family

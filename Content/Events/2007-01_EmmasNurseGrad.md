@@ -4,6 +4,10 @@ Date: 2007-01
 location: Sweden 
 cover: 
 number: 32
+highlight: true
+tags: [Birthday]
+link: http://www.themasseys.net/Familypix/2007/2007-01EmmasGrad/YourGraduationAsARegisteredNurse.htm
+linkText:Emmas graduation
 ---
 
 

@@ -4,6 +4,11 @@ date: 2026-01-16
 location: Vänersborg
 cover: MeWithLennart.jpg
 number: 97
+highlight: true
+tags: [family]
+link: http://www.themasseys.net/Familypix/2026-Sidor/WithLennartAndIngvor/SpecialVisit.asp
+linkText: Special visit -
+
 ---
 
 

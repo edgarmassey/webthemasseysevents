@@ -4,6 +4,11 @@ date: 2016-08
 location: Sweden 
 cover: 
 number: 37
+highlight: 
+tags: [Montenegro,Croatia]
+linkhttp: 
+linkText:  
+
 ---
 
 

@@ -1,4 +1,4 @@
-﻿ @page
+﻿@page
 @model WebTheMasseysEvents.Pages.IndexModel
 
 <div class="container py-5">
@@ -11,9 +11,20 @@
 
     <!-- Top navigation cards -->
     <div class="row g-4 mb-5">
-
+        <!-- Clickable image UNDER the cards -->
+        <div class="text-center mt-4">
+            <button type="button"
+                    class="index-footer-link p-0 border-0 bg-transparent"
+                    data-bs-toggle="modal"
+                    data-bs-target="#indexImageModal"
+                    aria-label="Open image full size">
+                <img src="/Photos/Us2026.jpg"
+                     alt="Family photo"
+                     class="index-footer-image fade-in" />
+            </button>
+        </div>
         <div class="col-md-4">
-            <div class="card shadow-sm p-4 text-center position-relative h-100">
+            <div class="card shadow-sm text-center position-relative h-100">
                 <div style="font-size: 1.6rem;">👨‍👩‍👧‍👦</div>
                 <h3 class="mt-2 mb-0">Our Kids</h3>
                 <a href="/OurKids" class="stretched-link"></a>
@@ -21,7 +32,7 @@
         </div>
 
         <div class="col-md-4">
-            <div class="card shadow-sm p-4 text-center position-relative h-100">
+            <div class="card shadow-sm  text-center position-relative h-100">
                 <div style="font-size: 1.6rem;">🏡</div>
                 <h3 class="mt-2 mb-0">Our Home</h3>
                 <a asp-page="/Home" class="stretched-link"></a>
@@ -29,15 +40,30 @@
         </div>
 
         <div class="col-md-4">
-            <div class="card shadow-sm p-4 text-center position-relative h-100">
+            <div class="card shadow-sm  text-center position-relative h-100">
                 <div style="font-size: 1.6rem;">📅</div>
                 <h3 class="mt-2 mb-0">Events and pictures</h3>
                 <a href="/events" class="stretched-link"></a>
             </div>
         </div>
 
-    </div>
+    </div> <!-- end row -->
+    
 
+    <!-- Modal -->
+    <div class="modal fade" id="indexImageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <button type="button"
+                        class="btn-close btn-close-white ms-auto me-2 mt-2"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                <img src="/Photos/Us2026.jpg"
+                     class="img-fluid rounded"
+                     alt="Family photo full size" />
+            </div>
+        </div>
     </div>
 
 </div>

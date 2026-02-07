@@ -40,10 +40,20 @@ namespace WebTheMasseysEvents.Services
                 map.TryGetValue("cover", out var cover);
                 map.TryGetValue("number", out var numberStr);
 
+                // NEW
+                map.TryGetValue("highlight", out var highlightStr);
+                map.TryGetValue("link", out var link);
+                map.TryGetValue("linkText", out var linkText);
+                map.TryGetValue("tags", out var tagsStr);
+
                 DateTime.TryParse(dateStr, out var date);
                 int.TryParse(numberStr, out var number);
 
                 var coverFile = string.IsNullOrWhiteSpace(cover) ? null : cover.Trim();
+
+                // NEW
+                var highlight = ParseBool(highlightStr);
+                var tags = ParseTags(tagsStr);
 
                 items.Add(new EventItem
                 {
@@ -54,11 +64,15 @@ namespace WebTheMasseysEvents.Services
                     Cover = coverFile,
                     BodyMarkdown = body.Trim(),
 
-                    // FIX: store number (null if missing/0)
                     Number = number == 0 ? null : number,
 
-                    // FIX: load photos from folder, excluding cover so it won't appear twice
                     PhotoFiles = GetPhotoFilesForSlug(slug, coverFile),
+
+                    // NEW
+                    Highlight = highlight,
+                    Tags = tags,
+                    Link = string.IsNullOrWhiteSpace(link) ? null : link.Trim(),
+                    LinkText = string.IsNullOrWhiteSpace(linkText) ? null : linkText.Trim(),
                 });
             }
 
@@ -86,20 +100,103 @@ namespace WebTheMasseysEvents.Services
         {
             var dict = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 
-            foreach (var line in fm.Split('\n'))
+            // Supports:
+            // key: value
+            // tags:
+            //   - a
+            //   - b
+            //
+            // For multi-line lists, we store as "a,b" in dict["tags"].
+
+            string? currentKey = null;
+            var listItems = new List<string>();
+
+            foreach (var rawLine in fm.Split('\n'))
             {
+                var line = rawLine.TrimEnd('\r');
                 var trimmed = line.Trim();
+
                 if (string.IsNullOrWhiteSpace(trimmed)) continue;
 
+                // Multi-line list item: "- something"
+                if (currentKey != null && trimmed.StartsWith("-", StringComparison.Ordinal))
+                {
+                    var item = trimmed[1..].Trim();
+                    if (!string.IsNullOrWhiteSpace(item))
+                        listItems.Add(item);
+                    continue;
+                }
+
+                // New key
                 var idx = trimmed.IndexOf(':');
                 if (idx < 0) continue;
 
+                // If we were collecting a list, flush it
+                if (currentKey != null)
+                {
+                    dict[currentKey] = string.Join(",", listItems);
+                    currentKey = null;
+                    listItems.Clear();
+                }
+
                 var key = trimmed[..idx].Trim();
                 var val = trimmed[(idx + 1)..].Trim();
+
+                // If "tags:" with no value, begin list capture
+                if (string.Equals(key, "tags", StringComparison.OrdinalIgnoreCase) && string.IsNullOrWhiteSpace(val))
+                {
+                    currentKey = key;
+                    continue;
+                }
+
                 dict[key] = val;
             }
 
+            // Flush any pending list capture
+            if (currentKey != null)
+            {
+                dict[currentKey] = string.Join(",", listItems);
+            }
+
             return dict;
+        }
+
+        private static bool ParseBool(string? s)
+        {
+            if (string.IsNullOrWhiteSpace(s)) return false;
+            s = s.Trim();
+
+            if (bool.TryParse(s, out var b)) return b;
+
+            // allow 1/0, yes/no
+            if (s == "1") return true;
+            if (s == "0") return false;
+            if (s.Equals("yes", StringComparison.OrdinalIgnoreCase)) return true;
+            if (s.Equals("no", StringComparison.OrdinalIgnoreCase)) return false;
+
+            return false;
+        }
+
+        private static List<string> ParseTags(string? s)
+        {
+            if (string.IsNullOrWhiteSpace(s)) return new List<string>();
+
+            s = s.Trim();
+
+            // Handle [a, b, c]
+            if (s.StartsWith("[") && s.EndsWith("]"))
+            {
+                s = s[1..^1];
+            }
+
+            // Split by comma
+            var parts = s.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                         .Select(x => x.Trim().Trim('"').Trim('\''))
+                         .Where(x => x.Length > 0)
+                         .Distinct(StringComparer.OrdinalIgnoreCase)
+                         .ToList();
+
+            return parts;
         }
 
         private List<string> GetPhotoFilesForSlug(string slug, string? coverFile)
@@ -118,9 +215,8 @@ namespace WebTheMasseysEvents.Services
                     !string.IsNullOrWhiteSpace(name) &&
                     (string.IsNullOrWhiteSpace(coverFile) ||
                      !string.Equals(name, coverFile, StringComparison.OrdinalIgnoreCase)))
-                .OrderBy(name => name) // e.g. 01.jpg, 02.jpg...
+                .OrderBy(name => name)
                 .ToList()!;
         }
     }
 }
-
