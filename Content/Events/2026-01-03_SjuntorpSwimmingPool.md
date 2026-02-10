@@ -1,10 +1,10 @@
 ---
-title:2026-01 Pictures 
+title:2026-01 Sjuntorps swiming pool 
 date: 2026-01
 location: Sweden 
 cover: Thepool.jpg
 number: 39
-highlight: true
+highlight: True
 tags: [family]
 link:http://www.themasseys.net/Familypix/2026-Sidor/TheSwimmingPool/SjuntorpPool.asp
 linkText: Sjuntorp swimming pool

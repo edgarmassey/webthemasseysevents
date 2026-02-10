@@ -395,6 +395,8 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-11
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2024-12.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-01.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-02.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-03.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-04.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-05.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-06.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2025-07.md
@@ -409,6 +411,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-03_SjuntorpSwimmingPool.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-06_CanadianTurkeyDinner.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01-16_Special-Visit-With-Lennart.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2026-01.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Alfons.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Alfons\Children\William.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Eleanore.md
