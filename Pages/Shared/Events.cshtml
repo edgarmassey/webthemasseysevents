@@ -219,9 +219,11 @@
                                                     @if (!string.IsNullOrWhiteSpace(link))
                                                     {
                                                         <a href="@link"
-                                                           @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
+                                                               class="event-link"
+                                                            @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
                                                             @(string.IsNullOrWhiteSpace(linkText) ? "Read more" : linkText)
                                                         </a>
+
                                                     }
                                                 </td>
                                             }
@@ -274,9 +276,11 @@
                                                     @if (!string.IsNullOrWhiteSpace(link))
                                                     {
                                                         <a href="@link"
-                                                           @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
+                                                               class="event-link"
+                                                            @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
                                                             @(string.IsNullOrWhiteSpace(linkText) ? "Read more" : linkText)
                                                         </a>
+
                                                     }
                                                 </td>
                                             }
@@ -291,6 +295,8 @@
         }
 
     </div>
+   
+
 </div>
 
 @section Scripts {

@@ -205,6 +205,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2010-09
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2010-10.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2010-11.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2010-12.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-01.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-02.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-03.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2011-04.md
@@ -250,6 +251,7 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-03
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-04.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-05.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-06.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-06_Benjamin.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-07.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-08.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2014-09.md
@@ -272,6 +274,8 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2015-12
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-01.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-02.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-03.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-03_Emma.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-03_malte.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-04.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-05.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2016-06.md
@@ -290,12 +294,14 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-04
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-05.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-05_Ireland.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-06.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-06_Ellen.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-07.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-08.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-09.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-10.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-11.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-12.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2017-12_Isaac.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-01.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-02.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-02_AbudjaNigeria.md
@@ -306,6 +312,8 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-03
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-04.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-05.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-06.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-06_EleanoreNursing.md
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-06_EllenTeaching.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-07.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-08.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\Events\2018-08_Alanja.md

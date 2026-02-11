@@ -1,0 +1,43 @@
+﻿@page "/video/{slug}"
+@model WebTheMasseysEvents.Pages.VideoModel
+
+<div class="container py-4">
+    <a href="/videos">← Back to Videos</a>
+
+    <h1 class="mt-3">@Model.Video!.Title</h1>
+
+    <div class="text-muted">
+        @Model.Video!.Date.ToString("yyyy-MM-dd")
+        @if (!string.IsNullOrWhiteSpace(Model.Video!.Location))
+        {
+            <span> • @Model.Video!.Location</span>
+        }
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(Model.Video!.VideoUrl))
+    {
+        <div class="mt-3" style="max-width:1000px; margin:0 auto;">
+            <video controls
+                   preload="metadata"
+                   playsinline
+                   style="display:block; width:100%; height:auto; max-height:80vh; background:#000;">
+                <source src="@Model.Video!.VideoUrl" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
+
+    }
+    else
+    {
+        <div class="alert alert-warning mt-3">
+            Video file not found. Check <code>video</code> and <code>videoFolder</code> in the MD file.
+        </div>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(Model.Video!.Description))
+    {
+        <p class="mt-3">@Model.Video!.Description</p>
+    }
+</div>

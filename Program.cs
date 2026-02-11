@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<EventStore>();
 builder.Services.AddSingleton<OurKidsStore>();
+builder.Services.AddSingleton<VideoStore>();
 
 var app = builder.Build();
 

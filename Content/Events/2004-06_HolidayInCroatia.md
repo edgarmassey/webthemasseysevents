@@ -4,7 +4,7 @@ date: 2004-06
 location: Sweden 
 cover: 
 number: 32
-highlight: true
+highlight:  
 tags: [Switzerland,Belgium,Croatia]
 link:  
 linkText: 

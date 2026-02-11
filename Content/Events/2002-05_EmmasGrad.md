@@ -4,10 +4,10 @@ date: 2002-05
 location: Sweden 
 cover: 
 number: 32
-highlight: true
+highlight: True
 tags: [Graduation]
-link:  
-linkText: 
+link:  http://www.themasseys.net/familypix/2002/2002-05-EmmasGrad/Dear_emma.htm
+linkText: Emmas graduation
 
 ---
 
