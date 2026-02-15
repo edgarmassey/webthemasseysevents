@@ -18,9 +18,12 @@
     {
         <div class="mt-3" style="max-width:1000px; margin:0 auto;">
             <video controls
+                   autoplay
+                   muted
                    preload="metadata"
                    playsinline
                    style="display:block; width:100%; height:auto; max-height:80vh; background:#000;">
+
                 <source src="@Model.Video!.VideoUrl" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>

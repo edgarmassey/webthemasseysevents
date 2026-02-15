@@ -28,6 +28,9 @@
 			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 		</Content>
 	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Markdig" Version="0.45.0" />
+	</ItemGroup>
 
 </Project>
 

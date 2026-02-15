@@ -6,7 +6,7 @@
     <title>@ViewData["Title"] - WebTheMasseysEvents</title>
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />A
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> 
     <link rel="stylesheet" href="~/WebTheMasseysEvents.styles.css" asp-append-version="true" />
 </head>
 
@@ -37,6 +37,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-page="/Current">Current Things</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-page="/OurKids">Our Kids</a>
                         </li>
 
@@ -47,9 +51,11 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="/events">Events and pictures</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-page="/Poetry/Index">English Poetry</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="/videos">Videos</a>
                         </li>
@@ -57,13 +63,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-page="/Privacy">Site info</a>
                         </li>
-                        
-
                     </ul>
-
-
-
-
                 </div>
 
             </div>
@@ -79,7 +79,8 @@
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2026 - WebTheMasseysEvents -
-            <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <a asp-area="" asp-page="/Privacy">Site info</a>
+
         </div>
     </footer>
 
@@ -91,5 +92,6 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
 
 

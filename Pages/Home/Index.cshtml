@@ -1,21 +1,39 @@
-﻿<h1>Our Home</h1>
+﻿<<h1>Current Things</h1>
 
-<div class="row g-4">
     <div class="col-md-4">
-        <a class="card text-decoration-none" href="/Home/Historic">
-            <div class="card-body"><h5>Historic</h5></div>
+        <a class="card text-decoration-none" href="/Current">
+            <div class="card-body">
+                <h5>Right now</h5>
+
+                @if (Model.LatestCurrent != null)
+                {
+                    <div class="text-muted" style="font-size:0.9rem;">
+                        @Model.LatestCurrent.Date.ToString("yyyy-MM-dd")
+                    </div>
+                    <div>
+                        @Model.LatestCurrent.Title
+                    </div>
+                }
+                else
+                {
+                    <div class="text-muted" style="font-size:0.9rem;">
+                        No updates yet
+                    </div>
+                }
+            </div>
         </a>
     </div>
 
-    <div class="col-md-4">
-        <a class="card text-decoration-none" href="/Home/Exterior">
-            <div class="card-body"><h5>Exterior</h5></div>
-        </a>
-    </div>
 
-    <div class="col-md-4">
-        <a class="card text-decoration-none" href="/Home/Interior">
-            <div class="card-body"><h5>Interior</h5></div>
-        </a>
+        <div class="col-md-4">
+            <a class="card text-decoration-none" href="/Current">
+                <div class="card-body"><h5>Recent updates</h5></div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a class="card text-decoration-none" href="/Current">
+                <div class="card-body"><h5>Lately</h5></div>
+            </a>
+        </div>
     </div>
-</div>

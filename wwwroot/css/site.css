@@ -363,4 +363,123 @@ a.event-link {
     color: #000 !important; /* black */
     font-weight: 600; /* optional */
 }
+.table-narrow-wrapper {
+    width: 100%;
+    max-width: 900px; /* tweak: 850–1000px usually feels right */
+}
+/* Default: desktop / tablet */
+.table-narrow-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Slightly tighter cells */
+#eventsAccordion table th,
+#eventsAccordion table td {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+    .table-narrow-wrapper {
+        max-width: none; /* go full width */
+    }
+
+    #eventsAccordion table th,
+    #eventsAccordion table td {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+        /* Optional: keep dates compact */
+        #eventsAccordion table td:first-child,
+        #eventsAccordion table th:first-child {
+            white-space: nowrap;
+        }
+}
+/* Keep Date compact */
+#eventsAccordion table th:first-child,
+#eventsAccordion table td:first-child {
+    white-space: nowrap;
+    width: 1%;
+}
+
+/* Let Title take remaining space */
+#eventsAccordion table th:nth-child(2),
+#eventsAccordion table td:nth-child(2) {
+    width: auto;
+}
+
+/* Make Link column compact (when present) */
+#eventsAccordion table th:last-child,
+#eventsAccordion table td:last-child {
+    white-space: nowrap;
+    width: 1%;
+}
+#eventsAccordion table td:nth-child(2) a {
+    font-weight: 500;
+}
+/* Date stays compact */
+#eventsAccordion table th:first-child,
+#eventsAccordion table td:first-child {
+    white-space: nowrap;
+    width: 1%;
+}
+
+/* Title: dominant but capped */
+#eventsAccordion table th:nth-child(2),
+#eventsAccordion table td:nth-child(2) {
+    max-width: 55ch; /* ← tweak: 45–65ch works well */
+}
+
+/* Allow title to wrap nicely */
+#eventsAccordion table td:nth-child(2) {
+    white-space: normal;
+}
+
+/* Link column gets breathing room */
+#eventsAccordion table th:last-child,
+#eventsAccordion table td:last-child {
+    white-space: nowrap;
+    width: 1%;
+}
+
+
+#prevPhoto,
+#nextPhoto {
+    font-size: 2.4rem;
+    width: 3.5 rem;
+    height:3.5 rem;
+}
+
+#prevPhoto,
+#nextPhoto {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: white; /* arrow color */
+    font-size: 3rem; /* arrow size */
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+    /* Remove Bootstrap focus / active styles */
+    #prevPhoto:focus,
+    #nextPhoto:focus,
+    #prevPhoto:active,
+    #nextPhoto:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+/* Optional: contrast without a ring */
+#prevPhoto,
+#nextPhoto {
+    text-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+
 

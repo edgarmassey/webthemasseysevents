@@ -1,0 +1,38 @@
+﻿@page "/Current"
+@model WebTheMasseysEvents.Pages.CurrentModel
+
+<div class="container py-4">
+    <h1>Current Things</h1>
+
+    <p class="text-muted">Count: @Model.Items.Count</p>
+
+    @if (!Model.Items.Any())
+    {
+        <p class="text-muted fst-italic">No current updates yet.</p>
+    }
+    else
+    {
+        @foreach (var item in Model.Items)
+        {
+            <div class="card mb-3 shadow-sm">
+                <div class="card-body">
+                    <h5 class="mb-1">@item.Title</h5>
+
+                    <div class="text-muted mb-2">
+                        @item.Date.ToString("yyyy-MM-dd")
+                    </div>
+
+                    @if (!string.IsNullOrWhiteSpace(item.Summary))
+                    {
+                        <p class="mb-2">@item.Summary</p>
+                    }
+
+                    <a asp-page="/CurrentItem"
+                           asp-route-slug="@item.Slug">
+                        Read more →
+                    </a>
+                </div>
+            </div>
+        }
+    }
+</div>

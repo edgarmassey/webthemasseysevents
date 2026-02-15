@@ -183,13 +183,14 @@
                     <div id="@collapseId"
                          class="accordion-collapse collapse @(show ? "show" : "")"
                          aria-labelledby="@headingId">
-                        <div class="accordion-body p-0">
-                            <table class="table table-hover mb-0">
+                        <div class="accordion-body p-0 d-flex justify-content-center">
+                            <div class="table-narrow-wrapper">
+                                <table class="table table-hover mb-0">
                                 <thead>
                                     <tr>
                                         <th style="white-space:nowrap;">Date</th>
                                         <th>Title</th>
-                                        <th>Location</th>
+                                      
                                         @if (anyHasLink)
                                         {
                                             <th>Link</th>
@@ -211,7 +212,7 @@
                                                     @e.Title
                                                 </a>
                                             </td>
-                                            <td>@e.Location</td>
+                                           
 
                                             @if (anyHasLink)
                                             {
@@ -231,6 +232,9 @@
                                     }
                                 </tbody>
                             </table>
+                            
+                            </div>
+   
                         </div>
                     </div>
                 }
@@ -240,57 +244,57 @@
                          class="accordion-collapse collapse @(show ? "show" : "")"
                          aria-labelledby="@headingId"
                          data-bs-parent="#eventsAccordion">
-                        <div class="accordion-body p-0">
-                            <table class="table table-hover mb-0">
-                                <thead>
-                                    <tr>
-                                        <th style="white-space:nowrap;">Date</th>
-                                        <th>Title</th>
-                                        <th>Location</th>
-                                        @if (anyHasLink)
-                                        {
-                                            <th>Link</th>
-                                        }
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach (var e in yearGroup)
-                                    {
-                                        var link = GetString(e, "Link");
-                                        var linkText = GetString(e, "LinkText");
-
+                        <div class="accordion-body p-0 d-flex justify-content-center">
+                            <div class="table-narrow-wrapper">
+                                <table class="table table-hover mb-0">
+                                    <thead>
                                         <tr>
-                                            <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
-                                            <td>
-                                                <a asp-page="/Event"
-                                                   asp-route-slug="@e.Slug"
-                                                   asp-route-backYear="@year">
-                                                    @e.Title
-                                                </a>
-                                            </td>
-                                            <td>@e.Location</td>
-
+                                            <th style="white-space:nowrap;">Date</th>
+                                            <th>Title</th>
                                             @if (anyHasLink)
                                             {
-                                                <td>
-                                                    @if (!string.IsNullOrWhiteSpace(link))
-                                                    {
-                                                        <a href="@link"
-                                                               class="event-link"
-                                                            @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
-                                                            @(string.IsNullOrWhiteSpace(linkText) ? "Read more" : linkText)
-                                                        </a>
-
-                                                    }
-                                                </td>
+                                                <th>Link</th>
                                             }
                                         </tr>
-                                    }
-                                </tbody>
-                            </table>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var e in yearGroup)
+                                        {
+                                            var link = GetString(e, "Link");
+                                            var linkText = GetString(e, "LinkText");
+
+                                            <tr>
+                                                <td style="white-space:nowrap;">@e.Date.ToString("yyyy-MM-dd")</td>
+                                                <td>
+                                                    <a asp-page="/Event"
+                                                           asp-route-slug="@e.Slug"
+                                                           asp-route-backYear="@year">
+                                                        @e.Title
+                                                    </a>
+                                                </td>
+
+                                                @if (anyHasLink)
+                                                {
+                                                    <td>
+                                                        @if (!string.IsNullOrWhiteSpace(link))
+                                                        {
+                                                            <a href="@link"
+                                                                   class="event-link"
+                                                                @(UrlLooksExternal(link) ? "target=\"_blank\" rel=\"noopener\"" : "")>
+                                                                @(string.IsNullOrWhiteSpace(linkText) ? "Read more" : linkText)
+                                                            </a>
+                                                        }
+                                                    </td>
+                                                }
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 }
+
             </div>
         }
 
