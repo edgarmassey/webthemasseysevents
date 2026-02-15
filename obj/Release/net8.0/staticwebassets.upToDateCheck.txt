@@ -9527,3 +9527,13 @@ wwwroot\Videos\family\NathalieAndNonaPlayingForGrandmas90th.mp4
 wwwroot\Videos\family\NonaAndJackViolin.mp4
 wwwroot\Videos\family\NonasFilmFestivalFilm.mp4
 wwwroot\Videos\family\Mireilles50thBirthday.mp4
+wwwroot\Photos\Current\Niklas40th\AWinterDay.jpg
+wwwroot\Photos\Current\Niklas40th\NiklasBirthday.jpg
+wwwroot\Photos\Current\Niklas40th\NiklasBrothers.jpg
+wwwroot\Photos\Current\Niklas40th\WatchingMello.jpg
+wwwroot\Photos\Current\OtherEvent\27DadWithHisWalker.jpg
+wwwroot\Photos\Current\OtherEvent\41GrandmaAndTheGirls.jpg
+wwwroot\Photos\Current\OtherEvent\AWinterDay.jpg
+wwwroot\Photos\Current\OtherEvent\EllenAndGrandma.jpg
+wwwroot\Photos\Current\OtherEvent\FamilyMomAndDad.jpg
+wwwroot\Photos\Current\OtherEvent\KenAndDad.jpg

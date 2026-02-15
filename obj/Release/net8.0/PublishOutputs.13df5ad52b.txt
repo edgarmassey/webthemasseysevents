@@ -439,3 +439,4 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.dl
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.deps.json
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.runtimeconfig.json
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.pdb
+C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Markdig.dll

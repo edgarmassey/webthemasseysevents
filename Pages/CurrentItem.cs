@@ -7,6 +7,7 @@
         public DateTime Date { get; set; } = DateTime.MinValue;
         public string Summary { get; set; } = "";
         public string Cover { get; set; } = "";   // optional (e.g. "/Photos/xyz.jpg")
+        public string CoverCaption { get; set; } = "";
         public string Markdown { get; set; } = "";
         public string Html { get; set; } = "";
         public string SourcePath { get; set; } = "";

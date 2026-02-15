@@ -451,8 +451,8 @@ a.event-link {
 #prevPhoto,
 #nextPhoto {
     font-size: 2.4rem;
-    width: 3.5 rem;
-    height:3.5 rem;
+    width: 3.5rem;
+    height:3.5rem;
 }
 
 #prevPhoto,
@@ -480,6 +480,28 @@ a.event-link {
 #prevPhoto,
 #nextPhoto {
     text-shadow: 0 0 8px rgba(0,0,0,0.6);
+
 }
 
+.inline-img-caption {
+    font-size: 0.85rem;
+    text-align: left;
+    display: block;
+}
+.inline-img-caption {
+    font-size: 0.85rem;
+    text-align: left;
+    display: block;
+}
+.gallery-tile {
+    width: 110px;
+}
+
+.gallery-caption {
+    font-size: 0.8rem;
+    line-height: 1.1;
+    margin-top: 4px;
+    text-align: left;
+    word-break: break-word;
+}
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebTheMasseysEvents")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64576fcc2b86bcb94321522f01694d7d2ddb5177")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7025b4987e09d68210823731c1ddac27a4caeb17")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebTheMasseysEvents")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebTheMasseysEvents")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

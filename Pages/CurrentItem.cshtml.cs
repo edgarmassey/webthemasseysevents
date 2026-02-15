@@ -7,6 +7,7 @@ namespace WebTheMasseysEvents.Pages
     public class CurrentItemModel : PageModel
     {
         public CurrentItem? Item { get; private set; }
+        public string CoverCaption { get; set; } = "";
 
         public IActionResult OnGet(string slug)
         {

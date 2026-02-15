@@ -1,5 +1,8 @@
 ﻿using Markdig;
+using System;
+using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -68,7 +71,6 @@ namespace WebTheMasseysEvents.Services
             return null;
         }
 
-
         private static CurrentItem? LoadFromFile(string path)
         {
             var text = File.ReadAllText(path, Encoding.UTF8);
@@ -89,6 +91,7 @@ namespace WebTheMasseysEvents.Services
 
             var summary = meta.TryGetValue("summary", out var s) ? s.Trim() : "";
             var cover = meta.TryGetValue("cover", out var c) ? c.Trim() : "";
+            var coverCaption = meta.TryGetValue("covercaption", out var cc) ? cc.Trim() : "";
 
             // If cover is not a web path, assume /Photos/...
             if (!string.IsNullOrWhiteSpace(cover) &&
@@ -130,17 +133,11 @@ namespace WebTheMasseysEvents.Services
                         .Select(f => photoFolderWeb + "/" + Path.GetFileName(f))
                         .OrderBy(x => x, StringComparer.OrdinalIgnoreCase)
                         .ToList();
-
-                    // Exclude cover so it doesn't show twice
-                    if (!string.IsNullOrWhiteSpace(cover))
-                        gallery = gallery
-                            .Where(x => !string.Equals(x, cover, StringComparison.OrdinalIgnoreCase))
-                            .ToList();
                 }
             }
 
-            // Exclude cover (by full path OR just filename)
-            if (!string.IsNullOrWhiteSpace(cover))
+            // Exclude cover so it doesn't show twice (full path OR just filename)
+            if (!string.IsNullOrWhiteSpace(cover) && gallery.Count > 0)
             {
                 var coverFile = Path.GetFileName(cover);
 
@@ -151,11 +148,9 @@ namespace WebTheMasseysEvents.Services
                     .ToList();
             }
 
-
-
             var html = Markdown.ToHtml(body ?? "", Pipeline);
 
-            // wrap inline markdown images with modal click-to-zoom
+            // wrap inline markdown images with modal click-to-zoom + filename caption
             html = WrapInlineImagesWithModal(html, slug);
 
             return new CurrentItem
@@ -165,6 +160,7 @@ namespace WebTheMasseysEvents.Services
                 Date = date,
                 Summary = summary,
                 Cover = cover,
+                CoverCaption = coverCaption,
                 Markdown = body ?? "",
                 Html = html,
                 SourcePath = path,
@@ -287,6 +283,7 @@ namespace WebTheMasseysEvents.Services
             return sb.Length == 0 ? "item" : sb.ToString();
         }
 
+        // Inline image -> click-to-zoom modal         // Inline image -> click-to-zoom modal + filename caption
         private static string WrapInlineImagesWithModal(string html, string idPrefix)
         {
             if (string.IsNullOrWhiteSpace(html)) return html;
@@ -295,63 +292,69 @@ namespace WebTheMasseysEvents.Services
 
             return Regex.Replace(
                 html,
-                @"<img\b[^>]*\bsrc\s*=\s*""([^""]+)""[^>]*>",
+                @"<img\b[^>]*\bsrc\s*=\s*([""'])(?<src>.*?)\1[^>]*>",
                 match =>
                 {
                     i++;
 
                     var imgTag = match.Value;
-                    var src = match.Groups[1].Value;
+                    var src = match.Groups["src"].Value;
 
-                    var altMatch = Regex.Match(imgTag, @"\balt\s*=\s*""([^""]*)""", RegexOptions.IgnoreCase);
-                    var alt = altMatch.Success ? altMatch.Groups[1].Value : "";
+                    // filename from src (strip ?query / #hash)
+                    var cleanSrc = src.Split('?', '#')[0];
+                    var fileName = System.IO.Path.GetFileName(cleanSrc);
+
 
                     var safePrefix = Slugify(idPrefix);
                     var modalId = $"imgModal-{safePrefix}-{i}";
 
+                    // add thumbnail style
                     var thumbImgTag = imgTag;
-
                     if (Regex.IsMatch(thumbImgTag, @"\bstyle\s*=", RegexOptions.IgnoreCase))
                     {
                         thumbImgTag = Regex.Replace(
                             thumbImgTag,
-                            @"\bstyle\s*=\s*""([^""]*)""",
-                            m => $"style=\"{m.Groups[1].Value};max-height:260px;width:auto;cursor:pointer;\"",
+                            @"\bstyle\s*=\s*([""'])(?<s>.*?)\1",
+                            m => $"style=\"{m.Groups["s"].Value};max-height:260px;width:auto;cursor:pointer;\"",
                             RegexOptions.IgnoreCase
                         );
                     }
                     else
                     {
-                        thumbImgTag = thumbImgTag.Insert(
-                            thumbImgTag.Length - 1,
-                            " style=\"max-height:260px;width:auto;cursor:pointer;\""
+                        thumbImgTag = Regex.Replace(
+                            thumbImgTag,
+                            @"\s*/?>$",
+                            " style=\"max-height:260px;width:auto;cursor:pointer;\" />"
                         );
                     }
 
                     return $@"
-<button type=""button""
-        class=""p-0 border-0 bg-transparent""
-        data-bs-toggle=""modal""
-        data-bs-target=""#{modalId}""
-        aria-label=""Open image full size"">
+<div class=""inline-img-block mb-3"">
+  <button type=""button""
+          class=""p-0 border-0 bg-transparent""
+          data-bs-toggle=""modal""
+          data-bs-target=""#{modalId}""
+          aria-label=""Open image full size"">
     {thumbImgTag}
-</button>
+  </button>
+  <div class=""inline-img-caption text-muted"">{fileName}</div>
+</div>
 
 <div class=""modal fade"" id=""{modalId}"" tabindex=""-1"" aria-hidden=""true"">
-    <div class=""modal-dialog modal-dialog-centered modal-lg"">
-        <div class=""modal-content bg-transparent border-0"">
-            <button type=""button""
-                    class=""btn-close btn-close-white ms-auto me-2 mt-2""
-                    data-bs-dismiss=""modal""
-                    aria-label=""Close""></button>
+  <div class=""modal-dialog modal-dialog-centered modal-lg"">
+    <div class=""modal-content bg-transparent border-0"">
+      <button type=""button""
+              class=""btn-close btn-close-white ms-auto me-2 mt-2""
+              data-bs-dismiss=""modal""
+              aria-label=""Close""></button>
 
-            <img src=""{src}"" class=""img-fluid rounded"" alt=""{alt}"" />
-        </div>
+      <img src=""{src}"" class=""img-fluid rounded"" alt="""" />
     </div>
+  </div>
 </div>
 ";
                 },
-                RegexOptions.IgnoreCase
+                RegexOptions.IgnoreCase | RegexOptions.Singleline
             );
         }
     }

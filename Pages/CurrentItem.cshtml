@@ -1,4 +1,5 @@
 ﻿@page "/Current/{slug}"
+@using System.IO
 @model WebTheMasseysEvents.Pages.CurrentItemModel
 
 <div class="container py-4">
@@ -16,7 +17,7 @@
             @Model.Item.Date.ToString("yyyy-MM-dd")
         </div>
 
-        @* Optional cover image (thumbnail + click-to-zoom modal) *@
+        @* Cover image *@
         @if (!string.IsNullOrWhiteSpace(Model.Item.Cover))
         {
             var modalId = "currentCoverModal";
@@ -27,10 +28,17 @@
                     data-bs-target="#@modalId"
                     aria-label="Open image full size">
                 <img src="@Model.Item.Cover"
-                     class="img-fluid rounded mb-3"
+                     class="img-fluid rounded mb-2"
                      style="max-height:260px; width:auto; cursor:pointer;"
                      alt="" />
             </button>
+
+            @if (!string.IsNullOrWhiteSpace(Model.Item.CoverCaption))
+            {
+                <div class="text-muted mb-3" style="font-size:0.9rem; max-width:1000px; text-align:left;">
+                    @Model.Item.CoverCaption
+                </div>
+            }
 
             <div class="modal fade" id="@modalId" tabindex="-1" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -48,33 +56,45 @@
             </div>
         }
 
+        @* Markdown body *@
         <div class="markdown-content">
             @Html.Raw(Model.Item.Html)
         </div>
+
+        @* Gallery thumbs + filename captions *@
         @if (Model.Item.GalleryImagesWeb != null && Model.Item.GalleryImagesWeb.Count > 0)
         {
             <hr class="my-4" />
             <h5>Pictures</h5>
 
-            <div class="d-flex flex-wrap gap-2">
+            <div class="d-flex flex-wrap gap-3">
                 @{
                     int i = 0;
                 }
                 @foreach (var src in Model.Item.GalleryImagesWeb)
                 {
                     i++;
-                    <img src="@src"
-                         class="rounded gallery-thumb"
-                         data-index="@i"
-                         style="height:110px;width:110px;object-fit:cover;cursor:pointer;"
-                         alt="" />
+                    // Use fully-qualified Path to avoid any "Path is a string" shadowing issues
+                    var fileName = System.IO.Path.GetFileName(src);
+
+                    <div class="gallery-tile" style="width:110px;">
+                        <img src="@src"
+                             class="rounded gallery-thumb"
+                             data-index="@i"
+                             style="height:110px;width:110px;object-fit:cover;cursor:pointer;"
+                             alt="" />
+                        <div class="gallery-caption text-muted"
+                             style="font-size:0.8rem; margin-top:4px; text-align:left; word-break:break-word;">
+                            @fileName
+                        </div>
+                    </div>
                 }
             </div>
-
         }
-
     }
 </div>
+
+@* Gallery modal *@
 <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content bg-transparent border-0 position-relative">
@@ -108,33 +128,38 @@
 @section Scripts {
     <script>
         const galleryImages = @Html.Raw(
-                    System.Text.Json.JsonSerializer.Serialize(Model.Item!.GalleryImagesWeb)
+                    System.Text.Json.JsonSerializer.Serialize(Model.Item?.GalleryImagesWeb ?? new List<string>())
             );
 
         let currentIndex = 0;
 
+        function showImage() {
+            if (!galleryImages || galleryImages.length === 0) return;
+            document.getElementById("galleryModalImage").src = galleryImages[currentIndex];
+        }
+
         document.querySelectorAll(".gallery-thumb").forEach(img => {
             img.addEventListener("click", () => {
-                currentIndex = parseInt(img.dataset.index) - 1;
+                if (!galleryImages || galleryImages.length === 0) return;
+
+                currentIndex = parseInt(img.dataset.index, 10) - 1;
+                if (isNaN(currentIndex) || currentIndex < 0) currentIndex = 0;
+
                 showImage();
                 new bootstrap.Modal(document.getElementById("galleryModal")).show();
             });
         });
 
-        function showImage() {
-            document.getElementById("galleryModalImage").src = galleryImages[currentIndex];
-        }
-
         function nextImage() {
+            if (!galleryImages || galleryImages.length === 0) return;
             currentIndex = (currentIndex + 1) % galleryImages.length;
             showImage();
         }
 
         function prevImage() {
+            if (!galleryImages || galleryImages.length === 0) return;
             currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
             showImage();
         }
     </script>
 }
-
-
