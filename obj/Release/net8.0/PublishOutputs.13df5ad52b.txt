@@ -435,7 +435,6 @@ C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Nona.m
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Rebecka.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Rebecka\Children\Freja.md
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\Content\OurKids\Rebecka\Children\Malte.md
-C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\wwwroot\Photos\Current\Mireilles57th\Family.jpg
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.dll
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.deps.json
 C:\Github\WebTheMasseysInfo\obj\Release\net8.0\PubTmp\Out\WebTheMasseysEvents.runtimeconfig.json

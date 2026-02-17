@@ -9542,3 +9542,5 @@ wwwroot\Photos\Current\Mireilles57th\MireilleInSundsvall.jpg
 wwwroot\Photos\Current\Mireilles57th\MireilleInUmeå.jpg
 wwwroot\Photos\Current\Mireilles57th\MireilleLeiaInTheSpa.jpg
 wwwroot\Photos\Current\Mireilles57th\MireilleWithGift.jpg
+wwwroot\Photos\Current\Mireilles57th\Family.jpg
+wwwroot\Photos\Memories.jpg
