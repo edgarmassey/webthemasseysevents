@@ -148,7 +148,7 @@ namespace WebTheMasseysEvents.Services
                     .ToList();
             }
 
-            var html = Markdown.ToHtml(body ?? "", Pipeline);
+            var html = MarkdownService.ToHtml(body);
 
             // wrap inline markdown images with modal click-to-zoom + filename caption
             html = WrapInlineImagesWithModal(html, slug);

@@ -517,3 +517,10 @@ a.event-link {
     height: auto;
     object-fit: contain;
 }
+/* Event page cover image */
+
+.event-cover-img {
+    width: 100%;
+    height: auto;
+    display: block; /* important: removes inline-gap / weird sizing */
+}

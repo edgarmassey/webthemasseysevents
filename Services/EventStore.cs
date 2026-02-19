@@ -5,12 +5,18 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Hosting;
 using WebTheMasseysEvents.Models;
+using Markdig;
 
 namespace WebTheMasseysEvents.Services
 {
     public class EventStore
     {
         private readonly IWebHostEnvironment _env;
+
+        private static readonly MarkdownPipeline Pipeline =
+            new MarkdownPipelineBuilder()
+                .UseAdvancedExtensions()
+                .Build();
 
         public EventStore(IWebHostEnvironment env)
         {
@@ -54,6 +60,8 @@ namespace WebTheMasseysEvents.Services
                 // NEW
                 var highlight = ParseBool(highlightStr);
                 var tags = ParseTags(tagsStr);
+                var bodyMd = body.Trim();
+                var bodyHtml = Markdown.ToHtml(bodyMd, Pipeline);
 
                 items.Add(new EventItem
                 {
@@ -62,18 +70,19 @@ namespace WebTheMasseysEvents.Services
                     Date = date == default ? File.GetCreationTime(file) : date,
                     Location = string.IsNullOrWhiteSpace(location) ? null : location.Trim(),
                     Cover = coverFile,
-                    BodyMarkdown = body.Trim(),
+
+                    BodyMarkdown = bodyMd,
+                    BodyHtml = bodyHtml,   // ✅ THIS WAS MISSING
 
                     Number = number == 0 ? null : number,
-
                     PhotoFiles = GetPhotoFilesForSlug(slug, coverFile),
 
-                    // NEW
                     Highlight = highlight,
                     Tags = tags,
                     Link = string.IsNullOrWhiteSpace(link) ? null : link.Trim(),
                     LinkText = string.IsNullOrWhiteSpace(linkText) ? null : linkText.Trim(),
                 });
+
             }
 
             return items
@@ -160,7 +169,7 @@ namespace WebTheMasseysEvents.Services
 
             return dict;
         }
-
+      
         private static bool ParseBool(string? s)
         {
             if (string.IsNullOrWhiteSpace(s)) return false;
@@ -202,7 +211,8 @@ namespace WebTheMasseysEvents.Services
         private List<string> GetPhotoFilesForSlug(string slug, string? coverFile)
         {
             // wwwroot/Photos/Events/{slug}/
-            var photosDir = Path.Combine(_env.WebRootPath, "Photos", "Events and pictures", slug);
+            var photosDir = Path.Combine(_env.WebRootPath, "Photos", "Events", slug);
+
             if (!Directory.Exists(photosDir)) return new List<string>();
 
             var allowed = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
@@ -217,6 +227,9 @@ namespace WebTheMasseysEvents.Services
                      !string.Equals(name, coverFile, StringComparison.OrdinalIgnoreCase)))
                 .OrderBy(name => name)
                 .ToList()!;
+        
         }
+
     }
+
 }

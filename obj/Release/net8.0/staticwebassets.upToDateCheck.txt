@@ -9544,3 +9544,17 @@ wwwroot\Photos\Current\Mireilles57th\MireilleLeiaInTheSpa.jpg
 wwwroot\Photos\Current\Mireilles57th\MireilleWithGift.jpg
 wwwroot\Photos\Current\Mireilles57th\Family.jpg
 wwwroot\Photos\Memories.jpg
+wwwroot\Photos\Events\2026-02_Contemplation\Contemplation.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\AroundTheTable.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\FightingOverLunchBags.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\Mireille.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleAndEleanore.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleAndI.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleAndIGävle.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleAndMonica.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleEmmaAndI.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleInSundsvall.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleInUmeå.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleLeiaInTheSpa.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\MireilleWithGift.jpg
+wwwroot\Photos\Events\2026-02_Mireilles57th\OpeningPresents.jpg
