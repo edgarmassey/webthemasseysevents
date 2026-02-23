@@ -5,14 +5,33 @@
     <h1>Our Kids</h1>
     <p class="text-muted">A little snapshot of our six adult children and their families.</p>
 
+    @{
+        var today = DateOnly.FromDateTime(DateTime.Today);
+
+           }
+
+
+
     <div class="row g-3 mt-2">
         @foreach (var k in Model.Kids)
         {
+            var showNew = k.IsNew && (k.NewUntil is null || today <= k.NewUntil.Value);
+
             <div class="col-12 col-md-6 col-lg-4">
                 <a class="text-decoration-none"
-                   asp-page="/OurKids/Index"
-                   asp-route-slug="@k.Slug.ToLowerInvariant()">
-                    <div class="card h-100 shadow-sm ourkids-card">
+                       asp-page="/OurKids/Index"
+                       asp-route-slug="@k.Slug.ToLowerInvariant()">
+                    <div class="card h-100 shadow-sm ourkids-card position-relative">
+
+                        @if (showNew)
+                        {
+                            <span class="badge kid-card-new-badge"
+                                  data-kid-slug="@k.Slug"
+                                  data-new-until="@(k.NewUntil?.ToString("yyyy-MM-dd") ?? "")">
+                                NEW
+                            </span>
+                        }
+
                         @if (!string.IsNullOrWhiteSpace(k.Cover))
                         {
                             <img src="@k.Cover"
@@ -22,7 +41,7 @@
 
                         <div class="card-body">
                             <h5 class="card-title mb-1">@k.Name</h5>
-
+                            
                             @if (!string.IsNullOrWhiteSpace(k.Partner))
                             {
                                 <div class="text-muted">@k.Partner</div>
@@ -46,3 +65,39 @@
         }
     </div>
 </div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      const ver = window.SITE_FLAGS?.kidsNewVersion || "default";
+      const STORAGE_KEY = "visitedKids_" + ver;
+
+      const visited = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+
+           document.querySelectorAll(".kid-new-badge").forEach(badge => {
+      const slug = badge.dataset.kidSlug;
+      const newUntil = badge.dataset.newUntil || "";
+
+      const seenSamePeriod = visited[slug] && visited[slug] === newUntil;
+
+      if (seenSamePeriod) {
+        badge.style.display = "none";
+      } else {
+        badge.style.display = "inline-block"; // <-- IMPORTANT
+      }
+    });
+
+      document.querySelectorAll(".ourkids-card").forEach(card => {
+        card.addEventListener("click", () => {
+          const badge = card.querySelector(".kid-new-badge");
+          if (!badge) return;
+
+          const slug = badge.dataset.kidSlug;
+          const newUntil = badge.dataset.newUntil || "";
+
+          visited[slug] = newUntil;
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(visited));
+        });
+      });
+
+    });
+</script>

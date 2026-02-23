@@ -1,5 +1,7 @@
 ---
 name: Alfons Massey
+isNew: true
+newUntil: 2026-04-02
 partner: Amanda Karlsson
 location: Trollhättan, Sweden
 order: 14

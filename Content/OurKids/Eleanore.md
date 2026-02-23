@@ -1,5 +1,7 @@
 ---
 name: Eleanore Massey
+isNew: true
+newUntil: 2026-04-01
 partner: Niklas Engström
 location: Vargön, Sweden
 order: 15

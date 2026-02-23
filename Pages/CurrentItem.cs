@@ -1,9 +1,12 @@
-﻿namespace WebTheMasseysEvents.Services
+﻿using Microsoft.AspNetCore.Mvc.ViewEngines;
+
+namespace WebTheMasseysEvents.Services
 {
     public class CurrentItem
     {
         public string Slug { get; set; } = "";
         public string Title { get; set; } = "";
+       
         public DateTime Date { get; set; } = DateTime.MinValue;
         public string Summary { get; set; } = "";
         public string Cover { get; set; } = "";   // optional (e.g. "/Photos/xyz.jpg")

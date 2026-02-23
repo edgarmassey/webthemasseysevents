@@ -1,5 +1,7 @@
 ---
 name: Nona Massey
+isNew: true
+newUntil: 2026-04-01
 partner: Oskar Rydbom
 location: Göteborg, Sweden
 order: 16

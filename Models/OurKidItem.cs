@@ -7,6 +7,10 @@ namespace WebTheMasseysEvents.Models
     {
         public string Slug { get; set; } = "";
         public string Name { get; set; } = "";
+
+        public bool IsNew { get; set; }
+        public DateOnly? NewUntil { get; set; }  // optional
+
         public string? Partner { get; set; }
         public string? Location { get; set; }
         public int Order { get; set; } = 100;

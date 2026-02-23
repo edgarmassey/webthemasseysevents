@@ -20,6 +20,13 @@ namespace WebTheMasseysEvents.Services
         public IReadOnlyList<OurKidItem> GetAll()
         {
             var dir = Path.Combine(_env.ContentRootPath, "Content", "OurKids");
+             
+            File.AppendAllText(
+                Path.Combine(_env.ContentRootPath, "ourkids_pathlog.txt"),
+                $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} dir={dir} exists={Directory.Exists(dir)} files={(Directory.Exists(dir) ? Directory.GetFiles(dir, "*.md").Length : 0)}{Environment.NewLine}"
+            );
+
+
             if (!Directory.Exists(dir)) return Array.Empty<OurKidItem>();
 
             var files = Directory.GetFiles(dir, "*.md");
@@ -42,7 +49,8 @@ namespace WebTheMasseysEvents.Services
                     Partner = Get(fm, "partner"),
                     Location = Get(fm, "location"),
                     Order = GetInt(fm, "order", 100),
-
+                    IsNew = GetBool(fm, "isNew", false),
+                    NewUntil = GetDateOnly(fm, "newUntil"),
                     Cover = coverFile,
 
                     // load all photos from folder
@@ -53,6 +61,7 @@ namespace WebTheMasseysEvents.Services
                     BodyMarkdown = body.Trim(),
 
                     DateOfBirth = GetDateOnly(fm, "dateofbirth")
+
                 });
             }
 
@@ -221,6 +230,18 @@ namespace WebTheMasseysEvents.Services
                 return DateOnly.FromDateTime(dt);
 
             return null;
+        }
+
+        private static bool GetBool(Dictionary<string, string> fm, string key, bool fallback)
+        {
+            if (!fm.TryGetValue(key, out var v) || string.IsNullOrWhiteSpace(v))
+                return fallback;
+
+            v = v.Trim().Trim('"');
+
+            return v.Equals("true", StringComparison.OrdinalIgnoreCase)
+                || v.Equals("yes", StringComparison.OrdinalIgnoreCase)
+                || v.Equals("1");
         }
     }
 }

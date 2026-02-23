@@ -1,5 +1,7 @@
 ---
 name: Rebecka Massey
+isNew: true
+newUntil: 2026-04-01
 partner: Markus Andersson  
 location: Trollhättan, Sweden
 order: 11

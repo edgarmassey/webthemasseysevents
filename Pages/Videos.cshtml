@@ -8,22 +8,24 @@
     <div class="row g-3 mt-2">
         @foreach (var v in Model.Videos)
         {
-            <div class="col-12 col-md-6 col-lg-4">
-                <a class="card text-decoration-none h-100" asp-page="/Video" asp-route-slug="@v.Slug">
+            var thumbUrl = $"/Videos/Thumbs/{v.Slug}.png";
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <a class="card text-decoration-none h-100 video-card"
+                       asp-page="/Video" asp-route-slug="@v.Slug">
+
+                    <div class="video-thumb">
+                        <img src="@thumbUrl"
+                             alt="@v.Title"
+                             loading="lazy" />
+                        <span class="video-play">▶</span>
+                    </div>
+
                     <div class="card-body">
                         <h5 class="card-title mb-1">@v.Title</h5>
                         <div class="small text-muted">
                             @v.Date.ToString("yyyy-MM-dd")
-                            @if (!string.IsNullOrWhiteSpace(v.Location))
-                            {
-                                <span> • @v.Location</span>
-                            }
                         </div>
-
-                        @if (!string.IsNullOrWhiteSpace(v.Description))
-                        {
-                            <p class="card-text text-muted mt-2 mb-0">@v.Description</p>
-                        }
                     </div>
                 </a>
             </div>

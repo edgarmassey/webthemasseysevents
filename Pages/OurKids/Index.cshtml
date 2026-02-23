@@ -7,7 +7,16 @@
 
         <a href="/OurKids">← Back to Our Kids</a>
 
-        <h1 class="mt-3">@Model.Kid!.Name</h1>
+        @{
+            var today = DateOnly.FromDateTime(DateTime.Today);
+            var showNew = Model.Kid!.IsNew && (Model.Kid.NewUntil is null || today <= Model.Kid.NewUntil.Value);
+        }
+
+        <h1 class="mt-3 d-flex align-items-center gap-2">
+            @Model.Kid!.Name
+          
+           
+        </h1>
 
         @if (Model.Kid!.DateOfBirth is DateOnly dob)
         {
@@ -70,10 +79,10 @@
         }
 
 
-        @if (!string.IsNullOrWhiteSpace(Model.Kid!.BodyMarkdown))
+        @if (!string.IsNullOrWhiteSpace(Model.KidBodyHtml))
         {
-            <div class="mt-3">
-                <pre style="white-space:pre-wrap;font-family:inherit">@Model.Kid.BodyMarkdown</pre>
+            <div class="mt-3 kid-markdown">
+                @Html.Raw(Model.KidBodyHtml)
             </div>
         }
 
@@ -85,17 +94,23 @@
                 @foreach (var file in Model.Kid.HomePhotos)
                 {
                     var url = $"/Photos/OurKids/{Model.Kid.Slug}/{file}";
+                    var caption = System.IO.Path.GetFileName(file); // or GetFileNameWithoutExtension(file)
 
-                    <button type="button"
-                            class="btn p-0 border-0 kid-thumb-btn"
-                            data-bs-toggle="modal"
-                            data-bs-target="#kidImageModal"
-                            data-full="@url">
-                        <img src="@url"
-                             class="kid-thumb-img rounded"
-                             loading="lazy"
-                             alt="" />
-                    </button>
+                    <div class="kid-thumb">
+                        <button type="button"
+                                class="btn p-0 border-0 kid-thumb-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#kidImageModal"
+                                data-full="@url"
+                                data-caption="@caption">
+                            <img src="@url"
+                                 class="kid-thumb-img rounded"
+                                 loading="lazy"
+                                 alt="@caption" />
+                        </button>
+
+                        <div class="kid-thumb-caption text-muted small">@caption</div>
+                    </div>
                 }
             </div>
         }
@@ -107,6 +122,10 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent border-0 position-relative">
 
+            <!-- ARROWS MUST BE HERE -->
+            <button type="button" id="kidPrevBtn" class="kid-nav kid-prev">‹</button>
+            <button type="button" id="kidNextBtn" class="kid-nav kid-next">›</button>
+
             <button type="button"
                     class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
                     style="z-index: 10;"
@@ -114,27 +133,90 @@
                     aria-label="Close">
             </button>
 
-
             <div class="modal-body p-0 text-center">
                 <img id="kidImageModalImg"
                      class="img-fluid rounded"
                      style="max-height:75vh; object-fit:contain;"
                      alt="full" />
+
+                <div id="kidImageModalCaption"
+                     class="text-white mt-2 small"></div>
             </div>
+
         </div>
     </div>
 </div>
 
 
 <script>
-    document.addEventListener("click", function (e) {
+    document.addEventListener("DOMContentLoaded", () => {
+
+      const modalEl  = document.getElementById("kidImageModal");
+      const modalImg = document.getElementById("kidImageModalImg");
+      const modalCap = document.getElementById("kidImageModalCaption");
+
+      const thumbs = Array.from(document.querySelectorAll(".kid-gallery .kid-thumb-btn"));
+      let currentIndex = -1;
+
+      function showIndex(i) {
+        if (!thumbs.length) return;
+
+        if (i < 0) i = 0;
+        if (i >= thumbs.length) i = thumbs.length - 1;
+
+        currentIndex = i;
+        const btn = thumbs[i];
+
+        modalImg.src = btn.dataset.full;
+        if (modalCap) modalCap.textContent = btn.dataset.caption || "";
+      }
+
+      // Always set index on thumb click (works even if Bootstrap events don’t)
+      document.addEventListener("click", (e) => {
         const btn = e.target.closest(".kid-gallery .kid-thumb-btn");
         if (!btn) return;
+        showIndex(thumbs.indexOf(btn));
+      });
 
-        const img = document.getElementById("kidImageModalImg");
-        if (!img) return;
+      // Also support Bootstrap's relatedTarget when available
+      modalEl?.addEventListener("show.bs.modal", (event) => {
+        const trigger = event.relatedTarget;
+        if (!trigger) return;
+        const idx = thumbs.indexOf(trigger);
+        if (idx >= 0) showIndex(idx);
+      });
 
-        img.src = btn.dataset.full;
+      // Arrow buttons
+      document.getElementById("kidPrevBtn")?.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        showIndex(currentIndex - 1);
+      });
+
+      document.getElementById("kidNextBtn")?.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        showIndex(currentIndex + 1);
+      });
+
+      // Keyboard arrows when modal is open
+      document.addEventListener("keydown", (e) => {
+        if (!modalEl || !modalEl.classList.contains("show")) return;
+        if (e.key === "ArrowLeft")  showIndex(currentIndex - 1);
+        if (e.key === "ArrowRight") showIndex(currentIndex + 1);
+      });
+
+      // Swipe
+      let startX = 0;
+      modalEl?.addEventListener("touchstart", (e) => {
+        startX = e.touches[0].clientX;
+      });
+
+      modalEl?.addEventListener("touchend", (e) => {
+        const dx = e.changedTouches[0].clientX - startX;
+        if (dx > 50) showIndex(currentIndex - 1);
+        if (dx < -50) showIndex(currentIndex + 1);
+      });
+
     });
 </script>
-

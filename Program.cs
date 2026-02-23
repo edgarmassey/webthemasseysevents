@@ -6,6 +6,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddSingleton<EventStore>();
 builder.Services.AddSingleton<OurKidsStore>();
 builder.Services.AddSingleton<VideoStore>();
+builder.Services.AddSingleton<SiteFlagsService>();
 
 var app = builder.Build();
 
@@ -24,4 +25,5 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.Run(); app.MapRazorPages();
 app.Run();
