@@ -10,8 +10,12 @@
         if (!nav) return;
 
         if (nav.classList.contains("show")) {
-            const instance = bootstrap.Collapse.getInstance(nav) || new bootstrap.Collapse(nav, { toggle: false });
-            instance.hide();
+            if (window.bootstrap?.Collapse) {
+                const instance = bootstrap.Collapse.getInstance(nav) || new bootstrap.Collapse(nav, { toggle: false });
+                instance.hide();
+            } else {
+                nav.classList.remove("show");
+            }
         }
     });
 
@@ -120,3 +124,95 @@ document.addEventListener("hidden.bs.modal", function () {
     document.body.classList.remove("modal-open");
     document.body.style.removeProperty("padding-right");
 });
+(() => {
+    // Store "seen" per kid per NEW-period (newUntil) and per site version
+    function getStorageKey() {
+        const ver = window.SITE_FLAGS?.kidsNewVersion || "default";
+        return "visitedKids_" + ver;
+    }
+
+    function loadVisited() {
+        const key = getStorageKey();
+        try { return JSON.parse(localStorage.getItem(key) || "{}"); }
+        catch { return {}; }
+    }
+
+    function saveVisited(visited) {
+        const key = getStorageKey();
+        try { localStorage.setItem(key, JSON.stringify(visited)); } catch { }
+    }
+
+    function applyBadges() {
+        const visited = loadVisited();
+
+        const badges = document.querySelectorAll(".kid-new-badge, .kid-card-new-badge");
+        if (!badges.length) return;
+
+        badges.forEach(b => {
+            const slug = b.getAttribute("data-kid-slug");
+            const newUntil = b.getAttribute("data-new-until") || "";
+            if (!slug) return;
+
+            const seenSamePeriod = visited[slug] === newUntil;
+
+            if (seenSamePeriod) {
+                b.classList.add("kid-badge-hidden");
+                b.style.setProperty("display", "none", "important");
+                b.setAttribute("hidden", "");
+            } else {
+                b.classList.remove("kid-badge-hidden");
+                b.style.removeProperty("display");
+                b.removeAttribute("hidden");
+            }
+        });
+    }
+
+    function markSeenFromBody() {
+        const body = document.body;
+        if (!body) return;
+
+        const page = body.dataset.page;
+        const slug = body.dataset.kidSlug;
+        if (page !== "kid-detail" || !slug) return;
+
+        // On detail page we don't know newUntil, so just store a marker.
+        // (Click handler on list page stores the actual newUntil, which is what controls reset)
+        const visited = loadVisited();
+        if (!visited[slug]) {
+            visited[slug] = "__seen__";
+            saveVisited(visited);
+        }
+    }
+
+    function initKidBadges() {
+        applyBadges();
+
+        document.querySelectorAll("a.kid-card-link").forEach(a => {
+            a.addEventListener("click", () => {
+                const badge = a.querySelector(".kid-new-badge, .kid-card-new-badge");
+                if (!badge) return;
+
+                const slug = badge.getAttribute("data-kid-slug");
+                const newUntil = badge.getAttribute("data-new-until") || "";
+                if (!slug) return;
+
+                const visited = loadVisited();
+                visited[slug] = newUntil;      // <-- THIS is the important change
+                saveVisited(visited);
+
+                // hide immediately
+                badge.classList.add("kid-badge-hidden");
+                badge.style.setProperty("display", "none", "important");
+                badge.setAttribute("hidden", "");
+            });
+        });
+
+        markSeenFromBody();
+    }
+
+    document.addEventListener("DOMContentLoaded", initKidBadges);
+    window.addEventListener("pageshow", initKidBadges);
+})();    
+    
+
+   

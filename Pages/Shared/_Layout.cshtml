@@ -18,7 +18,8 @@
    
 </head>
 
-<body>
+<body data-page="@(ViewData["BodyDataPage"] ?? "")"
+      data-kid-slug="@(ViewData["BodyDataKidSlug"] ?? "")">
     <header>
         <nav class="navbar navbar-expand-sm navbar-light mb-4 family-navbar">
 
@@ -79,22 +80,17 @@
     </header>
 
     <div class="container">
-        
+
         <script>
                     window.SITE_FLAGS = {
-                      kidsNewVersion: @Html.Raw(JsonSerializer.Serialize(SiteFlags.KidsNewVersion))
+                        kidsNewVersion: @Html.Raw(JsonSerializer.Serialize(SiteFlags.KidsNewVersion))
                     };
         </script>
-        <script>
-                                        @using System.Text.Json
-                <script>
-                  window.SITE_FLAGS = {
-                    kidsNewVersion: @Html.Raw(JsonSerializer.Serialize(SiteFlags.KidsNewVersion))
-                  };
-</script>
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+
     </div>
 
     <footer class="border-top footer text-muted">

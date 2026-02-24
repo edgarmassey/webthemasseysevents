@@ -1,30 +1,31 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace WebTheMasseysEvents.Services
+public class SiteFlagsService
 {
-    public class SiteFlagsService
+    private readonly IWebHostEnvironment _env;
+
+    public SiteFlagsService(IWebHostEnvironment env)
     {
-        private readonly IWebHostEnvironment _env;
+        _env = env;
+    }
 
-        public SiteFlagsService(IWebHostEnvironment env)
+    public string KidsNewVersion
+    {
+        get
         {
-            _env = env;
-        }
-
-        public string KidsNewVersion
-        {
-            get
+            try
             {
-                var path = Path.Combine(
-                    _env.WebRootPath,
-                    "content",
-                    "kids-new-version.txt"
-                );
+                var path = Path.Combine(_env.ContentRootPath, "Content", "OurKids", "kidsNewVersion.txt");
+                if (!File.Exists(path)) return "default";
 
-                return File.Exists(path)
-                    ? File.ReadAllText(path).Trim()
-                    : "default";
+                var v = File.ReadAllText(path).Trim();
+                return string.IsNullOrWhiteSpace(v) ? "default" : v;
+            }
+            catch
+            {
+                return "default";
             }
         }
     }

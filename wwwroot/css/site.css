@@ -660,7 +660,7 @@ a.event-link {
 
 
     .ourkids-card .kid-card-new-badge {
-        display: inline-block !important;
+        display: inline-block ;
         position: absolute;
         top: .6rem;
         right: .6rem;
@@ -691,3 +691,7 @@ a.event-link {
         right: .5rem;
         z-index: 50;
     }
+/* Force-hide NEW badges (beats everything) */
+.kid-badge-hidden {
+    display: none !important;
+}

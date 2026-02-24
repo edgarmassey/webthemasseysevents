@@ -1,6 +1,9 @@
 ﻿@page "/OurKids/{slug}"
 @model WebTheMasseysEvents.Pages.OurKids.OurKidModel
-
+@{
+    ViewData["BodyDataPage"] = "kid-detail";
+    ViewData["BodyDataKidSlug"] = Model.Kid!.Slug;
+}
 <div class="container-fluid py-4">
 
     <div class="kid-page">
