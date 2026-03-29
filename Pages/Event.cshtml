@@ -18,12 +18,11 @@
         }
     </div>
             
-    
-    @if (!string.IsNullOrWhiteSpace(Model.CoverUrl))
+     @if (!string.IsNullOrWhiteSpace(Model.CoverUrl))
     {
-        <div class="mt-3" style="max-width: 360px;">
+        <div class="mt-3 event-cover-wrapper">
             <button type="button"
-                    class="btn p-0 border-0 w-100 text-start"
+                    class="btn p-0 border-0 text-start event-cover-btn"
                     style="background:transparent;"
                     data-bs-toggle="modal"
                     data-bs-target="#photoModal"
@@ -32,12 +31,9 @@
                 <img src="@Model.CoverUrl"
                      class="img-fluid rounded shadow-sm event-cover-img"
                      alt="cover" />
-
             </button>
         </div>
-
-        <div class="clearfix"></div>
-    }
+    } 
 
     
 

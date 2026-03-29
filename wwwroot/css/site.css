@@ -256,12 +256,7 @@ footer {
    Event page – cover + thumbs crop (keep heads)
    ========================= */
 
-.event-cover-img {
-    max-width: 500px;
-    height: auto;
-    cursor: zoom-in;
-    display: block;
-}
+
 
 /* Event gallery thumbnails */
 .event-thumb-img {
@@ -694,4 +689,28 @@ a.event-link {
 /* Force-hide NEW badges (beats everything) */
 .kid-badge-hidden {
     display: none !important;
+}
+.event-cover-wrapper {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.event-cover-btn {
+    display: block;
+    width: 100%;
+    max-width: 700px; /* try 700 first */
+}
+
+.event-cover-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.current-cover-img {
+    max-height: 500px;
+    width: auto;
+    max-width: 100%;
+    cursor: pointer;
+    display: block;
 }
